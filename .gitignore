@@ -1,0 +1,26 @@
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables
+.env
+.env.example
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Mac/Linux junk
+.DS_Store
+
+# Logs
+*.log
+
+# Benchmark outputs (optional)
+runs/
+results/
+
+# Jupyter
+.ipynb_checkpoints/

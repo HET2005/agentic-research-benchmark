@@ -1,0 +1,10 @@
+crewai
+langchain
+langgraph
+openai
+anthropic
+duckduckgo-search
+yfinance
+python-dotenv
+pandas
+matplotlib
