@@ -1,0 +1,23 @@
+{
+  "pipeline": "P2",
+  "framework": "langgraph",
+  "question": "Analyze the competitive landscape of the cloud computing market in 2024. Compare AWS, Azure, and GCP across market share, pricing, and key differentiators.",
+  "rewritten_query": "Cloud computing market share comparison AWS Azure GCP 2024",
+  "answer": "**Cloud Computing Market Share Comparison: AWS, Azure, and GCP in 2024**\n\nThe cloud computing market is dominated by three major players: Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP). As of 2024, the market share of these providers is as follows:\n\n* AWS: 28-32% [1], [2], [3]\n* Azure: 20-25% [2], [3], [5]\n* GCP: 10-13% [2], [5]\n\nAWS remains the market leader, with a significant lead over its competitors. Azure has been gaining ground, but still lags behind AWS in terms of market share. GCP, on the other hand, has a relatively smaller market share but is growing rapidly.\n\n**Pricing Comparison**\n\nPricing is a critical factor in choosing a cloud provider. While prices vary depending on services and usage, here is a general comparison:\n\n* AWS is known for its pay-as-you-go pricing model, with costs varying depending on the service and usage.\n* Azure also offers a pay-as-you-go pricing model, but with a more comprehensive set of free services and a free tier for many services.\n* GCP also offers pay-as-you-go pricing, with costs varying depending on the service and usage.\n\nIn terms of costs, AWS is generally considered to be the most expensive, followed by Azure, and then GCP [4].\n\n**Key Differentiators**\n\nEach cloud provider has its unique features and strengths. Here are some key differentiators:\n\n* **Security**: AWS has a strong focus on security, with numerous features such as IAM, Cognito, and Inspector. Azure has a comprehensive security portfolio, including Azure Active Directory and Azure Security Center. GCP also has a strong security focus, with features such as Cloud IAM and Cloud Security Command Center.\n* **Artificial Intelligence (AI)**: AWS has a strong AI portfolio, with services such as SageMaker and Rekognition. Azure has a comprehensive AI portfolio, including Azure Machine Learning and Azure AI Studio. GCP also has a strong AI focus, with services such as Cloud AI Platform and AutoML.\n* **Hybrid Cloud**: AWS has a strong hybrid cloud offering, with services such as AWS Outposts and AWS GovCloud. Azure also has a comprehensive hybrid cloud offering, including Azure Stack and Azure Arc. GCP has a hybrid cloud offering, with services such as Cloud CDN and Cloud IoT Core.\n\n**Conclusion**\n\nIn conclusion, the cloud computing market is dominated by three major players: AWS, Azure, and GCP. While AWS is the market leader, Azure and GCP are quickly catching up. Pricing is an important factor to consider, with AWS generally being the most expensive. Key differentiators, such as security, AI, and hybrid cloud, set each provider apart.\n\n**References:**\n\n[1] Holori. (2024). Cloud market size 2024 - AWS, Azure, GCP growth fueled by AI.\n\n[2] Statista. (2026). Big Three Hold Dominant Lead in Accelerating Cloud Market - Synergy Research Group.\n\n[3] KodeKloud. (2026). AWS vs Azure vs GCP: Honest Comparison for 2026.\n\n[4] Channel Insider. (2025). AWS vs Azure vs Google Cloud: Key Features and Pricing.\n\n[5] Edureka.co. (2025). AWS vs Azure vs Google Cloud Services Comparison in 2024.",
+  "latency": 7.013524200010579,
+  "token_count": 495,
+  "run_id": "run_20260523_103358",
+  "seed": 0,
+  "question_id": "Q01",
+  "category": "market_analysis",
+  "difficulty": "medium",
+  "tier": "short",
+  "accuracy": 9,
+  "completeness": 9,
+  "groundedness": 9,
+  "coherence": 8,
+  "reasoning": "The answer demonstrates a thorough understanding of the cloud computing market, including market share, pricing, and differentiators. However, some sentences could be rephrased for smoother flow.",
+  "overall": 8.85,
+  "word_count": 495,
+  "status": "ok"
+}

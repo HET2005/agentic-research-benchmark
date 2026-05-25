@@ -1,0 +1,22 @@
+{
+  "pipeline": "P6",
+  "framework": "crewai",
+  "question": "What has been the recent stock performance of NVIDIA (NVDA) and what factors are driving its valuation?",
+  "answer": "[CREWAI MOCK - no valid API key] question=What has been the recent stock performance of NVIDIA (NVDA) ",
+  "latency": 0.7150258999317884,
+  "token_count": 17,
+  "run_id": "run_20260524_174658",
+  "seed": 0,
+  "question_id": "Q02",
+  "category": "market_analysis",
+  "difficulty": "easy",
+  "tier": "medium",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 1,
+  "reasoning": "[The response failed to provide accurate information about NVIDIA's recent stock performance due to a missing API key, resulting in scores of 0 for accuracy, completeness, and groundedness. A coherence score of 1 was given due to proper sentence structure]",
+  "overall": 0.1,
+  "word_count": 17,
+  "status": "ok"
+}

@@ -1,0 +1,28 @@
+{
+  "pipeline": "P3",
+  "framework": "langgraph",
+  "question": "Explain quantum computing: how qubits differ from classical bits, what problems it can solve, and the current state of development.",
+  "sub_queries": [
+    "What are the fundamental differences between the storage and processing of qubits compared to classical bits?",
+    "What types of problems can quantum computers uniquely solve better than classical computers?",
+    "How have researchers successfully applied quantum computing to real-world domains and challenges?",
+    "What are the current technological and infrastructure limitations to the widespread adoption of quantum computing?"
+  ],
+  "answer": "**Introduction to Quantum Computing**\n\nQuantum computing is a revolutionary technology that leverages the principles of quantum mechanics to perform calculations exponentially faster than classical computers. This innovation relies on the power of qubits, which differ from classical bits in their storage and processing capabilities.\n\n**Fundamental Differences Between Qubits and Classical Bits**\n\nQubits are implemented using physical systems such as superconducting circuits, trapped ions, or photons, whereas classical bits are stored using transistors, capacitors, or other electronic components.[1] This fundamental difference enables qubits to represent and process information in ways that classical bits cannot.\n\nSpecifically, qubits can exist in a superposition of states, meaning they can be both 0 and 1 simultaneously, while classical bits can only be one or the other. Additionally, qubits can become entangled, allowing them to be connected in a way that enables the state of one qubit to be dependent on the state of another, even when separated by large distances. These properties enable quantum computers to perform certain calculations exponentially faster than classical computers.[2]\n\n**Types of Problems That Quantum Computers Can Solve Better**\n\nQuantum computers have the potential to solve problems that are currently intractable for classical computers, particularly those that involve:\n\n1. **Factoring large numbers**: Quantum computers can perform exponential-time calculations more efficiently, making it possible to factor large numbers faster than classical computers.[3]\n2. **Optimization problems**: Quantum computers can explore an exponential number of solutions to complex problems, such as finding the shortest path in a graph or optimizing portfolio performance.[4]\n3. **Simulation**: Quantum computers can simulate complex systems, such as molecules and chemical reactions, more accurately and efficiently than classical computers.[5]\n4. **Machine learning**: Quantum computers can be used to speed up certain machine learning algorithms, such as k-means clustering and support vector machines.[6]\n\n**Current State of Development**\n\nThe field of quantum computing has made significant progress in recent years, with the development of quantum processors, quantum algorithms, and quantum software. Companies such as Google, IBM, and Microsoft are actively working on quantum computing, and several quantum processors have been developed for research and development purposes.\n\nHowever, significant challenges remain, including the need to develop more robust and scalable quantum processors, improve quantum algorithm design, and overcome the problem of quantum noise and error correction. Despite these challenges, the potential of quantum computing to revolutionize various fields, including medicine, finance, and materials science, makes it an exciting and rapidly evolving area of research and development.\n\nReferences:\n\n[1] Milvus, (n.d.). What are qubits, and how do they differ from classical bits? Retrieved from <https://milvus.io/ai-quick-reference/what-are-qubits-and-how-do-they-differ-from-classical-bits>\n\n[2] EITCA Academy, (2024). What are the fundamental differences between classical bits and quantum bits (qubits) in terms of information representation and processing capabilities? Retrieved from <https://eitca.org/artificial-intelligence/eitc-ai-tfqml-tensorflow-quantum-machine-learning/implementing-quantum-computer/building-a-quantum-computer-with-superconducting-qubits/examination-review-building-a-quantum-computer-with-superconducting-qubits/what-are-the-fundamental-differences-between-classical-bits-and-quantum-bits-qubits-in-terms-of-information-representation-and-processing-capabilities/>\n\n[3] Wikipedia, (n.d.). Quantum computing. Retrieved from <https://en.wikipedia.org/wiki/Quantum_computing>\n\n[4] Applied Quantum, (n.d.). What Quantum Computers Can Do Better Than Classical Computers. Retrieved from <https://appliedquantum.com/quantum-computing/quantum-classical>\n\n[5] Cloudflare, (n.d.). What is quantum computing? Retrieved from <https://www.cloudflare.com/learning/ssl/quantum/what-is-quantum-computing/>",
+  "latency": 24.286623599997256,
+  "token_count": 482,
+  "run_id": "run_20260524_174658",
+  "seed": 0,
+  "question_id": "Q05",
+  "category": "scientific_explainer",
+  "difficulty": "medium",
+  "tier": "short",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "reasoning": "Parse error: {\n  \"accuracy\": 9,\n  \"completeness\": 10,\n  \"groundedness\": 2,\n  \"coherence\": 9,\n  \"reasoning\": \n    ",
+  "overall": 0.0,
+  "word_count": 482,
+  "status": "ok"
+}

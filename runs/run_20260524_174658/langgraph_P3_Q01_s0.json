@@ -1,0 +1,28 @@
+{
+  "pipeline": "P3",
+  "framework": "langgraph",
+  "question": "Analyze the competitive landscape of the cloud computing market in 2024. Compare AWS, Azure, and GCP across market share, pricing, and key differentiators.",
+  "sub_queries": [
+    "What are the current market share projections for AWS, Azure, and GCP in 2024?",
+    "What are the pricing models and trends for cloud computing services among AWS, Azure, and GCP in 2024?",
+    "What are the key differentiators and unique selling points of AWS, Azure, and GCP in the cloud computing market in 2024?",
+    "What are the implications of the competitive landscape on cloud adoption and usage patterns among different industries and organizations in 2024?"
+  ],
+  "answer": "**Cloud Computing Market 2024: Competitive Landscape Analysis**\n\nThe cloud computing market has been experiencing rapid growth in recent years, with leading providers Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP) dominating the space. As of 2024, the market share projections for these providers can be summed up below:\n\n- **AWS Market Share:** 33% (Source: ChannelE2E, August 20, 2024)\n- **Azure Market Share:** 20% (Source: ChannelE2E, August 20, 2024)\n- **GCP Market Share:** 10% (Source: ChannelE2E, August 20, 2024)\n- **Azure + GCP Combined Market Share:** 30% (Source: Synergy, First Quarter of 2024)\n- **AWS Future Market Share:** Projected to drop to around 48.6% of IaaS/PaaS share in the coming years (Source: theCUBEResearch, August 19, 2025)\n- **Azure Future Market Share:** Projected to grow to around 35.3% (Source: theCUBEResearch, August 19, 2025)\n- **GCP Future Market Share:** Projected to hold steady around 10% (Source: theCUBEResearch, August 19, 2025)\n\n**Pricing Models and Trends:**\nAll three cloud providers follow a **\"pay-as-you-go\"** pricing model, with options for:\n- **Reserved Instances:** Discounts for long-term commitments\n- **Spot Pricing:** Discounts for non-dedicated instances\n- **Volume Discounts:** Discounts for large commitments\n- **Sustained Use Discounts:** Automatic discounts up to 30% for continuous usage\n- **Committed Use Discounts:** Discounts for 1-year commitments\n\nIn terms of specific pricing, AWS, Azure, and GCP offer varying options for storage and compute pricing, with discounts for committed usage and long-term commitments. For example, AWS offers discounts of up to 90% for reserved instances, while Azure offers a $200 credit for 30 days, plus 12 months of free access to popular services.\n\n**Key Differentiators and Unique Selling Points:**\n\n- **AWS:**\n  - **Leader in Cloud Migration and Application Development:** AWS has been the go-to choice for enterprises migrating to the cloud, with a wide range of services and features to support this process.\n  - **Diverse Service Portfolio:** AWS offers a vast array of services, including compute, storage, databases, analytics, and more, making it a one-stop-shop for cloud-based applications.\n  - **Global Infrastructure:** AWS has built an extensive global network, with data centers and edge locations in over 20 regions worldwide.\n\n- **Azure:**\n  - **Artificial Intelligence (AI) Integration:** Azure has been aggressively investing in AI research and development, offering a wide range of AI-powered services, including Azure Machine Learning and Azure Cognitive Services.\n  - **Enhanced Security Features:** Azure offers advanced security features, including Azure Active Directory, Azure Key Vault, and Azure Security Center.\n  - **Open-Source Collaboration:** Azure has been fostering an open-source community, with collaborations on projects like Kubernetes and TensorFlow.\n\n- **GCP:**\n  - **Integration with Google Services:** GCP offers seamless integration with Google services, making it an ideal choice for enterprises already using Google Drive, Google Docs, and Google Sheets.\n  - **Machine Learning (ML) and AI:** GCP has a strong focus on ML and AI, with services like TensorFlow and AutoML.\n  - **Data Analytics:** GCP offers advanced data analytics capabilities, including data warehousing and data processing.\n\nIn conclusion, the cloud computing market 2024 is dominated by AWS, Azure, and GCP, each offering unique differentiators and features that attract enterprises and developers worldwide. As the market continues to evolve, it will be essential for these providers to innovate and adapt to the changing needs of their customers.",
+  "latency": 26.372003399999812,
+  "token_count": 534,
+  "run_id": "run_20260524_174658",
+  "seed": 0,
+  "question_id": "Q01",
+  "category": "market_analysis",
+  "difficulty": "medium",
+  "tier": "short",
+  "accuracy": 7,
+  "completeness": 8,
+  "groundedness": 9,
+  "coherence": 8,
+  "reasoning": "While the response is well-sourced, some future market share projections appear to be inconsistent with the overall market share analysis. Furthermore, the discussion of 'key differentiators' is mostly descriptive and lacks a clear connection to the competitive landscape.",
+  "overall": 7.95,
+  "word_count": 534,
+  "status": "ok"
+}

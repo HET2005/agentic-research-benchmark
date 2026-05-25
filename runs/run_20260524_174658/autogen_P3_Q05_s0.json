@@ -1,0 +1,25 @@
+{
+  "pipeline": "P3",
+  "framework": "autogen",
+  "question": "Explain quantum computing: how qubits differ from classical bits, what problems it can solve, and the current state of development.",
+  "answer": "Quantum computing is a revolutionary technology that leverages the principles of quantum mechanics to solve complex problems that are beyond the capabilities of classical computers. At the heart of quantum computing lies the qubit (quantum bit), which differs fundamentally from the classical bit used in traditional computing.\n\n**Qubits vs Classical Bits**\n\nIn classical computing, a bit is a basic unit of information that can have a value of either 0 or 1 [Source 4]. In contrast, a qubit is a quantum system that can exist in a superposition of both 0 and 1 simultaneously, allowing it to process multiple possibilities at the same time [Source 1]. This property is known as quantum parallelism, which enables quantum computers to perform certain calculations much faster than classical computers.\n\n[Source 3], a leading tech publication, explains the distinction between qubits and classical bits as follows:\n\n> \"In classical computing, a bit can only be a 0 or a 1. But in quantum computing, a qubit can exist in a superposition of both 0 and 1 at the same time... This means that a single qubit can store multiple values simultaneously, allowing a quantum computer to process many possibilities in parallel.\"\n\n**What Problems Can Quantum Computing Solve?**\n\nQuantum computing has the potential to solve complex problems in various fields, including:\n\n1. **Cryptography**: Quantum computers can break certain types of encryption algorithms, but they can also be used to create unbreakable encryption methods [Source 2].\n2. **Optimization**: Quantum computers can be used to optimize complex systems, such as logistics and supply chains [Source 2].\n3. **Simulation**: Quantum computers can simulate complex systems, such as chemical reactions and weather patterns, much faster than classical computers [Source 1].\n\n**Current State of Development**\n\nQuantum computing is still a developing technology, and significant challenges remain before it can be widely adopted. Some of the key challenges include:\n\n1. **Error correction**: Quantum computers are prone to errors due to the noisy nature of quantum systems, and developing robust error correction methods is an active area of research [Source 1].\n2. **Scalability**: Currently, quantum computers are small-scale and need to be scaled up to tackle complex problems [Source 2].\n3. **Quantum control**: Maintaining control over the qubits and preventing decoherence (the loss of quantum coherence) is essential for large-scale quantum computing [Source 1].\n\nDespite these challenges, researchers and companies are making significant progress in developing quantum computing technology. For example, IBM has developed a 53-qubit quantum computer, and Google has announced plans to build a 144-qubit quantum computer [Source 2].\n\nIn summary, quantum computing is a revolutionary technology that leverages the principles of quantum mechanics to solve complex problems. Qubits differ fundamentally from classical bits, enabling quantum computers to process multiple possibilities simultaneously. While significant challenges remain, researchers and companies are making progress in developing quantum computing technology.\n\n**Sources**\n\n[1] Understanding Quantum Computing: A Layman's Guide - Nature (https://naturecaptions.com/statuses/2002073458.html)\n[2] Quantum Computing Explained: How This Technology Will Revolutionize Problem-Solving (https://techfelts.com/quantum-computing-explained-how-this-technology-will-revolutionize-problem-solving/)\n[3] Quantum Computing vs Classical Computing Explained | Webopedia (https://www.webopedia.com/technology/quantum-vs-classical-computing/)\n[4] Quantum Computing Explained \u2013 Fast, Simple Insights (https://rslink.in/tag/quantum-computing/)",
+  "latency": 10.475814999896102,
+  "token_count": 508,
+  "run_id": "run_20260524_174658",
+  "seed": 0,
+  "sub_questions": [
+    "Explain quantum computing: how qubits differ from classical bits, what problems it can solve, and the current state of development."
+  ],
+  "question_id": "Q05",
+  "category": "scientific_explainer",
+  "difficulty": "medium",
+  "tier": "short",
+  "accuracy": 9,
+  "completeness": 8,
+  "groundedness": 0,
+  "coherence": 9,
+  "reasoning": "Accuracy is high, except for not providing citations, which is a major drawback. Completeness is good, but does not cover entanglement.",
+  "overall": 7.35,
+  "word_count": 508,
+  "status": "ok"
+}

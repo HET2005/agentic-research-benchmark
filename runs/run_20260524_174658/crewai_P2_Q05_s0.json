@@ -1,0 +1,22 @@
+{
+  "pipeline": "P2",
+  "framework": "crewai",
+  "question": "Explain quantum computing: how qubits differ from classical bits, what problems it can solve, and the current state of development.",
+  "answer": "[CREWAI MOCK - no valid API key] question=Explain quantum computing: how qubits differ from classical ",
+  "latency": 0.7387943000067025,
+  "token_count": 15,
+  "run_id": "run_20260524_174658",
+  "seed": 0,
+  "question_id": "Q05",
+  "category": "scientific_explainer",
+  "difficulty": "medium",
+  "tier": "short",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "reasoning": "The answer is empty and does not provide any factual information, resulting in low scores across all dimensions. The minimum word count requirement is also not met.",
+  "overall": 0.0,
+  "word_count": 15,
+  "status": "ok"
+}

@@ -1,0 +1,22 @@
+{
+  "pipeline": "P7",
+  "framework": "crewai",
+  "question": "Explain how large language models work, from tokenization through attention mechanisms to text generation, for a technically literate audience.",
+  "answer": "[CREWAI MOCK - no valid API key] question=Explain how large language models work, from tokenization th",
+  "latency": 0.7240244999993593,
+  "token_count": 16,
+  "run_id": "run_20260524_174658",
+  "seed": 0,
+  "question_id": "Q04",
+  "category": "scientific_explainer",
+  "difficulty": "easy",
+  "tier": "medium",
+  "accuracy": 2,
+  "completeness": 2,
+  "groundedness": 0,
+  "coherence": 4,
+  "reasoning": "Accuracy is low due to brevity and incorrect information. Completeness is low due to missing required topics and lack of explanation.",
+  "overall": 2.2,
+  "word_count": 16,
+  "status": "ok"
+}
