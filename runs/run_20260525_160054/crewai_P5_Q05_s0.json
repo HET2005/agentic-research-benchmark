@@ -1,0 +1,22 @@
+{
+  "pipeline": "P5",
+  "framework": "crewai",
+  "question": "Explain quantum computing: how qubits differ from classical bits, what problems it can solve, and the current state of development.",
+  "answer": "[CREWAI MOCK - API error] question=Explain quantum computing: how qubits differ from classical ",
+  "latency": 2.4369248000439256,
+  "token_count": 13,
+  "run_id": "run_20260525_160054",
+  "seed": 0,
+  "question_id": "Q05",
+  "category": "scientific_explainer",
+  "difficulty": "medium",
+  "tier": "medium",
+  "accuracy": 5,
+  "completeness": 6,
+  "groundedness": 4,
+  "coherence": 8,
+  "reasoning": "Qubits in quantum computing exist in a state of superposition, allowing them to process vast amounts of information, offering a speedup over classical computing for certain problems, but the technology is still in its infancy and much development is needed.",
+  "overall": 5.6,
+  "word_count": 13,
+  "status": "ok"
+}

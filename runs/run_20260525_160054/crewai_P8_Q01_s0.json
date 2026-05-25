@@ -1,0 +1,22 @@
+{
+  "pipeline": "P8",
+  "framework": "crewai",
+  "question": "Analyze the competitive landscape of the cloud computing market in 2024. Compare AWS, Azure, and GCP across market share, pricing, and key differentiators.",
+  "answer": "[CREWAI MOCK - API error] question=Analyze the competitive landscape of the cloud computing mar",
+  "latency": 2.212716000038199,
+  "token_count": 14,
+  "run_id": "run_20260525_160054",
+  "seed": 0,
+  "question_id": "Q01",
+  "category": "market_analysis",
+  "difficulty": "medium",
+  "tier": "long",
+  "accuracy": 6,
+  "completeness": 4,
+  "groundedness": 5,
+  "coherence": 8,
+  "reasoning": "The answer fails to provide facts and explanations about market share, pricing, and key differentiators on AWS, Azure, and GCP, due to it starting as an API error message, therefore it cannot be considered an actual analysis of the competitive landscape of cloud computing market in 2024.",
+  "overall": 5.45,
+  "word_count": 14,
+  "status": "ok"
+}

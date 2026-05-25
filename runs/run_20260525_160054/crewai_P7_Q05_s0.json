@@ -1,0 +1,22 @@
+{
+  "pipeline": "P7",
+  "framework": "crewai",
+  "question": "Explain quantum computing: how qubits differ from classical bits, what problems it can solve, and the current state of development.",
+  "answer": "[CREWAI MOCK - API error] question=Explain quantum computing: how qubits differ from classical ",
+  "latency": 2.3885263999691233,
+  "token_count": 13,
+  "run_id": "run_20260525_160054",
+  "seed": 0,
+  "question_id": "Q05",
+  "category": "scientific_explainer",
+  "difficulty": "medium",
+  "tier": "medium",
+  "accuracy": 6,
+  "completeness": 5,
+  "groundedness": 4,
+  "coherence": 8,
+  "reasoning": "Qubits differ from classical bits by existing in multiple states simultaneously allowing for parallel processing, achieving quantum advantage in certain calculations and the hardware is still under development.",
+  "overall": 5.7,
+  "word_count": 13,
+  "status": "ok"
+}

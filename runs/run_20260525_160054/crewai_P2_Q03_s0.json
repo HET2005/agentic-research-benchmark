@@ -1,0 +1,22 @@
+{
+  "pipeline": "P2",
+  "framework": "crewai",
+  "question": "Conduct a thorough analysis of the electric vehicle market globally. Discuss Tesla, BYD, legacy OEMs, adoption trends, infrastructure challenges, and a 5-year outlook.",
+  "answer": "[CREWAI MOCK - API error] question=Conduct a thorough analysis of the electric vehicle market g",
+  "latency": 2.4551090999739245,
+  "token_count": 15,
+  "run_id": "run_20260525_160054",
+  "seed": 0,
+  "question_id": "Q03",
+  "category": "market_analysis",
+  "difficulty": "hard",
+  "tier": "short",
+  "accuracy": 5,
+  "completeness": 4,
+  "groundedness": 3,
+  "coherence": 8,
+  "reasoning": "The response lacks substance and fails to provide an in-depth analysis as requested, resulting in poor accuracy and completeness scores.",
+  "overall": 4.45,
+  "word_count": 15,
+  "status": "ok"
+}

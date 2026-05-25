@@ -1,0 +1,22 @@
+{
+  "pipeline": "P1",
+  "framework": "crewai",
+  "question": "Explain quantum computing: how qubits differ from classical bits, what problems it can solve, and the current state of development.",
+  "answer": "[CREWAI MOCK - API error] question=Explain quantum computing: how qubits differ from classical ",
+  "latency": 2.462869800045155,
+  "token_count": 13,
+  "run_id": "run_20260525_160054",
+  "seed": 0,
+  "question_id": "Q05",
+  "category": "scientific_explainer",
+  "difficulty": "medium",
+  "tier": "short",
+  "accuracy": 8,
+  "completeness": 7,
+  "groundedness": 6,
+  "coherence": 9,
+  "reasoning": "Quantum computing is explained by comparing qubits to classical bits, discussing superposition, entanglement, quantum advantage, and the current state of hardware development.",
+  "overall": 7.55,
+  "word_count": 13,
+  "status": "ok"
+}
