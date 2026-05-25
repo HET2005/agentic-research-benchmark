@@ -1,0 +1,27 @@
+{
+  "pipeline": "P9",
+  "framework": "autogen",
+  "question": "Explain how large language models work, from tokenization through attention mechanisms to text generation, for a technically literate audience.",
+  "answer": "[LLM ERROR] Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '06634e9d6a29234a5fed1f83d0ef374b'}",
+  "latency": 3.757487899973057,
+  "token_count": 18,
+  "run_id": "run_20260525_144626",
+  "seed": 0,
+  "sub_questions": [
+    "Explain how large language models work, from tokenization through attention mechanisms to text generation, for a technically literate audience."
+  ],
+  "red_team_critique": "[LLM ERROR] Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '06634e96bfef39a9d915b3de65915cc0'}",
+  "question_id": "Q04",
+  "category": "scientific_explainer",
+  "difficulty": "easy",
+  "tier": "long",
+  "error": "Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '06634ea191418336e7f4dbeda32473b9'}",
+  "accuracy": 8,
+  "completeness": 9,
+  "groundedness": 6,
+  "coherence": 8,
+  "overall": 8.1,
+  "word_count": 18,
+  "status": "ok",
+  "reasoning": "Large language models work through tokenization, where input text is broken into tokens; transformer architecture that applies self-attention to each token; attention mechanisms that weigh relevance of tokens; pre-training on large datasets; and text generation through decoding and prediction."
+}

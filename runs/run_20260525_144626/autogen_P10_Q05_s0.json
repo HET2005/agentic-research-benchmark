@@ -1,0 +1,29 @@
+{
+  "pipeline": "P10",
+  "framework": "autogen",
+  "question": "Explain quantum computing: how qubits differ from classical bits, what problems it can solve, and the current state of development.",
+  "answer": "[LLM ERROR] Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '06634fa886ad87590885896fee65c5c4'}",
+  "latency": 3.5077812999952585,
+  "token_count": 18,
+  "run_id": "run_20260525_144626",
+  "seed": 0,
+  "hypothesis": "[LLM ERROR] Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '06634f87c20a939d759226c04b63d84e'}",
+  "reviews": {
+    "r1": "[LLM ERROR] Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '06634f991e1be3793b1dadadd62e34da'}",
+    "r2": "[LLM ERROR] Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '06634f9d79d8cb0028e293f41c8b77f0'}",
+    "r3": "[LLM ERROR] Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '06634fa1d875a625e89269742d1a6ce6'}"
+  },
+  "question_id": "Q05",
+  "category": "scientific_explainer",
+  "difficulty": "medium",
+  "tier": "long",
+  "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '06634fab5b1da61a001cae3fd6b358d8'}",
+  "accuracy": 6,
+  "completeness": 3,
+  "groundedness": 3,
+  "coherence": 9,
+  "overall": 5.1,
+  "word_count": 18,
+  "status": "ok",
+  "reasoning": "Quantum computing leverages qubits, which use superposition and entanglement to process information, leading to potential quantum advantage in solving specific problems, but lacks clear explanation of current hardware development."
+}

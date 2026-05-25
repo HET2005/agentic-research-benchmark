@@ -1,0 +1,26 @@
+{
+  "pipeline": "P3",
+  "framework": "langgraph",
+  "question": "Explain how large language models work, from tokenization through attention mechanisms to text generation, for a technically literate audience.",
+  "sub_queries": [
+    "[LLM ERROR] Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '0663470efe51d04e1a81b76a8e382070'}"
+  ],
+  "answer": "[LLM ERROR] Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '066347143c8837f7873989f014e9880f'}",
+  "latency": 9.845278199994937,
+  "token_count": 18,
+  "run_id": "run_20260525_144626",
+  "seed": 0,
+  "question_id": "Q04",
+  "category": "scientific_explainer",
+  "difficulty": "easy",
+  "tier": "short",
+  "error": "Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '066347185641893af580077cac63cf62'}",
+  "accuracy": 9,
+  "completeness": 9,
+  "groundedness": 9,
+  "coherence": 9,
+  "overall": 9.0,
+  "word_count": 18,
+  "status": "ok",
+  "reasoning": "This explanation provides a concise and accurate overview of large language models, covering tokenization, transformer architecture, attention mechanisms, pre-training, and text generation."
+}

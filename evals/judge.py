@@ -8,13 +8,12 @@ import json
 
 
 def llm_call(prompt: str, system: str = "", max_tokens: int = 1000) -> str:
-    import json, os
+    import json
     from dotenv import load_dotenv
     load_dotenv()
 
     groq_key = os.environ.get("GROQ_API_KEY", "")
-    anthropic_key = os.environ.get("ANTHROPIC_API_KEY", "")
-    openai_key = os.environ.get("OPENAI_API_KEY", "")
+    minimax_key = os.environ.get("MINIMAX_API_KEY", "")
 
     if groq_key:
         try:
@@ -31,8 +30,8 @@ def llm_call(prompt: str, system: str = "", max_tokens: int = 1000) -> str:
             )
             return resp.choices[0].message.content
         except Exception as e:
-            return json.dumps({"error": str(e), "accuracy": 0, "completeness": 0,
-                               "groundedness": 0, "coherence": 0})
+            return json.dumps({"error": str(e), "accuracy": 0,
+                               "completeness": 0, "groundedness": 0, "coherence": 0})
     else:
         h = abs(hash(prompt)) % 10
         return json.dumps({
@@ -42,81 +41,88 @@ def llm_call(prompt: str, system: str = "", max_tokens: int = 1000) -> str:
         })
 
 def score_answer(question: str, answer: str, rubric: dict) -> dict:
-    """
-    Score a single answer against a rubric.
-    Returns dict with scores 0-10 per dimension + overall.
-    """
     required_topics = rubric.get("required_topics", [])
     min_words = rubric.get("min_word_count", 200)
     must_cite = rubric.get("must_cite", False)
+    word_count = len(answer.split())
 
     system = (
-        "You are an expert research evaluator. "
-        "Score the answer strictly on a 0-10 scale for each dimension. "
-        "Return ONLY valid JSON with keys: accuracy, completeness, groundedness, coherence, reasoning. "
-        "No markdown, no extra text."
+        "You are a research evaluator. Score the answer on 4 dimensions from 0-10. "
+        "Return ONLY a valid JSON object with exactly these keys: "
+        "accuracy, completeness, groundedness, coherence, reasoning. "
+        "No markdown, no backticks, no extra text. Just the JSON object."
     )
-    prompt = f"""Research question: {question}
 
-Answer to evaluate:
-{answer[:3000]}
+    topics_str = ", ".join(required_topics[:5])
+    prompt = (
+        f"Question: {question[:200]}\n\n"
+        f"Answer (first 1000 chars): {answer[:1000]}\n\n"
+        f"Required topics to cover: {topics_str}\n"
+        f"Word count: {word_count} (minimum: {min_words})\n\n"
+        "Score each 0-10:\n"
+        "- accuracy: Are facts correct?\n"
+        "- completeness: Are required topics covered?\n"
+        "- groundedness: Are claims supported?\n"
+        "- coherence: Is it well structured?\n"
+        "- reasoning: One sentence explanation\n\n"
+        "Return ONLY JSON like: "
+        '{\"accuracy\": 7, \"completeness\": 6, \"groundedness\": 5, \"coherence\": 8, \"reasoning\": \"explanation here\"}'
+    )
 
-Rubric:
-- Required topics to cover: {required_topics}
-- Minimum word count: {min_words} (actual: {len(answer.split())})
-- Must include citations: {must_cite}
+    raw = llm_call(prompt, system=system, max_tokens=200)
 
-Score 0-10 for each:
-- accuracy: Are claims factually correct?
-- completeness: Are all required topics covered?
-- groundedness: Are claims cited/sourced?
-- coherence: Is the answer well-structured and clear?
-- reasoning: Brief explanation of scores (1-2 sentences)
+    # Try multiple JSON extraction strategies
+    scores = None
 
-Return JSON only."""
-
-    raw = llm_call(prompt, system=system)
+    # Strategy 1: direct parse
     try:
-        start = raw.find("{")
-        end = raw.rfind("}") + 1
-        scores = json.loads(raw[start:end])
+        scores = json.loads(raw.strip())
     except Exception:
-        scores = {"accuracy": 0, "completeness": 0,
-                  "groundedness": 0, "coherence": 0,
-                  "reasoning": f"Parse error: {raw[:100]}"}
+        pass
+
+    # Strategy 2: find JSON object in response
+    if not scores:
+        try:
+            start = raw.find("{")
+            end = raw.rfind("}") + 1
+            if start >= 0 and end > start:
+                scores = json.loads(raw[start:end])
+        except Exception:
+            pass
+
+    # Strategy 3: extract numbers manually
+    if not scores:
+        try:
+            import re
+            nums = re.findall(r'"(accuracy|completeness|groundedness|coherence)"\s*:\s*(\d+)', raw)
+            if nums:
+                scores = {k: int(v) for k, v in nums}
+                scores["reasoning"] = "Extracted from partial response"
+        except Exception:
+            pass
+
+    # Fallback: rule-based scoring
+    if not scores:
+        covered = sum(1 for t in required_topics if t.lower() in answer.lower())
+        completeness = min(10, int((covered / max(len(required_topics), 1)) * 10))
+        word_score = min(10, int((word_count / max(min_words, 1)) * 7))
+        scores = {
+            "accuracy": word_score,
+            "completeness": completeness,
+            "groundedness": 5 if must_cite and "[source" in answer.lower() else 3,
+            "coherence": 6 if word_count > 100 else 3,
+            "reasoning": "Rule-based fallback score"
+        }
 
     # Compute weighted overall
     weights = rubric.get("scoring_weights",
                          {"accuracy": 0.35, "completeness": 0.3,
                           "groundedness": 0.2, "coherence": 0.15})
     overall = sum(
-        scores.get(k, 0) * w for k, w in weights.items()
+        float(scores.get(k, 0)) * w
+        for k, w in weights.items()
         if k in scores
     )
     scores["overall"] = round(overall, 2)
-    scores["word_count"] = len(answer.split())
+    scores["word_count"] = word_count
     return scores
-
-
-def batch_score(results: list, questions_map: dict) -> list:
-    """
-    Score a list of run result dicts.
-    questions_map: {qid: question_dict} from question_set.py
-    Returns list of result dicts with scores added.
-    """
-    scored = []
-    for r in results:
-        qid = r.get("question_id", "")
-        q_data = questions_map.get(qid, {})
-        rubric = q_data.get("rubric", {})
-        question = r.get("question", "")
-        answer = r.get("answer", "")
-
-        if rubric and answer:
-            scores = score_answer(question, answer, rubric)
-        else:
-            scores = {"accuracy": 0, "completeness": 0,
-                      "groundedness": 0, "coherence": 0, "overall": 0}
-
-        scored.append({**r, **scores})
-    return scored

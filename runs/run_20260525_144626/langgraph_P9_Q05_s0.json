@@ -1,0 +1,27 @@
+{
+  "pipeline": "P9",
+  "framework": "langgraph",
+  "question": "Explain quantum computing: how qubits differ from classical bits, what problems it can solve, and the current state of development.",
+  "sub_questions": [
+    "Explain quantum computing: how qubits differ from classical bits, what problems it can solve, and the current state of development."
+  ],
+  "adversarial_critique": "[LLM ERROR] Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '066349fbc6f155af835b65b60170ef09'}",
+  "answer": "[LLM ERROR] Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '06634a03d7c3dce23d5beae51b072c96'}",
+  "latency": 31.70650690002367,
+  "token_count": 18,
+  "run_id": "run_20260525_144626",
+  "seed": 0,
+  "question_id": "Q05",
+  "category": "scientific_explainer",
+  "difficulty": "medium",
+  "tier": "long",
+  "error": "Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '06634a06a80d5916886626842a30f31f'}",
+  "accuracy": 7,
+  "completeness": 4,
+  "groundedness": 4,
+  "coherence": 9,
+  "overall": 5.95,
+  "word_count": 18,
+  "status": "ok",
+  "reasoning": "Quantum computing has the potential to solve complex problems efficiently, but its current development is still hindered by the lack of scalable hardware and error correction techniques."
+}

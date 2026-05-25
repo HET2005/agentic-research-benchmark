@@ -1,0 +1,29 @@
+{
+  "pipeline": "P10",
+  "framework": "autogen",
+  "question": "Explain how large language models work, from tokenization through attention mechanisms to text generation, for a technically literate audience.",
+  "answer": "[LLM ERROR] Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '06634f7793053922b2752718bb509730'}",
+  "latency": 3.7033429999137297,
+  "token_count": 18,
+  "run_id": "run_20260525_144626",
+  "seed": 0,
+  "hypothesis": "[LLM ERROR] Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '06634f59186b4989224e442011fa8cca'}",
+  "reviews": {
+    "r1": "[LLM ERROR] Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '06634f69886927d7001668faca470979'}",
+    "r2": "[LLM ERROR] Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '06634f6d142587853a141dd16a23c6fc'}",
+    "r3": "[LLM ERROR] Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '06634f70c4ca82ca1db4c615a7993931'}"
+  },
+  "question_id": "Q04",
+  "category": "scientific_explainer",
+  "difficulty": "easy",
+  "tier": "long",
+  "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '06634f7b1f7b6bc494cc1111dad83dd7'}",
+  "accuracy": 6,
+  "completeness": 3,
+  "groundedness": 4,
+  "coherence": 8,
+  "overall": 5.3,
+  "word_count": 18,
+  "status": "ok",
+  "reasoning": "Large language models use pre-trained transformer architecture to process text in stages, tokenizing input, applying attention to weights, and generating output through a series of complex calculations."
+}

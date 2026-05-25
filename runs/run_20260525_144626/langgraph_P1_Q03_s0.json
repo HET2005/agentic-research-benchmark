@@ -1,0 +1,23 @@
+{
+  "pipeline": "P1",
+  "framework": "langgraph",
+  "question": "Conduct a thorough analysis of the electric vehicle market globally. Discuss Tesla, BYD, legacy OEMs, adoption trends, infrastructure challenges, and a 5-year outlook.",
+  "answer": "[LLM ERROR] Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '06634688c22ab57ee4c486b3b80f0cf9'}",
+  "latency": 6.082007899996825,
+  "token_count": 17,
+  "run_id": "run_20260525_144626",
+  "seed": 0,
+  "question_id": "Q03",
+  "category": "market_analysis",
+  "difficulty": "hard",
+  "tier": "short",
+  "error": "Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '0663468bbec3e8488641d536585a6eb6'}",
+  "accuracy": 3,
+  "completeness": 4,
+  "groundedness": 2,
+  "coherence": 5,
+  "overall": 3.3,
+  "word_count": 17,
+  "status": "ok",
+  "reasoning": "The text failed to provide a thorough analysis due to a significant lack of information, making it unsuitable for assessment."
+}

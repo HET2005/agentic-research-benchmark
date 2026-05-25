@@ -1,0 +1,29 @@
+{
+  "pipeline": "P10",
+  "framework": "autogen",
+  "question": "What has been the recent stock performance of NVIDIA (NVDA) and what factors are driving its valuation?",
+  "answer": "[LLM ERROR] Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '06634f16246fb3c9fe022d8391ce766b'}",
+  "latency": 3.6067422999767587,
+  "token_count": 17,
+  "run_id": "run_20260525_144626",
+  "seed": 0,
+  "hypothesis": "[LLM ERROR] Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '06634ef76a30f1e3e4b9c39cebe3f2dd'}",
+  "reviews": {
+    "r1": "[LLM ERROR] Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '06634f08fcf6bfb5b042ce2e5b94a570'}",
+    "r2": "[LLM ERROR] Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '06634f0b893e13685aa01d1853b8802b'}",
+    "r3": "[LLM ERROR] Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '06634f0f2762b015f3b857bdedaaa414'}"
+  },
+  "question_id": "Q02",
+  "category": "market_analysis",
+  "difficulty": "easy",
+  "tier": "long",
+  "error": "Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '06634f192fe35821813c1d6cb926bcfb'}",
+  "accuracy": 7,
+  "completeness": 4,
+  "groundedness": 2,
+  "coherence": 6,
+  "overall": 4.65,
+  "word_count": 17,
+  "status": "ok",
+  "reasoning": "The answer is incomplete due to the LLM error and lacks credible sources to support its claims."
+}

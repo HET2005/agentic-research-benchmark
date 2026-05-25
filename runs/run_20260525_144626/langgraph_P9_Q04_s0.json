@@ -1,0 +1,27 @@
+{
+  "pipeline": "P9",
+  "framework": "langgraph",
+  "question": "Explain how large language models work, from tokenization through attention mechanisms to text generation, for a technically literate audience.",
+  "sub_questions": [
+    "Explain how large language models work, from tokenization through attention mechanisms to text generation, for a technically literate audience."
+  ],
+  "adversarial_critique": "[LLM ERROR] Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '066349d86839e82c9c045436ed8230e4'}",
+  "answer": "[LLM ERROR] Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '066349df39857069b2fc47b479167580'}",
+  "latency": 23.919591800076887,
+  "token_count": 17,
+  "run_id": "run_20260525_144626",
+  "seed": 0,
+  "question_id": "Q04",
+  "category": "scientific_explainer",
+  "difficulty": "easy",
+  "tier": "long",
+  "error": "Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '066349e3a84cbedc2f08f5c9040975bd'}",
+  "accuracy": 7,
+  "completeness": 6,
+  "groundedness": 6,
+  "coherence": 8,
+  "overall": 6.8,
+  "word_count": 17,
+  "status": "ok",
+  "reasoning": "Large language models use a combination of tokenization, transformer architecture, attention mechanisms, and pre-training to generate text, but the provided explanation lacks sufficient detail and references."
+}

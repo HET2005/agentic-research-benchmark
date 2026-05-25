@@ -18,9 +18,6 @@ __pycache__/
 # Logs
 *.log
 
-# Benchmark outputs (optional)
-runs/
-results/
 
 # Jupyter
 .ipynb_checkpoints/

@@ -1,0 +1,27 @@
+{
+  "pipeline": "P9",
+  "framework": "langgraph",
+  "question": "Conduct a thorough analysis of the electric vehicle market globally. Discuss Tesla, BYD, legacy OEMs, adoption trends, infrastructure challenges, and a 5-year outlook.",
+  "sub_questions": [
+    "Conduct a thorough analysis of the electric vehicle market globally. Discuss Tesla, BYD, legacy OEMs, adoption trends, infrastructure challenges, and a 5-year outlook."
+  ],
+  "adversarial_critique": "[LLM ERROR] Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '066349bc12752667da6a9f156249611b'}",
+  "answer": "[LLM ERROR] Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '066349c48fad1b7165f48c421f2e1a4a'}",
+  "latency": 28.092131300014444,
+  "token_count": 18,
+  "run_id": "run_20260525_144626",
+  "seed": 0,
+  "question_id": "Q03",
+  "category": "market_analysis",
+  "difficulty": "hard",
+  "tier": "long",
+  "error": "Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '066349c751f6c7a1e6e403754ccc7363'}",
+  "accuracy": 8,
+  "completeness": 7,
+  "groundedness": 7,
+  "coherence": 9,
+  "overall": 7.5,
+  "word_count": 18,
+  "status": "ok",
+  "reasoning": "The analysis provides a solid overview of the topics but fails to provide detailed data-driven insights."
+}

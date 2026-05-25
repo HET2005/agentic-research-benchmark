@@ -1,0 +1,26 @@
+{
+  "pipeline": "P3",
+  "framework": "autogen",
+  "question": "Analyze the competitive landscape of the cloud computing market in 2024. Compare AWS, Azure, and GCP across market share, pricing, and key differentiators.",
+  "answer": "[LLM ERROR] Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '06634b9f7a5f37471efbd89ba4a32698'}",
+  "latency": 3.7004830999067053,
+  "token_count": 18,
+  "run_id": "run_20260525_144626",
+  "seed": 0,
+  "sub_questions": [
+    "Analyze the competitive landscape of the cloud computing market in 2024. Compare AWS, Azure, and GCP across market share, pricing, and key differentiators."
+  ],
+  "question_id": "Q01",
+  "category": "market_analysis",
+  "difficulty": "medium",
+  "tier": "short",
+  "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '06634ba3f09e0f0f87ad9d8f320a9352'}",
+  "accuracy": 5,
+  "completeness": 3,
+  "groundedness": 2,
+  "coherence": 8,
+  "overall": 4.1,
+  "word_count": 18,
+  "status": "ok",
+  "reasoning": "The lack of sufficient information in the provided answer hinders a detailed review of its accuracy, completeness, and groundedness, but its coherence is noticeable due to its concise format and attempt to address multiple topics."
+}

@@ -1,0 +1,26 @@
+{
+  "pipeline": "P3",
+  "framework": "autogen",
+  "question": "Conduct a thorough analysis of the electric vehicle market globally. Discuss Tesla, BYD, legacy OEMs, adoption trends, infrastructure challenges, and a 5-year outlook.",
+  "answer": "[LLM ERROR] Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '06634bbacd2524dd9ea4c4bc06629e29'}",
+  "latency": 3.2731170000042766,
+  "token_count": 18,
+  "run_id": "run_20260525_144626",
+  "seed": 0,
+  "sub_questions": [
+    "Conduct a thorough analysis of the electric vehicle market globally. Discuss Tesla, BYD, legacy OEMs, adoption trends, infrastructure challenges, and a 5-year outlook."
+  ],
+  "question_id": "Q03",
+  "category": "market_analysis",
+  "difficulty": "hard",
+  "tier": "short",
+  "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '06634bbe0a71aa726441e126d93bd934'}",
+  "accuracy": 3,
+  "completeness": 2,
+  "groundedness": 0,
+  "coherence": 8,
+  "overall": 2.4,
+  "word_count": 18,
+  "status": "ok",
+  "reasoning": "Response is incomplete and inaccurate, lacks structured analysis and supporting evidence"
+}

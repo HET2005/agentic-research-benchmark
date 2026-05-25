@@ -1,0 +1,26 @@
+{
+  "pipeline": "P3",
+  "framework": "autogen",
+  "question": "Explain quantum computing: how qubits differ from classical bits, what problems it can solve, and the current state of development.",
+  "answer": "[LLM ERROR] Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '06634bdba6bc5bedfde9db996fe2c8ea'}",
+  "latency": 4.425188899971545,
+  "token_count": 17,
+  "run_id": "run_20260525_144626",
+  "seed": 0,
+  "sub_questions": [
+    "Explain quantum computing: how qubits differ from classical bits, what problems it can solve, and the current state of development."
+  ],
+  "question_id": "Q05",
+  "category": "scientific_explainer",
+  "difficulty": "medium",
+  "tier": "short",
+  "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '06634bdf9c3957a6638c27e2547c572b'}",
+  "accuracy": 5,
+  "completeness": 3,
+  "groundedness": 4,
+  "coherence": 9,
+  "overall": 4.85,
+  "word_count": 17,
+  "status": "ok",
+  "reasoning": "Quantum computing utilizes superposition and entanglement to solve problems exponentially faster than classical computers, which current hardware developments struggle to achieve consistently."
+}

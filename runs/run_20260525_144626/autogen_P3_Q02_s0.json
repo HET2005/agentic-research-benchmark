@@ -1,0 +1,26 @@
+{
+  "pipeline": "P3",
+  "framework": "autogen",
+  "question": "What has been the recent stock performance of NVIDIA (NVDA) and what factors are driving its valuation?",
+  "answer": "[LLM ERROR] Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '06634bad63919228914cbd60fa7fda56'}",
+  "latency": 3.6622836000751704,
+  "token_count": 17,
+  "run_id": "run_20260525_144626",
+  "seed": 0,
+  "sub_questions": [
+    "What has been the recent stock performance of NVIDIA (NVDA) and what factors are driving its valuation?"
+  ],
+  "question_id": "Q02",
+  "category": "market_analysis",
+  "difficulty": "easy",
+  "tier": "short",
+  "error": "Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '06634bb05743b49cc6be17b4e3e5981d'}",
+  "accuracy": 8,
+  "completeness": 6,
+  "groundedness": 7,
+  "coherence": 9,
+  "overall": 7.3,
+  "word_count": 17,
+  "status": "ok",
+  "reasoning": "The answer provided some recent stock performance data and mentioned AI demand as a driving factor for NVIDIA's valuation, but lacked in-depth discussion of GPU and revenue analysis."
+}

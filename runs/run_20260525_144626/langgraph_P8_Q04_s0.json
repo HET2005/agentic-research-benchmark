@@ -1,0 +1,30 @@
+{
+  "pipeline": "P8",
+  "framework": "langgraph",
+  "question": "Explain how large language models work, from tokenization through attention mechanisms to text generation, for a technically literate audience.",
+  "outline": [
+    "Introduction",
+    "Main Analysis",
+    "Evidence and Data",
+    "Implications",
+    "Conclusion"
+  ],
+  "answer": "[LLM ERROR] Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '0663493b30b8053c782d6de89c8d7461'}",
+  "latency": 30.631096299970523,
+  "token_count": 18,
+  "run_id": "run_20260525_144626",
+  "seed": 0,
+  "question_id": "Q04",
+  "category": "scientific_explainer",
+  "difficulty": "easy",
+  "tier": "long",
+  "error": "Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '0663494018e82e9515e000523aa3df9e'}",
+  "accuracy": 8,
+  "completeness": 9,
+  "groundedness": 9,
+  "coherence": 10,
+  "overall": 8.8,
+  "word_count": 18,
+  "status": "ok",
+  "reasoning": "The LLM's limitations in explaining the generation process demonstrate its ability to recognize the scope of explanation required, yet fails to address this directly."
+}

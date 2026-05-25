@@ -1,0 +1,23 @@
+{
+  "pipeline": "P1",
+  "framework": "autogen",
+  "question": "Explain how large language models work, from tokenization through attention mechanisms to text generation, for a technically literate audience.",
+  "answer": "[LLM ERROR] Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '06634b3a916c2608b75947a84b5b4790'}",
+  "latency": 3.5409761000191793,
+  "token_count": 18,
+  "run_id": "run_20260525_144626",
+  "seed": 0,
+  "question_id": "Q04",
+  "category": "scientific_explainer",
+  "difficulty": "easy",
+  "tier": "short",
+  "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '06634b3d1389767cac222f27189cdd7a'}",
+  "accuracy": 6,
+  "completeness": 7,
+  "groundedness": 4,
+  "coherence": 9,
+  "overall": 6.7,
+  "word_count": 18,
+  "status": "ok",
+  "reasoning": "The answer lacked detailed technical justifications for the functioning of attention mechanisms and lacked concrete examples, but presented a general overview of the process."
+}

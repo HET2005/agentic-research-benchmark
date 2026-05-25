@@ -1,0 +1,23 @@
+{
+  "pipeline": "P1",
+  "framework": "langgraph",
+  "question": "Explain how large language models work, from tokenization through attention mechanisms to text generation, for a technically literate audience.",
+  "answer": "[LLM ERROR] Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '066346929329cfd88afbd56d23564b54'}",
+  "latency": 6.383369200048037,
+  "token_count": 17,
+  "run_id": "run_20260525_144626",
+  "seed": 0,
+  "question_id": "Q04",
+  "category": "scientific_explainer",
+  "difficulty": "easy",
+  "tier": "short",
+  "error": "Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '06634695d562334fc2043cf43a8a7beb'}",
+  "accuracy": 9,
+  "completeness": 8,
+  "groundedness": 8,
+  "coherence": 9,
+  "overall": 8.6,
+  "word_count": 17,
+  "status": "ok",
+  "reasoning": "Large language models, like BERT and transformer, process text through tokenization, then use self-attention mechanisms to weigh contextual relationships, generating text through a combination of pre-training and fine-tuning processes."
+}

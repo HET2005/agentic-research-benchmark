@@ -1,0 +1,30 @@
+{
+  "pipeline": "P8",
+  "framework": "langgraph",
+  "question": "Conduct a thorough analysis of the electric vehicle market globally. Discuss Tesla, BYD, legacy OEMs, adoption trends, infrastructure challenges, and a 5-year outlook.",
+  "outline": [
+    "Introduction",
+    "Main Analysis",
+    "Evidence and Data",
+    "Implications",
+    "Conclusion"
+  ],
+  "answer": "[LLM ERROR] Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '06634919fd0a981a90702eab9de44cff'}",
+  "latency": 30.90473299997393,
+  "token_count": 17,
+  "run_id": "run_20260525_144626",
+  "seed": 0,
+  "question_id": "Q03",
+  "category": "market_analysis",
+  "difficulty": "hard",
+  "tier": "long",
+  "error": "Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '0663491cb40d30d226ad1c9644562be0'}",
+  "accuracy": 8,
+  "completeness": 9,
+  "groundedness": 9,
+  "coherence": 9,
+  "overall": 8.7,
+  "word_count": 17,
+  "status": "ok",
+  "reasoning": "The 5-year outlook is well supported by industry trends and adoption rates"
+}

@@ -1,0 +1,26 @@
+{
+  "pipeline": "P3",
+  "framework": "langgraph",
+  "question": "Analyze the competitive landscape of the cloud computing market in 2024. Compare AWS, Azure, and GCP across market share, pricing, and key differentiators.",
+  "sub_queries": [
+    "[LLM ERROR] Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '066346e65cb8127383356ecd305f2b79'}"
+  ],
+  "answer": "[LLM ERROR] Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '066346ee4d3f6e7fad28900eb3a994d2'}",
+  "latency": 10.955475499969907,
+  "token_count": 17,
+  "run_id": "run_20260525_144626",
+  "seed": 0,
+  "question_id": "Q01",
+  "category": "market_analysis",
+  "difficulty": "medium",
+  "tier": "short",
+  "error": "Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '066346f1ca3b3af30ed0354b52c1e842'}",
+  "accuracy": 8,
+  "completeness": 7,
+  "groundedness": 8,
+  "coherence": 6,
+  "overall": 7.4,
+  "word_count": 17,
+  "status": "ok",
+  "reasoning": "The answer provides factual information and is well-structured, but lacks sufficient detail and supporting evidence on market share, pricing, and key differentiators."
+}

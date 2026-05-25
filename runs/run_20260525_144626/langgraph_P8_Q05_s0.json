@@ -1,0 +1,30 @@
+{
+  "pipeline": "P8",
+  "framework": "langgraph",
+  "question": "Explain quantum computing: how qubits differ from classical bits, what problems it can solve, and the current state of development.",
+  "outline": [
+    "Introduction",
+    "Main Analysis",
+    "Evidence and Data",
+    "Implications",
+    "Conclusion"
+  ],
+  "answer": "[LLM ERROR] Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '06634964936a7eb8eecec4802c0ffc18'}",
+  "latency": 36.11770170007367,
+  "token_count": 17,
+  "run_id": "run_20260525_144626",
+  "seed": 0,
+  "question_id": "Q05",
+  "category": "scientific_explainer",
+  "difficulty": "medium",
+  "tier": "long",
+  "error": "Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '06634967cce54be77ab350fa98e33a5c'}",
+  "accuracy": 3,
+  "completeness": 1,
+  "groundedness": 0,
+  "coherence": 2,
+  "overall": 1.8,
+  "word_count": 17,
+  "status": "ok",
+  "reasoning": "Insufficient information for a coherent analysis"
+}

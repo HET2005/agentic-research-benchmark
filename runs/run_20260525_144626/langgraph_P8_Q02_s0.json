@@ -1,0 +1,30 @@
+{
+  "pipeline": "P8",
+  "framework": "langgraph",
+  "question": "What has been the recent stock performance of NVIDIA (NVDA) and what factors are driving its valuation?",
+  "outline": [
+    "Introduction",
+    "Main Analysis",
+    "Evidence and Data",
+    "Implications",
+    "Conclusion"
+  ],
+  "answer": "[LLM ERROR] Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '066348f61007bfa372a2b1d399fd87ed'}",
+  "latency": 31.35860410006717,
+  "token_count": 18,
+  "run_id": "run_20260525_144626",
+  "seed": 0,
+  "question_id": "Q02",
+  "category": "market_analysis",
+  "difficulty": "easy",
+  "tier": "long",
+  "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '066348fa46bde43d116fed6e18de2e25'}",
+  "accuracy": 4,
+  "completeness": 3,
+  "groundedness": 4,
+  "coherence": 10,
+  "overall": 4.35,
+  "word_count": 18,
+  "status": "ok",
+  "reasoning": "Answer is incomplete and lacks concrete data on recent stock performance, but has a clear structure and well-expressed sentences."
+}

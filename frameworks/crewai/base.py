@@ -18,7 +18,6 @@ from crewai import Agent, Task, Crew, Process, LLM
 from crewai.tools import BaseTool
 from pydantic import BaseModel, Field
 
-# ── Patch litellm directly after import ───────────────────────────────────────
 try:
     import litellm
     litellm.drop_params = True
@@ -27,38 +26,42 @@ try:
 except Exception:
     pass
 
+
 # ── LLM ───────────────────────────────────────────────────────────────────────
 
 def get_llm():
     from dotenv import load_dotenv
     load_dotenv()
 
-    gemini_key = os.environ.get("GEMINI_API_KEY", "")
+    minimax_key = os.environ.get("MINIMAX_API_KEY", "")
     groq_key = os.environ.get("GROQ_API_KEY", "")
-    anthropic_key = os.environ.get("ANTHROPIC_API_KEY", "")
-    openai_key = os.environ.get("OPENAI_API_KEY", "")
 
-    if gemini_key:
-        return LLM(
-            model="gemini/gemini-2.0-flash",
-            api_key=gemini_key,
-        )
-    elif groq_key:
+    if minimax_key:
+        # Try OpenAI-compatible endpoint first
+        try:
+            return LLM(
+                model="openai/MiniMax-Text-01",
+                api_key=minimax_key,
+                base_url="https://api.minimax.io/v1",
+            )
+        except Exception:
+            try:
+                return LLM(
+                    model="openai/MiniMax-Text-01",
+                    api_key=minimax_key,
+                    base_url="https://api.minimax.chat/v1",
+                )
+            except Exception:
+                pass
+
+    if groq_key:
         return LLM(
             model="groq/llama-3.1-8b-instant",
             api_key=groq_key,
         )
-    elif anthropic_key and not anthropic_key.startswith("sk-dummy"):
-        return LLM(
-            model="anthropic/claude-haiku-4-5-20251001",
-            api_key=anthropic_key,
-        )
-    elif openai_key and not openai_key.startswith("sk-dummy"):
-        return LLM(
-            model="gpt-4o-mini",
-            api_key=openai_key,
-        )
+
     return None
+
 
 # ── Tools ─────────────────────────────────────────────────────────────────────
 
@@ -81,7 +84,8 @@ class WebSearchTool(BaseTool):
         try:
             with DDGS() as ddgs:
                 raw = list(ddgs.text(query, max_results=max_results))
-            results = [{"title": r.get("title",""), "url": r.get("href",""), "snippet": r.get("body","")} for r in raw]
+            results = [{"title": r.get("title",""), "url": r.get("href",""),
+                        "snippet": r.get("body","")} for r in raw]
             return json.dumps({"query": query, "results": results})
         except Exception as e:
             return json.dumps({"error": str(e), "results": []})
@@ -148,7 +152,8 @@ def run_crew(crew: Crew, inputs: dict) -> str:
         return str(result)
     except Exception as e:
         err = str(e)
-        if any(x in err.lower() for x in ["api", "key", "connect", "openai", "quota", "auth", "cache"]):
+        if any(x in err.lower() for x in ["api", "key", "connect", "openai",
+                                            "quota", "auth", "cache", "404", "not found"]):
             q = inputs.get("question", "unknown")
-            return f"[CREWAI MOCK - no valid API key] question={q[:60]}"
+            return f"[CREWAI MOCK - API error] question={q[:60]}"
         return f"[CREW ERROR] {err}"

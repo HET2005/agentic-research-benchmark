@@ -1,0 +1,30 @@
+{
+  "pipeline": "P8",
+  "framework": "langgraph",
+  "question": "Analyze the competitive landscape of the cloud computing market in 2024. Compare AWS, Azure, and GCP across market share, pricing, and key differentiators.",
+  "outline": [
+    "Introduction",
+    "Main Analysis",
+    "Evidence and Data",
+    "Implications",
+    "Conclusion"
+  ],
+  "answer": "[LLM ERROR] Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'rate limit exceeded(RPM) (1002)'}, 'request_id': '066348d3c1391519851c4dfb3a1f29d2'}",
+  "latency": 32.426971600041725,
+  "token_count": 18,
+  "run_id": "run_20260525_144626",
+  "seed": 0,
+  "question_id": "Q01",
+  "category": "market_analysis",
+  "difficulty": "medium",
+  "tier": "long",
+  "error": "Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '066348d7f8864e6902effd4183faf284'}",
+  "accuracy": 6,
+  "completeness": 5,
+  "groundedness": 4,
+  "coherence": 4,
+  "overall": 4.9,
+  "word_count": 18,
+  "status": "ok",
+  "reasoning": "The response failed to provide thorough insights into the competitive landscape of cloud computing in 2024, and did not adequately provide evidence to support its claims."
+}

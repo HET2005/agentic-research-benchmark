@@ -1,0 +1,26 @@
+{
+  "pipeline": "P3",
+  "framework": "langgraph",
+  "question": "What has been the recent stock performance of NVIDIA (NVDA) and what factors are driving its valuation?",
+  "sub_queries": [
+    "[LLM ERROR] Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '066346f58c2552f41233ff4fdfa5aa6b'}"
+  ],
+  "answer": "[LLM ERROR] Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '066346fa50e601e21f288479cfad4ee1'}",
+  "latency": 8.603558200062253,
+  "token_count": 17,
+  "run_id": "run_20260525_144626",
+  "seed": 0,
+  "question_id": "Q02",
+  "category": "market_analysis",
+  "difficulty": "easy",
+  "tier": "short",
+  "error": "Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'insufficient balance (1008)'}, 'request_id': '066346fe13fcea33094c57bf815cffb5'}",
+  "accuracy": 6,
+  "completeness": 4,
+  "groundedness": 4,
+  "coherence": 6,
+  "overall": 4.9,
+  "word_count": 17,
+  "status": "ok",
+  "reasoning": "The answer partially provides information but lacks concrete data and clear connections between topics regarding NVIDIA's stock performance."
+}
