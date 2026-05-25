@@ -2,13 +2,13 @@
 frameworks/crewai/p6_p10_pipelines.py
 CrewAI implementations of P6 through P10 (Medium and Long tier).
 """
-
+import os
 import time
-from crewai import Crew, Process
-from .base import (
-    WEB_TOOL, FINANCE_TOOL, make_agent, make_task, run_crew, Timer, get_llm
-)
+os.environ["OPENAI_API_KEY"] = os.environ.get("OPENAI_API_KEY", "sk-dummy-not-used")
+os.environ["CREWAI_TRACING_ENABLED"] = "false"
 
+from crewai import Crew, Process
+from .base import WEB_TOOL, FINANCE_TOOL, make_agent, make_task, run_crew, Timer, get_llm, _mock_run
 _LLM = None
 
 

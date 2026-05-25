@@ -8,13 +8,13 @@ frameworks/crewai/p5_retrieve_draft_critique_revise.py — P5 (Medium)
 All in one file; each pipeline is a standalone function/module-level callable.
 Import individually or call run_p1(), run_p2(), etc.
 """
-
+import os
 import time
-from crewai import Crew, Process
-from .base import (
-    WEB_TOOL, FINANCE_TOOL, make_agent, make_task, run_crew, Timer, get_llm
-)
+os.environ["OPENAI_API_KEY"] = os.environ.get("OPENAI_API_KEY", "sk-dummy-not-used")
+os.environ["CREWAI_TRACING_ENABLED"] = "false"
 
+from crewai import Crew, Process
+from .base import WEB_TOOL, FINANCE_TOOL, make_agent, make_task, run_crew, Timer, get_llm, _mock_run
 _LLM = None  # lazy-load to avoid import errors when no API key
 
 

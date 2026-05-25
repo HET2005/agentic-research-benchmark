@@ -8,29 +8,38 @@ import json
 
 
 def llm_call(prompt: str, system: str = "", max_tokens: int = 1000) -> str:
-    api_key = os.environ.get("ANTHROPIC_API_KEY", "")
-    if not api_key:
-        # Offline mock: return random-ish but deterministic scores
+    import json, os
+    from dotenv import load_dotenv
+    load_dotenv()
+
+    groq_key = os.environ.get("GROQ_API_KEY", "")
+    anthropic_key = os.environ.get("ANTHROPIC_API_KEY", "")
+    openai_key = os.environ.get("OPENAI_API_KEY", "")
+
+    if groq_key:
+        try:
+            from groq import Groq
+            client = Groq(api_key=groq_key)
+            messages = []
+            if system:
+                messages.append({"role": "system", "content": system})
+            messages.append({"role": "user", "content": prompt})
+            resp = client.chat.completions.create(
+                model="llama-3.1-8b-instant",
+                max_tokens=max_tokens,
+                messages=messages,
+            )
+            return resp.choices[0].message.content
+        except Exception as e:
+            return json.dumps({"error": str(e), "accuracy": 0, "completeness": 0,
+                               "groundedness": 0, "coherence": 0})
+    else:
         h = abs(hash(prompt)) % 10
         return json.dumps({
             "accuracy": 5 + h % 4, "completeness": 4 + h % 5,
             "groundedness": 5 + h % 3, "coherence": 6 + h % 4,
             "reasoning": "Mock score — no API key set."
         })
-    try:
-        import anthropic
-        client = anthropic.Anthropic(api_key=api_key)
-        resp = client.messages.create(
-            model="claude-sonnet-4-20250514",
-            max_tokens=max_tokens,
-            system=system,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        return resp.content[0].text
-    except Exception as e:
-        return json.dumps({"error": str(e), "accuracy": 0, "completeness": 0,
-                           "groundedness": 0, "coherence": 0})
-
 
 def score_answer(question: str, answer: str, rubric: dict) -> dict:
     """

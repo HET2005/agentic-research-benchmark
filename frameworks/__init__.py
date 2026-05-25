@@ -1,11 +1,17 @@
-from .langgraph import RUNNERS as LG_RUNNERS
-from .crewai import RUNNERS as CR_RUNNERS
-from .autogen import RUNNERS as AG_RUNNERS
+# frameworks/__init__.py
+# Lazy imports — don't import at package level to avoid circular/missing module errors
 
-ALL_RUNNERS = {
-    "langgraph": LG_RUNNERS,
-    "crewai": CR_RUNNERS,
-    "autogen": AG_RUNNERS,
-}
+def get_runners(framework: str) -> dict:
+    if framework == "langgraph":
+        from frameworks.langgraph import RUNNERS
+        return RUNNERS
+    elif framework == "crewai":
+        from frameworks.crewai import RUNNERS
+        return RUNNERS
+    elif framework == "autogen":
+        from frameworks.autogen import RUNNERS
+        return RUNNERS
+    else:
+        raise ValueError(f"Unknown framework: {framework}")
 
-__all__ = ["ALL_RUNNERS", "LG_RUNNERS", "CR_RUNNERS", "AG_RUNNERS"]
+ALL_FRAMEWORKS = ["langgraph", "crewai", "autogen"]
