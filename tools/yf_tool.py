@@ -31,7 +31,7 @@ def yf_search(query: str, period: str = "1mo") -> str:
 
 def _resolve_ticker(query: str) -> Optional[str]:
     q = query.strip().upper()
-    if q and len(q) <= 6 and q.replace(".","").replace("-","").isalpha():
+    if q and len(q) <= 8 and q.replace(".", "").replace("-", "").replace("=", "").replace("^", "").isalnum():
         return q
     try:
         results = yf.Search(query, max_results=1)

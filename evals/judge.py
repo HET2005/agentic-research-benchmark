@@ -1,50 +1,54 @@
 """
-LLM-as-judge scoring for benchmark outputs.
-Scores each answer on: accuracy, completeness, groundedness, coherence (0-10 each).
+evals/judge.py
+LLM-as-judge scoring with error detection and robust fallback.
 """
-
 import os
 import json
+import re
+from dotenv import load_dotenv
+load_dotenv()
+
+ERROR_PREFIXES = (
+    "[LLM ERROR]", "[MOCK]", "[CREWAI MOCK", "[CREW ERROR]",
+    "[NO_API_KEY]", "[CREWAI MOCK - API error]"
+)
 
 
-def llm_call(prompt: str, system: str = "", max_tokens: int = 1000) -> str:
-    import json
-    from dotenv import load_dotenv
-    load_dotenv()
+def llm_call(prompt: str, system: str = "", max_tokens: int = 500) -> str:
+    """Use shared LLM for judging."""
+    import sys
+    from pathlib import Path
+    sys.path.insert(0, str(Path(__file__).parents[1]))
+    from frameworks.shared_llm import llm_call as _llm
+    return _llm(prompt, system=system, max_tokens=max_tokens)
 
-    groq_key = os.environ.get("GROQ_API_KEY", "")
-    minimax_key = os.environ.get("MINIMAX_API_KEY", "")
 
-    if groq_key:
-        try:
-            from groq import Groq
-            client = Groq(api_key=groq_key)
-            messages = []
-            if system:
-                messages.append({"role": "system", "content": system})
-            messages.append({"role": "user", "content": prompt})
-            resp = client.chat.completions.create(
-                model="llama-3.1-8b-instant",
-                max_tokens=max_tokens,
-                messages=messages,
-            )
-            return resp.choices[0].message.content
-        except Exception as e:
-            return json.dumps({"error": str(e), "accuracy": 0,
-                               "completeness": 0, "groundedness": 0, "coherence": 0})
-    else:
-        h = abs(hash(prompt)) % 10
-        return json.dumps({
-            "accuracy": 5 + h % 4, "completeness": 4 + h % 5,
-            "groundedness": 5 + h % 3, "coherence": 6 + h % 4,
-            "reasoning": "Mock score — no API key set."
-        })
+def is_error_answer(answer: str) -> bool:
+    """Check if answer is an error/mock string."""
+    if not answer or len(answer.strip()) < 10:
+        return True
+    for prefix in ERROR_PREFIXES:
+        if answer.strip().startswith(prefix):
+            return True
+    return False
+
 
 def score_answer(question: str, answer: str, rubric: dict) -> dict:
+    """Score a single answer. Returns zero scores for error answers."""
+
     required_topics = rubric.get("required_topics", [])
     min_words = rubric.get("min_word_count", 200)
     must_cite = rubric.get("must_cite", False)
     word_count = len(answer.split())
+
+    # Return zeros immediately for error/mock answers
+    if is_error_answer(answer):
+        return {
+            "accuracy": 0, "completeness": 0,
+            "groundedness": 0, "coherence": 0,
+            "overall": 0.0, "word_count": word_count,
+            "reasoning": "Error or mock answer — not scored."
+        }
 
     system = (
         "You are a research evaluator. Score the answer on 4 dimensions from 0-10. "
@@ -66,12 +70,11 @@ def score_answer(question: str, answer: str, rubric: dict) -> dict:
         "- coherence: Is it well structured?\n"
         "- reasoning: One sentence explanation\n\n"
         "Return ONLY JSON like: "
-        '{\"accuracy\": 7, \"completeness\": 6, \"groundedness\": 5, \"coherence\": 8, \"reasoning\": \"explanation here\"}'
+        '{\"accuracy\": 7, \"completeness\": 6, \"groundedness\": 5, '
+        '\"coherence\": 8, \"reasoning\": \"explanation here\"}'
     )
 
-    raw = llm_call(prompt, system=system, max_tokens=200)
-
-    # Try multiple JSON extraction strategies
+    raw = llm_call(prompt, system=system, max_tokens=300)
     scores = None
 
     # Strategy 1: direct parse
@@ -90,18 +93,18 @@ def score_answer(question: str, answer: str, rubric: dict) -> dict:
         except Exception:
             pass
 
-    # Strategy 3: extract numbers manually
+    # Strategy 3: regex extraction
     if not scores:
         try:
-            import re
-            nums = re.findall(r'"(accuracy|completeness|groundedness|coherence)"\s*:\s*(\d+)', raw)
+            nums = re.findall(
+                r'"(accuracy|completeness|groundedness|coherence)"\s*:\s*(\d+)', raw)
             if nums:
                 scores = {k: int(v) for k, v in nums}
                 scores["reasoning"] = "Extracted from partial response"
         except Exception:
             pass
 
-    # Fallback: rule-based scoring
+    # Strategy 4: rule-based fallback
     if not scores:
         covered = sum(1 for t in required_topics if t.lower() in answer.lower())
         completeness = min(10, int((covered / max(len(required_topics), 1)) * 10))
@@ -126,3 +129,20 @@ def score_answer(question: str, answer: str, rubric: dict) -> dict:
     scores["overall"] = round(overall, 2)
     scores["word_count"] = word_count
     return scores
+
+
+def batch_score(results: list, questions_map: dict) -> list:
+    scored = []
+    for r in results:
+        qid = r.get("question_id", "")
+        q_data = questions_map.get(qid, {})
+        rubric = q_data.get("rubric", {})
+        question = r.get("question", "")
+        answer = r.get("answer", "")
+        if rubric and answer:
+            scores = score_answer(question, answer, rubric)
+        else:
+            scores = {"accuracy": 0, "completeness": 0,
+                      "groundedness": 0, "coherence": 0, "overall": 0}
+        scored.append({**r, **scores})
+    return scored

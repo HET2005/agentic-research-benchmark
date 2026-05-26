@@ -46,7 +46,10 @@ def run_one(framework, pipeline, question_dict, seed, run_id) -> dict:
     q = question_dict["question"]
     qid = question_dict["id"]
     try:
+        t0 = time.perf_counter()
         result = runner(q, run_id=run_id, seed=seed)
+        total_latency = time.perf_counter() - t0
+
         result["question_id"] = qid
         result["category"] = question_dict["category"]
         result["difficulty"] = question_dict["difficulty"]
@@ -54,19 +57,34 @@ def run_one(framework, pipeline, question_dict, seed, run_id) -> dict:
                           "P4":"medium","P5":"medium","P6":"medium","P7":"medium",
                           "P8":"long","P9":"long","P10":"long"}.get(pipeline, "unknown")
 
-        # Score it
+        # Use outer timer as canonical latency (covers full pipeline)
+        result["latency"] = round(total_latency, 3)
+
+        # Detect error answers and mark status accordingly
+        answer = result.get("answer", "")
+        error_prefixes = (
+            "[LLM ERROR]", "[MOCK]", "[CREWAI MOCK",
+            "[CREW ERROR]", "[NO_API_KEY]"
+        )
+        if any(answer.strip().startswith(p) for p in error_prefixes):
+            result["status"] = "error"
+            result["error"] = answer[:200]
+        else:
+            result["status"] = "ok"
+
+        # Score only if status is ok
         rubric = question_dict.get("rubric", {})
-        if rubric:
-            scores = score_answer(q, result.get("answer",""), rubric)
+        if rubric and result["status"] == "ok":
+            scores = score_answer(q, answer, rubric)
             result.update(scores)
-        result["status"] = "ok"
+
     except Exception as e:
         result = {
             "pipeline": pipeline, "framework": framework,
             "question": q, "question_id": qid,
-            "answer": "", "latency": 0, "token_count": 0,
+            "answer": "", "latency": 0, "word_count": 0,
             "run_id": run_id, "seed": seed, "status": "error",
-            "error": str(e), "traceback": traceback.format_exc()[-500:],
+            "error": str(e),
         }
     return result
 
