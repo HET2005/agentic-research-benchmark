@@ -1,0 +1,22 @@
+{
+  "pipeline": "P1",
+  "framework": "langgraph",
+  "question": "What are the key trends shaping the future of work in 2024-2025? Cover remote work, AI automation, skills gaps, and labor market shifts.",
+  "answer": "Based on the provided search results, here's a comprehensive answer to the question:\n\n**Key Trends Shaping the Future of Work in 2024-2025**\n\nThe future of work is expected to be shaped by several key trends, including remote work, AI automation, skills gaps, and labor market shifts. Here are some key insights derived from the provided search results:\n\n**1. Remote Work**\n\nRemote work is expected to continue to shape the future of work in 2024-2025 [Source 1]. According to the McKinsey article on LinkedIn, the trend of flexible and remote work is likely to persist, with 63% of executives expecting more employees to work remotely in the future [Source 5]. This shift is driven by the need for businesses to attract and retain top talent in a competitive job market.\n\n**2. AI Automation**\n\nArtificial intelligence (AI) automation is expected to continue to transform the future of work in 2024-2025. According to the World Economic Forum's Future of Jobs Report 2025, AI and automation will lead to the displacement of 84 million jobs globally by 2025, but also create 58 million new roles in the process [Source 2]. The report emphasizes the need for workers to develop skills that align with emerging technologies, such as AI, blockchain, and the Internet of Things (IoT).\n\n**3. Skills Gaps**\n\nSkills gaps are a critical concern for businesses and individuals in the future of work. According to the McKinsey report, there will be a significant shortage of skilled workers in key areas such as data science, AI, and cybersecurity [Source 4]. The report emphasizes the need for workers to develop skills that are complementary to AI, such as creativity, problem-solving, and critical thinking.\n\n**4. Labor Market Shifts**\n\nThe labor market is expected to undergo significant shifts in 2024-2025, driven by technological advancements, demographic changes, and shifting workforce expectations. According to the Future of Work Trends and Work Forecast 2024-2025 by CompuNet, the workforce is becoming more diverse, with a growing number of women, people of color, and older workers entering the labor market [Source 3].\n\n**5. Emerging Trends**\n\nSeveral emerging trends are expected to shape the future of work in 2024-2025, including:\n\n* The rise of the platform economy and gig work (Forbes, 2024)\n* The growing importance of human-centric leadership (Forbes, 2024)\n* The need for businesses to prioritize diversity, equity, and inclusion (McKinsey, 2025)\n* The growing adoption of AI-enhanced roles (Forbes, 2024)\n* The need for workers to develop skills that align with emerging technologies (World Economic Forum, 2025)\n\nIn conclusion, the future of work in 2024-2025 is expected to be shaped by several key trends, including remote work, AI automation, skills gaps, and labor market shifts. Businesses and individuals must prioritize developing skills that align with emerging technologies and prioritize diversity, equity, and inclusion to remain competitive in this rapidly changing landscape.\n\nReferences:\n\n[Source 1] - \"The Future of Work: Bridging McKinsey's 2024 ... - LinkedIn\" (2025)\n[Source 2] - \"The Future of Jobs Report 2025 | World Economic Forum\" (2025)\n[Source 3] - \"Future of Work Trends and Work Forecast 2024-2025\" (2025)\n[Source 4] - \"The Future of Work: Bridging McKinsey's 2024 ... - LinkedIn\" (2025)\n[Source 5] - \"8 Workplace Trends That Will Define 2025 - Forbes\" (2024)",
+  "latency": 25.553,
+  "token_count": 538,
+  "run_id": "run_20260526_160319",
+  "seed": 0,
+  "question_id": "Q08",
+  "category": "trend_report",
+  "difficulty": "medium",
+  "tier": "short",
+  "status": "ok",
+  "accuracy": 9,
+  "completeness": 8,
+  "groundedness": 9,
+  "coherence": 9,
+  "reasoning": "The answer provides evidence-based information from credible sources, covers the required topics with minor omissions, makes valid claims backed by data, is well-structured and easy to follow, and provides clear connections between ideas.",
+  "overall": 8.65,
+  "word_count": 538
+}

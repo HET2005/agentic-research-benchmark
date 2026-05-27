@@ -1,0 +1,16 @@
+{
+  "pipeline": "P1",
+  "framework": "crewai",
+  "question": "Explain quantum computing: how qubits differ from classical bits, what problems it can solve, and the current state of development.",
+  "question_id": "Q05",
+  "answer": "",
+  "latency": 0,
+  "word_count": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "cost": 0.0,
+  "run_id": "run_20260526_220742",
+  "seed": 0,
+  "status": "error",
+  "error": "litellm.InternalServerError: AnthropicException - {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"insufficient balance (1008)\"},\"request_id\":\"0664ff76f3984f2b4b0d3cbb7af026d5\"}. Handle with `litellm.InternalServerError`."
+}

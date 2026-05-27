@@ -1,0 +1,27 @@
+{
+  "pipeline": "P3",
+  "framework": "langgraph",
+  "question": "What is the current yield curve shape in the US, and what does it historically signal about recession probability? Compare the 2s10s spread today vs prior inversion episodes.",
+  "sub_queries": [
+    "What is the current short-rate (e.g. 2-year Treasury rate)?",
+    "What is the current long-rate (e.g. 10-year Treasury rate) in the US?",
+    "Historically, what have been the key characteristics of the yield curve shape immediately before and after US recessions?",
+    "How does the current 2s10s yield spread compare to past inversion episodes, and what were the subsequent economic outcomes?"
+  ],
+  "answer": "The current yield curve shape in the US is inverted, with the 2-year Treasury rate (short-rate) at 4.00% (as of May 26, 2026 [Source 1]) and the 10-year Treasury rate (long-rate) at 4.38% (as of May 26, 2026 [Source 2]). This means that the long-rate is higher than the short-rate, which is a rare occurrence in the US economy.\n\nHistorically, an inverted yield curve has been a reliable indicator of recession probability. According to the Bureau of Labor Statistics, an inverted yield curve has preceded a recession about 80% of the time since 1950 [Source 3]. When the long-rate is higher than the short-rate, it indicates that investors expect short-term interest rates to drop and the economy to slow down.\n\nComparing the current 2s10s spread to prior inversion episodes, we can see that while the current yield curve is inverted, the 2s10s spread is not as large as it was during previous recessions. During the last severe recession in 2007-2009, the 2s10s spread inverted to -1.33% [Source 4]. The current 2s10s spread is still negative, but only by about 0.38% (4.38% - 4.00%). This suggests that while the yield curve is inverted, the spread is not as pronounced as it was during previous recessions.\n\nHere is a summary of the current yield curve shape and historical characteristics:\n\n- Current yield curve shape: 2-year Treasury rate (4.00%) > 10-year Treasury rate (4.38%)\n- Recession probability indicator: The inverted yield curve has been a reliable indicator of recession probability, with a 80% success rate since 1950 [Source 3].\n- Current 2s10s spread: -0.38% (4.38% - 4.00%)\n- Comparison to prior inversion episodes: The 2s10s spread is not as large as it was during previous recessions, such as the 2007-2009 recession (-1.33% [Source 4]).\n\nReferences:\n[Source 1]: United States Rates & Bonds - Bloomberg.com (2026)\n[Source 2]: Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity - Federal Reserve Economic Data (2026)\n[Source 3]: Yield curve - Wikipedia (2023)\n[Source 4]: Federal Reserve Economic Data (2026)\n\nPlease note that the information provided may not be up-to-date, and the current yield curve shape may change rapidly in response to market conditions and economic developments.",
+  "latency": 24.047,
+  "word_count": 361,
+  "run_id": "run_20260527_175915",
+  "seed": 0,
+  "question_id": "Q15",
+  "category": "finance",
+  "difficulty": "medium",
+  "tier": "short",
+  "status": "ok",
+  "accuracy": 9,
+  "completeness": 8,
+  "groundedness": 8,
+  "coherence": 9,
+  "reasoning": "The response accurately describes the current yield curve shape, historically supported the claim of a yield curve inversion preceding a recession, and correctly compares the 2s10s spread to prior inversion episodes, but may oversimplify the relationship between yield curve inversion and recession probability.",
+  "overall": 8.4
+}

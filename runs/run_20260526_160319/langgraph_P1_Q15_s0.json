@@ -1,0 +1,22 @@
+{
+  "pipeline": "P1",
+  "framework": "langgraph",
+  "question": "What is the current yield curve shape in the US, and what does it historically signal about recession probability? Compare the 2s10s spread today vs prior inversion episodes.",
+  "answer": "**Current Yield Curve Shape in the US:**\n\nBased on the search results, the current yield curve shape in the US is described as exhibiting a distinctive \"swoosh\" pattern [Source 3]. This pattern is characterized by an initial decline in shorter-term rates (maturities of two years or less) followed by a subsequent increase in longer-term rates [Source 3]. A more recent update to the Treasury yield curve, available on May 26, 2026, can be referenced at [Source 4]. \n\nThe front end of the curve (3-month bills) currently sits roughly in line with the Federal Reserve's target range at 4.25%, while the long end has rallied below 4.20% on a 10-year horizon [Source 2]. \n\n**Historical Significance and Recession Probability:**\n\nHistorically, the yield curve has been a reliable predictor of recession probability in the US, with a 2-10 year Treasury spread inversion being a reliable signal of impending recession [Source 1]. According to [Source 1], the 2-10 year Treasury spread has predicted recessions with 87.5% accuracy.\n\n**Comparison of the 2s10s Spread Today vs. Prior Inversion Episodes:**\n\nSince the search results do not directly provide a comparison of the 2s10s spread today versus prior inversion episodes, we must rely on general knowledge regarding yield curve inversion episodes. Traditionally, a 2s10s spread below 100 basis points indicates an inversion of the yield curve, which has historically been associated with increased recession risk [Source 1]. However, more recent studies have shown that an inverted curve is only one indicator, and in-depth analysis is key to understanding the implications [Source 4, Source 3]",
+  "latency": 17.296,
+  "token_count": 256,
+  "run_id": "run_20260526_160319",
+  "seed": 0,
+  "question_id": "Q15",
+  "category": "finance",
+  "difficulty": "medium",
+  "tier": "short",
+  "status": "ok",
+  "accuracy": 6,
+  "completeness": 5,
+  "groundedness": 5,
+  "coherence": 9,
+  "reasoning": "The evaluation is hindered by a lack of historical context on prior inversion episodes, yet it provides a coherent structure and mostly accurate facts.",
+  "overall": 5.55,
+  "word_count": 256
+}

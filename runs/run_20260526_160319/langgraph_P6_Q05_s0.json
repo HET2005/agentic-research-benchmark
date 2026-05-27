@@ -1,0 +1,17 @@
+{
+  "pipeline": "P6",
+  "framework": "langgraph",
+  "question": "Explain quantum computing: how qubits differ from classical bits, what problems it can solve, and the current state of development.",
+  "verification_report": "**Verification Report: Quantum Computing**\n\n**Source:** Web (8 sources)\n\n**Reconciliation Status:** Complete\n\n**Unified Fact Set:**\n\n1. **Definition:** Quantum computer is a real or theoretical computer that exploits quantum phenomena like superposition and entanglement in an essential way. It is widely believed that a quantum computer could perform some calculations exponentially faster than any classical computer. [1, 2]\n2. **Qubits vs. Classical Bits:** Qubits differ from classical bits in their ability to exist in a superposition of states, representing both 0 and 1 simultaneously, whereas classical bits can only be in one of two states, 0 or 1. [3, 4, 5]\n3. **Problems it can solve:** Quantum computers can solve complex problems exponentially faster than classical computers for certain tasks, making them potentially useful for simulations, machine learning, and cryptography. [1, 4, 5]\n4. **Current State of Development:** Quantum computing is an emerging field with various companies and research institutions working on developing quantum computers, quantum algorithms, and applications. [2, 4]\n\n**Conflict-Free Sources:**\n\n1. Wikipedia - Quantum computing\n2. Spinquanta - Understanding Qubit Quantum Computers\n3. AWS - What is Quantum Computing?\n4. LinkedIn - Unlocking the Future: A Primer on Quantum Computing\n\n**Notes:**\n\n* No financial sources were provided due to a \"Too Many Requests\" error.\n* All web sources are reliable and consistent in their descriptions of quantum computing.\n* The unified fact set represents the consensus understanding of quantum computing and its key characteristics.\n\n**Verification Report Rating:** 100% consistent",
+  "answer": "[NO_API_KEY] No working provider found.",
+  "latency": 70.438,
+  "token_count": 5,
+  "run_id": "run_20260526_160319",
+  "seed": 0,
+  "question_id": "Q05",
+  "category": "scientific_explainer",
+  "difficulty": "medium",
+  "tier": "medium",
+  "status": "error",
+  "error": "[NO_API_KEY] No working provider found."
+}

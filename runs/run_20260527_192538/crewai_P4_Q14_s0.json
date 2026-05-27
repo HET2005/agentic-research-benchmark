@@ -1,0 +1,13 @@
+{
+  "pipeline": "P4",
+  "framework": "crewai",
+  "question": "Analyze NVIDIA's current valuation using DCF analysis. What revenue growth rates, margins, and discount rates are implied by its current market cap? Is the AI premium justified?",
+  "question_id": "Q14",
+  "answer": "",
+  "latency": 0,
+  "word_count": 0,
+  "run_id": "run_20260527_192538",
+  "seed": 0,
+  "status": "error",
+  "error": "get_shared_llm() got an unexpected keyword argument 'seed'"
+}

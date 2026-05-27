@@ -1,0 +1,18 @@
+{
+  "pipeline": "P5",
+  "framework": "langgraph",
+  "question": "Explain cryptocurrency market microstructure: how DeFi liquidity pools work (AMMs, impermanent loss), the role of market makers in CEX vs DEX, and how crypto market crashes propagate through the system.",
+  "draft": "[NO_API_KEY] No working provider found.",
+  "critique": "[NO_API_KEY] No working provider found.",
+  "answer": "[NO_API_KEY] No working provider found.",
+  "latency": 15.117,
+  "token_count": 5,
+  "run_id": "run_20260526_160319",
+  "seed": 0,
+  "question_id": "Q23",
+  "category": "finance",
+  "difficulty": "hard",
+  "tier": "medium",
+  "status": "error",
+  "error": "[NO_API_KEY] No working provider found."
+}

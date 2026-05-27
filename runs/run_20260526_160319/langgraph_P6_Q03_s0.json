@@ -1,0 +1,17 @@
+{
+  "pipeline": "P6",
+  "framework": "langgraph",
+  "question": "Conduct a thorough analysis of the electric vehicle market globally. Discuss Tesla, BYD, legacy OEMs, adoption trends, infrastructure challenges, and a 5-year outlook.",
+  "verification_report": "[NO_API_KEY] No working provider found.",
+  "answer": "[NO_API_KEY] No working provider found.",
+  "latency": 13.664,
+  "token_count": 5,
+  "run_id": "run_20260526_160319",
+  "seed": 0,
+  "question_id": "Q03",
+  "category": "market_analysis",
+  "difficulty": "hard",
+  "tier": "medium",
+  "status": "error",
+  "error": "[NO_API_KEY] No working provider found."
+}

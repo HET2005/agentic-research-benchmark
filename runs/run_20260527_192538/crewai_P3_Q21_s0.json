@@ -1,0 +1,13 @@
+{
+  "pipeline": "P3",
+  "framework": "crewai",
+  "question": "Analyze the carry trade strategy in FX markets: how it works, which currency pairs are most used, historical returns, and the risk of sudden unwind events like the 2024 yen carry trade collapse.",
+  "question_id": "Q21",
+  "answer": "",
+  "latency": 0,
+  "word_count": 0,
+  "run_id": "run_20260527_192538",
+  "seed": 0,
+  "status": "error",
+  "error": "get_shared_llm() got an unexpected keyword argument 'seed'"
+}

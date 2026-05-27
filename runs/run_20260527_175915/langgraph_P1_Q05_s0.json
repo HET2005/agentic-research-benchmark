@@ -1,0 +1,22 @@
+{
+  "pipeline": "P1",
+  "framework": "langgraph",
+  "question": "Explain quantum computing: how qubits differ from classical bits, what problems it can solve, and the current state of development.",
+  "answer": "**What is Quantum Computing?**\n\nQuantum computing is a new paradigm for computing that uses the principles of quantum mechanics to perform calculations and operations on data. It is a type of computing that uses quantum-mechanical phenomena, such as superposition and entanglement, to perform operations on data that are beyond the capabilities of classical computers.\n\n**Qubits vs Classical Bits**\n\nClassical computers use binary digits, or bits, to store and process information. A bit can exist in one of two possible states: 0 or 1. In contrast, quantum computers use quantum bits, or qubits, to store and process information. A qubit can exist in multiple states simultaneously, known as a superposition of states. This means that a qubit can represent both 0 and 1 at the same time, unlike a classical bit which can only exist in one of those states at a time.\n\nAccording to IBM [Source 3], a qubit can be described as a 0, a 1, or a superposition, which represents the probability of the qubit's state. This property of qubits allows quantum computers to perform certain calculations much faster than classical computers.\n\n**How Qubits Differ from Classical Bits**\n\nThe state of a qubit is not fixed until measured, whereas the state of a classical bit is fixed once it is set. This property of qubits is known as superposition [Source 1]. Qubits can also exist in an entangled state, where the state of one qubit is dependent on the state of another qubit, even if they are separated by large distances [Source 2]. This property of qubits is known as entanglement.\n\n**What Problems Can Quantum Computing Solve?**\n\nQuantum computing has the potential to solve certain problems much faster than classical computers. These problems are typically related to linear algebra and optimization, and include:\n\n* Shor's algorithm, which can factor large numbers exponentially faster than the best known classical algorithm.\n* Grover's algorithm, which can search an unstructured database exponentially faster than the best known classical algorithm.\n* Quantum simulations, which can simulate complex quantum systems and chemical reactions.\n\nAccording to IBM [Source 4], quantum computers can solve complex problems that are currently unsolvable or require an unfeasible amount of time to solve on classical computers.\n\n**Current State of Development**\n\nQuantum computing is still in its early stages of development. Many companies and research institutions are working on building quantum computers and developing the technology to run quantum algorithms. Some notable examples include IBM, Google, and Microsoft.\n\nAccording to NIST [Source 3], quantum computers have input, output, information processing, and memory. But instead of regular classical bits, quantum computers use quantum bits, or qubits.\n\nAccording to IBM [Source 5], certain bits are better suited to certain functions, and an advanced quantum computer will likely use a combination of bit types to achieve different operations.\n\n**Conclusion**\n\nQuantum computing is a new paradigm for computing that uses the principles of quantum mechanics to perform calculations and operations on data. Qubits, the basic units of quantum computing, can exist in multiple states simultaneously, allowing quantum computers to perform certain calculations much faster than classical computers. Quantum computing has the potential to solve certain problems much faster than classical computers, but is still in its early stages of development.\n\n**References**\n\n[1] Qubit - Wikipedia\n[2] Quantum computing - Wikipedia\n[3] Quantum Computing Explained | NIST\n[4] What Is Quantum Computing? | IBM\n[5] What is a qubit? | IBM\n[6] Qubits vs Classical Bits. https://www.deeppractise.com/ | by Jay Pandit | Quantum Computing Series | Medium",
+  "latency": 28.609,
+  "token_count": 582,
+  "run_id": "run_20260527_175915",
+  "seed": 0,
+  "question_id": "Q05",
+  "category": "scientific_explainer",
+  "difficulty": "medium",
+  "tier": "short",
+  "word_count": 582,
+  "status": "ok",
+  "accuracy": 8,
+  "completeness": 3,
+  "groundedness": 4,
+  "coherence": 9,
+  "reasoning": "The text provides a good explanation of quantum computing and qubits, but lacks sufficient information and supporting evidence for some claims.",
+  "overall": 6.05
+}

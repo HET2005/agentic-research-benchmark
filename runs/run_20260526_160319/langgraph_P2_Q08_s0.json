@@ -1,0 +1,23 @@
+{
+  "pipeline": "P2",
+  "framework": "langgraph",
+  "question": "What are the key trends shaping the future of work in 2024-2025? Cover remote work, AI automation, skills gaps, and labor market shifts.",
+  "rewritten_query": "Future of work trends 2024-2025 remote work AI automation skills gap labor market shifts",
+  "answer": "**Key Trends Shaping the Future of Work in 2024-2025**\n\nThe future of work is evolving rapidly, driven by technological advancements, shifting workforce demographics, and changing labor market dynamics. Based on research reports and industry insights, several key trends are expected to shape the future of work in 2024-2025. These trends are: hybrid work and flexible arrangements, greater impact of artificial intelligence and automation, reskilling and upskilling, skills gaps, and labor market shifts.\n\n**1. Hybrid Work and Flexible Arrangements**\n\nThe COVID-19 pandemic has accelerated the shift towards hybrid work and flexible arrangements. This trend is expected to continue in 2024-2025, with workers seeking more flexibility and work-life balance (Source: [1]).\n\n**2. Greater Impact of Artificial Intelligence and Automation**\n\nArtificial intelligence (AI) and automation are transforming the workplace, making tasks more efficient and freeing up time for creative and strategic work. Workers who learn practical AI workflows will stand out in a competitive job market (Source: [6]).\n\n**3. Reskilling, Upskilling, and Closing Skills Gaps**\n\nThe increasing adoption of AI and automation is creating skills gaps in the workforce. To address this, workers will need to reskill and upskill to remain relevant in the job market. This shift will require significant investment in education and training programs (Source: [3], [5]).\n\n**4. Labor Market Shifts**\n\nThe labor market is undergoing a significant transformation, driven by demographic changes, technological advancements, and shifting workforce demographics. The World Economic Forum's Future of Jobs Report 2025 highlights the need for workers to adapt to changing job requirements, with automation replacing up to 85 million jobs globally between 2022 and 2025 (Source: [2]).\n\n**Additional Insights**\n\n* Advancements in AI and information processing are driving significant changes in the labor market (Source: [2]).\n* The OECD notes that the world of work is changing rapidly due to new technologies, such as AI, and the emergence of new forms of work (Source: [4]).\n* Deloitte's research highlights the need for skills-based workforce planning, with AI playing an increasingly essential role (Source: [7]).\n\n**Conclusion**\n\nThe future of work in 2024-2025 is characterized by hybrid work, AI-driven productivity gains, and significant labor market shifts. To remain relevant, workers will need to reskill and upskill, while employers will need to invest in education and training programs to address skills gaps. Understanding these trends will be crucial for organizations and individuals to navigate the changing workforce landscape.\n\n**References**\n\n[1] Compunnel, \"Future of Work Trends and Work Forecast 2024-2025\" (2024).\n[2] World Economic Forum, \"Future of Jobs Report 2025\" (2025).\n[3] McKinsey & Company, \"Future of Work\" (n.d.).\n[4] OECD, \"Future of Work\" (n.d.).\n[5] IMD, \"The Future of Work: Trends and Insights for 2025\" (2025).\n[6] High5test, \"The Most Important Career Trends (2024-2025) in the U.S.\" (2025).\n[7] Deloitte, \"From jobs to skills to outcomes: Rethinking how work gets done\" (2025).\n[8] Microsoft, \"New Future of Work Report 2025\" (2025).",
+  "latency": 19.347,
+  "token_count": 475,
+  "run_id": "run_20260526_160319",
+  "seed": 0,
+  "question_id": "Q08",
+  "category": "trend_report",
+  "difficulty": "medium",
+  "tier": "short",
+  "status": "ok",
+  "accuracy": 8,
+  "completeness": 8,
+  "groundedness": 6,
+  "coherence": 9,
+  "reasoning": "The discussion provides a clear structure and uses relevant supporting information, although a more detailed breakdown of predicted impacts would strengthen claims.",
+  "overall": 7.6,
+  "word_count": 475
+}

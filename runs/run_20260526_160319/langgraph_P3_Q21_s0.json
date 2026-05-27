@@ -1,0 +1,28 @@
+{
+  "pipeline": "P3",
+  "framework": "langgraph",
+  "question": "Analyze the carry trade strategy in FX markets: how it works, which currency pairs are most used, historical returns, and the risk of sudden unwind events like the 2024 yen carry trade collapse.",
+  "sub_queries": [
+    "\"How does the carry trade strategy work in FX markets?\",",
+    "\"Which currency pairs are most commonly used in the carry trade?\",",
+    "\"What are the historical returns of the carry trade strategy over several market cycles?\",",
+    "\"What are the key indicators and events leading up to a sudden unwind event, such as the 2024 yen carry trade collapse?\""
+  ],
+  "answer": "**Carry Trade Strategy in FX Markets: An Overview**\n\nThe carry trade strategy is a popular investment technique used in foreign exchange (FX) markets to profit from interest rate differentials between currencies. The strategy involves borrowing from a currency with a lower interest rate and investing in a currency with a higher interest rate, with the aim of earning a profit from the difference in yields.\n\n**How Does the Carry Trade Strategy Work?**\n\nThe carry trade strategy works by exploiting the differences in interest rates between two currencies. The basic process involves borrowing from a currency with a lower interest rate, usually in the form of a currency pair with low interest rates, and using the funds to invest in a currency pair with higher interest rates. The investor then earns interest on the higher-yielding currency and pays interest on the lower-yielding currency. The profit is the difference between the two interest rates (Source 1) [1].\n\n**Which Currency Pairs Are Most Commonly Used in the Carry Trade?**\n\nSeveral currency pairs are commonly used in the carry trade, but some of the most popular ones are:\n\n1. **Japanese Yen (JPY)**: The Japanese yen is often used in carry trades due to Japan's long history of low interest rates (Source 2) [2].\n2. **Swiss Franc (CHF)**: The Swiss franc is another popular choice for carry trades, given its relatively low interest rates compared to other developed economies.\n3. **Norwegian Krone (NOK)**: The Norwegian krone is also used in carry trades, thanks to its high interest rates and stable economy.\n4. **New Zealand Dollar (NZD)**: The New Zealand dollar is another popular currency pair used in carry trades, due to its high interest rates and relatively stable economy.\n\nThese currency pairs are often used in combination with other currencies with higher interest rates, such as the Australian dollar, the Canadian dollar, and the Mexican peso (Source 3) [3].\n\n**Historical Returns of the Carry Trade Strategy**\n\nThe carry trade strategy has a long history of generating significant returns, but it also comes with significant risks. According to a backtest of the carry trade strategy, it has generated an average annual return of around 8-10% over several market cycles (Source 4) [4].\n\nA historical analysis of the carry trade strategy reveals that it has generated some of the most significant trends in the foreign exchange market. However, it's essential to note that the carry trade strategy involves significant risks, including interest rate risk, credit risk, and currency risk (Source 5) [5].\n\n**Risk of Sudden Unwind Events**\n\nThe carry trade strategy involves significant risks, including the risk of sudden unwind events. In 2024, the yen carry trade collapsed, resulting in significant losses for investors. This event highlights the importance of risk management and diversification in investing in the carry trade strategy (Source 6) [6].\n\nIn conclusion, the carry trade strategy is a popular investment technique used in FX markets to profit from interest rate differentials. While it has a long history of generating significant returns, it comes with significant risks, including interest rate risk, credit risk, and currency risk. Investors should carefully consider these risks before investing in the carry trade strategy and implement adequate risk management and diversification strategies to mitigate potential losses.\n\nReferences:\n\n[1] Eightcap Labs. (n.d.). Carry Trading Strategy. Retrieved from <https://www.eightcap.com/labs/carry-trading-strategy/>\n\n[2] Finansified. (n.d.). What Is Carry Trade? How Does It Work? Retrieved from <https://finansified.com/fx-carry-trade-strategy-explained/>\n\n[3] CMC Markets. (n.d.). Carry Trade: Strategy for Currency Markets. Retrieved from <https://www.cmcmarkets.com/en-gb/learn-forex/carry-trade>\n\n[4] Quantified Strategies. (n.d.). Carry Trade Strategy: Example, Rules, Backtest, Analysis. Retrieved from <https://www.quantifiedstrategies.com/carry-trade-strategy/>\n\n[5] Singapore Forex Club. (n.d.). Carry Trade Strategies in Forex: Complete Guide. Retrieved from <https://singaporeforexclub.com/carry-trade-strategies-in-forex-complete-guide>\n\n[6] FXSSI - Forex Sentiment. (n.d.). TOP 10 Currency Pairs for Carry Trade. Retrieved from <https://fxssi.com/top-10-currency-pairs-carry-trade>",
+  "latency": 19.484,
+  "token_count": 620,
+  "run_id": "run_20260526_160319",
+  "seed": 0,
+  "question_id": "Q21",
+  "category": "finance",
+  "difficulty": "hard",
+  "tier": "short",
+  "status": "ok",
+  "accuracy": 7,
+  "completeness": 6,
+  "groundedness": 7,
+  "coherence": 8,
+  "reasoning": "The answer provides a good overview of the carry trade strategy, but lacks supporting sources for historical returns and the risk of sudden unwind events.",
+  "overall": 6.8,
+  "word_count": 620
+}

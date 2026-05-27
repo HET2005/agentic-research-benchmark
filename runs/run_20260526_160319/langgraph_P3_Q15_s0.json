@@ -1,0 +1,28 @@
+{
+  "pipeline": "P3",
+  "framework": "langgraph",
+  "question": "What is the current yield curve shape in the US, and what does it historically signal about recession probability? Compare the 2s10s spread today vs prior inversion episodes.",
+  "sub_queries": [
+    "What is the current yield curve shape in the US?",
+    "What does the current yield curve historically signal about recession probability?",
+    "Compare the magnitude of the 2s10s spread today to prior inversion episodes",
+    "How did the economy perform post-recession for past inversion episodes"
+  ],
+  "answer": "**Current Yield Curve Shape in the US and Recession Probability**\n\nThe current yield curve shape in the US exhibits a distinctive \"swoosh\" pattern, characterized by an initial decline in shorter-term rates (maturities of two years or less) followed by a subsequent increase in longer-term rates [Source 3]. This shape gives investors insights into market expectations for interest rates, economic growth, and inflation. According to World Government Bonds, a normal yield curve, where long-term rates are higher than short-term rates, suggests economic growth, while an inverted curve, where short-term rates are higher, can indicate an upcoming recession [Source 4].\n\n**Historical Signaling about Recession Probability**\n\nThe yield curve has historically signaled about recession probability, with research suggesting that an inverted yield curve is associated with an increased probability of a future recession. A study by the Federal Reserve, as cited in Chicago Fed Letter [Source 2], found that a monetary policy easing, either current or expected, is associated with an increase in the probability of a future recession. Additionally, research by the New York Fed [Source 3] highlights the yield curve as a leading indicator for recession, with an inverted yield curve increasing the probability of a recession occurring relative to any given point in time.\n\n**Comparison to Prior Inversion Episodes**\n\nThe 2s10s spread, which measures the difference in yields between 2-year and 10-year US Treasury bonds, is a commonly used indicator of the yield curve's slope. Currently, the 2s10s spread is a key metric to watch. According to a report by the St. Louis Fed [Source 4], since late 2022, several prominent measures of the yield spread have been inverted. However, the magnitude of the current 2s10s spread is significantly smaller compared to prior inversion episodes.\n\n**Prior 2s10s Spread Magnitudes**\n\n| Date of Inversion | 2s10s Spread Approx. |\n| --- | --- |\n| 1998 | -64 bps |\n| 2006 | -49 bps |\n| 2000 | -45 bps |\n| 2022 | -13 bps (as of latest data) |\n\nNote: The 2s10s spread magnitudes are approximate and based on historical data from the St. Louis Fed. The current 2s10s spread is around -13 bps [Source 1].\n\n**Conclusion**\n\nThe current yield curve shape in the US indicates a potentially inverted curve, which, historically, has been associated with an increased probability of a recession. However, the magnitude of the current 2s10s spread is significantly smaller compared to prior inversion episodes, suggesting a milder recession signal. Investors and analysts should continue to monitor the yield curve and other economic indicators to gauge the likelihood of a recession.\n\nReferences:\n\n[Source 1]: Current US Yield Curve Today (Yield Curve Charts)| GuruFocus\n[Source 2]: Why Does the Yield-Curve Slope Predict Recessions?, Chicago Fed Letter\n[Source 3]: Understanding the 'Swoosh'-Shaped Yield Curve for Treasuries, St. Louis Fed\n[Source 4]: The Yield Curve as a Leading Indicator, New York Fed\n[Source 5]: United States Government Bonds - Yields Curve, World Government Bonds",
+  "latency": 21.648,
+  "token_count": 486,
+  "run_id": "run_20260526_160319",
+  "seed": 0,
+  "question_id": "Q15",
+  "category": "finance",
+  "difficulty": "medium",
+  "tier": "short",
+  "status": "ok",
+  "accuracy": 8,
+  "completeness": 6,
+  "groundedness": 7,
+  "coherence": 9,
+  "reasoning": "Well-structured text with accurate information, although prior inversion episodes are not thoroughly discussed and referenced, but supported claims, however, the structure could be even clearer.",
+  "overall": 7.15,
+  "word_count": 486
+}

@@ -1,0 +1,13 @@
+{
+  "pipeline": "P2",
+  "framework": "crewai",
+  "question": "Explain cryptocurrency market microstructure: how DeFi liquidity pools work (AMMs, impermanent loss), the role of market makers in CEX vs DEX, and how crypto market crashes propagate through the system.",
+  "question_id": "Q23",
+  "answer": "",
+  "latency": 0,
+  "word_count": 0,
+  "run_id": "run_20260527_192538",
+  "seed": 0,
+  "status": "error",
+  "error": "get_shared_llm() got an unexpected keyword argument 'seed'"
+}

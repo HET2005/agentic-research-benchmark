@@ -1,0 +1,22 @@
+{
+  "pipeline": "P1",
+  "framework": "crewai",
+  "question": "Compare active vs passive investing: the evidence on active manager performance after fees, the SPIVA report findings, and under what market conditions active management adds value.",
+  "answer": "[CREWAI MOCK - API error] litellm.BadRequestError: GroqException - {\"error\":{\"message\":\"'messages.0' : for 'role:system' the following must be satisfied[('messages.0' : property 'cache_breakpoint' is unsupported)]\",\"type\":\"invalid_request_error\"}}\n",
+  "latency": 0.098,
+  "word_count": 22,
+  "run_id": "run_20260527_192956",
+  "seed": 0,
+  "question_id": "Q22",
+  "category": "finance",
+  "difficulty": "medium",
+  "tier": "short",
+  "status": "error",
+  "error": "[CREWAI MOCK - API error] litellm.BadRequestError: GroqException - {\"error\":{\"message\":\"'messages.0' : for 'role:system' the following must be satisfied[('messages.0' : property 'cache_breakpoint' is ",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

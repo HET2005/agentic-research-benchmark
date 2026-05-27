@@ -1,0 +1,27 @@
+{
+  "pipeline": "P3",
+  "framework": "langgraph",
+  "question": "Synthesize research on RAG vs fine-tuning for domain-specific LLM applications. When is each preferable and what are the open questions?",
+  "sub_queries": [
+    "What are the key differences between RAG (Reinforced Agent Generators) and fine-tuning for domain-specific LLM applications?",
+    "In what scenarios are RAG preferable to fine-tuning, and vice versa, for optimizing LLM performance in domain-specific tasks?",
+    "What are the current open questions surrounding the efficacy and limitations of RAG and fine-tuning for domain-specific LLM applications, and what research is needed to address these gaps?"
+  ],
+  "answer": "**Synthesizing Research on RAG vs Fine-tuning for Domain-specific LLM Applications**\n\n**Key Differences between RAG and Fine-tuning**\n\nRAG (Reinforced Agent Generators) and fine-tuning are two prominent techniques used to optimize large language models (LLMs) for domain-specific tasks. The key differences between the two are:\n\n*   RAG augments LLMs by connecting them to an organization's proprietary database, providing up-to-date information and external knowledge sources [1].\n*   Fine-tuning optimizes models for domain-specific tasks by retraining them on a smaller, specific dataset, making them highly specialized [1] [2].\n\n**Scenarios for RAG vs Fine-tuning**\n\nThe choice between RAG and fine-tuning depends on the project's requirements, data, and goals. Some scenarios where RAG is preferable to fine-tuning include:\n\n*   When up-to-date information is crucial, and external knowledge sources are available [3].\n*   For complex tasks requiring expertise from multiple knowledge sources, RAG Fusion is best suited [3].\n*   When external knowledge sources are not available or are too expensive to acquire, fine-tuning may be a better option [2].\n\nOn the other hand, fine-tuning is often preferred for scenarios where:\n\n*   A highly specialized model is needed for a specific task or domain.\n*   The dataset is small and domain-specific, and training a new model from scratch is feasible.\n\n**Open Questions**\n\nSeveral open questions surround the use of RAG and fine-tuning for domain-specific LLM applications:\n\n*   **Model interpretability**: How can we better understand the decision-making process of RAG and fine-tuned models in complex tasks?\n*   **Data quality and availability**: How can we ensure the quality and availability of external knowledge sources for RAG, and domain-specific datasets for fine-tuning?\n*   **Scalability and adaptability**: How can we adapt RAG and fine-tuned models to handle rapid changes in the domain or task requirements?\n*   **Comparison and evaluation**: How can we design and conduct fair comparisons between RAG and fine-tuning for different domain-specific tasks?\n\nBy addressing these open questions, researchers and practitioners can better understand the strengths and limitations of RAG and fine-tuning for domain-specific LLM applications and develop more effective strategies for optimizing LLM performance.\n\n**References:**\n\n[1] IBM. (n.d.). RAG vs. fine-tuning. Retrieved from <https://www.ibm.com/think/topics/rag-vs-fine-tuning>\n\n[2] Microsoft Learn. (n.d.). Augment LLMs with RAGs or Fine-Tuning. Retrieved from <https://learn.microsoft.com/en-us/azure/developer/ai/augment-llm-rag-fine-tuning>\n\n[3] Medium. (2024, July 3). RAG, RAG Fusion, and Fine-Tuning: A Comparative Analysis. Retrieved from <https://medium.com/thedeephub/rag-rag-fusion-and-fine-tuning-a-comparative-analysis-85e27390fc09>\n\n[4] GeeksforGeeks. (2025, July 23). RAG vs Fine-Tuning for Enhancing LLM Performance. Retrieved from <https://www.geeksforgeeks.org/nlp/rag-vs-fine-tuning-for-enhancing-llm-performance/>\n\n[5] B Eye Ltd. (2025, February 17). RAG vs Fine Tuning: The Hidden Trade-offs No One Talks About. Retrieved from <https://www.linkedin.com/pulse/rag-vs-fine-tuning-hidden-trade-offs-one-talks-b-eye-ltd-du9rf/>",
+  "latency": 24.285,
+  "token_count": 410,
+  "run_id": "run_20260526_160319",
+  "seed": 0,
+  "question_id": "Q10",
+  "category": "literature_synthesis",
+  "difficulty": "hard",
+  "tier": "short",
+  "status": "ok",
+  "accuracy": 4,
+  "completeness": 3,
+  "groundedness": 1,
+  "coherence": 8,
+  "reasoning": "The answer lacks in-depth discussion of hybrid approaches and performance comparison between RAG and fine-tuning",
+  "overall": 3.5,
+  "word_count": 410
+}

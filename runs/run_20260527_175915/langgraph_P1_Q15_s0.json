@@ -1,0 +1,22 @@
+{
+  "pipeline": "P1",
+  "framework": "langgraph",
+  "question": "What is the current yield curve shape in the US, and what does it historically signal about recession probability? Compare the 2s10s spread today vs prior inversion episodes.",
+  "answer": "**Current Yield Curve Shape in the US:**\n\nThe current yield curve shape in the US is steeply inverted, with the 10-year Treasury yield being lower than the 2-year Treasury yield, a phenomenon known as an inverted yield curve. This means that the 2s10s spread is currently negative.\n\n**Historical Significance of Inverted Yield Curve:**\n\nHistorically, an inverted yield curve has predicted recessions with great accuracy. According to data from the National Bureau of Economic Research (NBER), since 1976, seven major 2Y-10Y yield curve inversions preceded six U.S. recessions, with a median lag of 14 months between inversion and downturn [Source 4]. This means that every recession in the United States since 1980 has been preceded by a 2s10s inversion, with the curve typically inverting 12 to 24 months before the downturn begins [Source 3].\n\n**Comparison of 2s10s Spread Today vs Prior Inversion Episodes:**\n\nWhile the current 2s10s spread is inverted, it is not as extreme as some prior inversion episodes. According to data from RecessionPulse, the 2s10s spread inverted in 2022-2023 for the longest sustained period in history, which suggests that the current inversion is still a significant warning sign [Source 3].\n\n**Current Recession Probability:**\n\nThe current recession probability, according to various sources, is relatively high. However, it's essential to note that the yield curve is just one of many indicators used to predict recessions. Based on the historical data, the current inversion of the yield curve suggests that the probability of a recession within the next 12-24 months is relatively high.\n\nSources:\n\n[Source 1] - Centralbank.watch (2026)\n[Source 2] - Current Market Valuation (2026)\n[Source 3] - RecessionPulse (2026)\n[Source 4] - Eco3min.fr (2026)\n[Source 5] - Investopedia (2025)",
+  "latency": 18.358,
+  "token_count": 279,
+  "run_id": "run_20260527_175915",
+  "seed": 0,
+  "question_id": "Q15",
+  "category": "finance",
+  "difficulty": "medium",
+  "tier": "short",
+  "word_count": 279,
+  "status": "ok",
+  "accuracy": 7,
+  "completeness": 6,
+  "groundedness": 7,
+  "coherence": 7,
+  "reasoning": "The analysis provides evidence that inverted yield curves have preceded US recessions with high accuracy, but lacks detailed comparison of current 2s10s spread with prior inversion episodes, limiting depth of analysis.",
+  "overall": 6.7
+}

@@ -1,0 +1,23 @@
+{
+  "pipeline": "P2",
+  "framework": "langgraph",
+  "question": "Analyze the current state of global sovereign debt: which countries face the highest debt sustainability risks, what are the triggers for a sovereign debt crisis, and how do IMF interventions work?",
+  "rewritten_query": "Global sovereign debt crisis country risks IMF intervention strategies 2024",
+  "answer": "**Global Sovereign Debt Crisis: Countries at Risk and IMF Intervention Strategies**\n\nThe current state of global sovereign debt is a pressing concern, with public debt rising to historic levels and fiscal pressures intensifying. According to the International Monetary Fund (IMF), global public debt is approaching 100 percent of GDP, posing significant debt sustainability risks for many countries.\n\n**Countries at Risk of Debt Sustainability**\n\nSeveral countries are at high risk of debt sustainability, including:\n\n* Low-income countries: As of 2024, 15 per cent of low-income countries are in debt distress, while another 40 per cent are at high risk of being in debt distress [Source 1].\n* Countries with a high debt-to-GDP ratio: Countries with a debt-to-GDP ratio above 100 per cent, such as Ghana, are vulnerable to debt sustainability risks [Source 3].\n\n**Triggers for a Sovereign Debt Crisis**\n\nA sovereign debt crisis can be triggered by several factors, including:\n\n* Excessive borrowing: Rapid increases in borrowing can lead to a debt burden that is difficult to service [Source 2].\n* Macroeconomic instability: Economic shocks, such as pandemics or external shocks, can reduce economic activity and increase the risk of debt default [Source 4].\n* Lack of fiscal discipline: Inadequate fiscal policies, such as excessive spending or inadequate revenue collection, can contribute to debt sustainability risks [Source 3].\n\n**IMF Intervention Strategies**\n\nThe IMF plays a crucial role in addressing sovereign debt crises through its lending and policy advice. The IMF's intervention strategies include:\n\n* Lending programs: The IMF provides loans to countries facing debt sustainability risks, often in exchange for policy reforms aimed at improving debt management and reducing fiscal vulnerabilities [Source 2].\n* Debt restructuring: The IMF works with governments and creditors to restructure debt, reduce the debt burden, and improve debt sustainability [Source 1].\n* Policy advice: The IMF provides policy advice to governments on debt management, fiscal policy, and macroeconomic stability [Source 4].\n\n**Conclusion**\n\nThe global sovereign debt crisis is a pressing concern, with many countries at risk of debt sustainability. The IMF plays a crucial role in addressing these risks through its lending and policy advice. However, to avoid recurring IMF interventions, countries must undertake bold, structural reforms and strategic investments across their most critical sectors.\n\n**References**\n\n[Source 1] IMF (2024). Debt Restructurings are Improving but Need to Be Faster.\n\n[Source 2] IMF (2024). IMF warns of global public debt approaching 100 percent of GDP.\n\n[Source 3] APHA (2023). Expand International Debt Relief.\n\n[Source 4] The BFT Online (2025). Avoiding the 19th IMF bailout: A sector-by-sector blueprint for sustainable economic independence.\n\n[Source 5] World2Worlds (2024). Understanding Global Debt Dynamics: Risks and Opportunities.\n\n[Source 6] Global Issues (2024). A Bleak Future 50 Years after the New International Economic Order.\n\n[Source 7] Springer (2023). International demands for austerity: Examining the impact of IMF lending on economic policies.\n\n[Source 8] CounterPunch (2024). How Effective Is International Aid and Assistance?",
+  "latency": 19.764,
+  "token_count": 479,
+  "run_id": "run_20260527_175915",
+  "seed": 0,
+  "question_id": "Q19",
+  "category": "finance",
+  "difficulty": "hard",
+  "tier": "short",
+  "word_count": 479,
+  "status": "ok",
+  "accuracy": 8,
+  "completeness": 6,
+  "groundedness": 5,
+  "coherence": 8,
+  "reasoning": "Most information is based on general knowledge and not on deep analysis but IMF interventions and country lists are accurate",
+  "overall": 6.7
+}

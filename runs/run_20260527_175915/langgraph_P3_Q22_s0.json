@@ -1,0 +1,27 @@
+{
+  "pipeline": "P3",
+  "framework": "langgraph",
+  "question": "Compare active vs passive investing: the evidence on active manager performance after fees, the SPIVA report findings, and under what market conditions active management adds value.",
+  "sub_queries": [
+    "What are the overall performance trends of active managers compared to their benchmarks after fees?",
+    "What are the key findings from the SPIVA report regarding active vs passive investing?",
+    "Under what market conditions do active managers tend to outperform their passive counterparts?",
+    "What are the average fees associated with active management and how do they impact returns?"
+  ],
+  "answer": "**Active vs Passive Investing: A Comprehensive Evaluation**\n\nThe debate between active and passive investing has been ongoing for years, with each approach having its own set of advantages and disadvantages. The performance of active managers compared to their benchmarks after fees, the key findings from the SPIVA report, and the market conditions under which active management adds value are crucial aspects to consider when evaluating the effectiveness of each approach.\n\n**Overall Performance Trends of Active Managers**\n\nThe overall performance trends of active managers compared to their benchmarks after fees have been disappointing in recent years. According to Morningstar, US actively managed mutual funds and ETFs struggled to outperform their average passive peer in 2025, with only 38% of active strategies surviving and outperforming their benchmarks (Source 3: \"Active vs. Passive Fund Performance: When Do Active Managers Win?\"). Similarly, a report by ETFTrends noted that outperformance was elusive for active managers in 2025, with only 32% of active equity managers beating their benchmark, compared to 47% of active fixed income managers (Source 8: \"Outperformance Was Elusive For Active Managers in 2025\").\n\n**SPIVA Report Findings**\n\nThe SPIVA report, which analyzes the performance of active fund managers versus indexes, has pointed out that a vast majority of active fund managers struggle to outperform their respective benchmarks over the long term. The latest SPIVA report covering the past 20 years (through 2024) from S&P researchers highlighted that a vast majority of active fund managers failed to outperform indexes (Source 6: \"Active Fund Managers vs. Indexes: Analyzing SPIVA Scorecards\"). Similarly, a report by Betashares noted that it's impossible to know how many investors are influenced by the data presented by SPIVA over the last two decades, but what is unarguable is that active managers have struggled to outperform passive funds over the long term (Source 7: \"SPIVA Report: 21 Years of Data on Active vs Passive - Betashares\").\n\n**Market Conditions for Active Management to Add Value**\n\nActive managers tend to outperform passive counterparts in specific market conditions. According to Morningstar, active managers were more likely to beat their benchmarks in years with high market volatility and low correlations between asset classes (Source 5: \"Active vs. Passive Fund Performance: When Do Active Managers Win?\"). Active managers may also outperform in markets where there are significant changes in interest rates or where the underlying fundamentals of a company are mispriced. However, these opportunities are limited, and active managers need to be skilled and experienced to capitalize on them.\n\n**Conclusion**\n\nIn conclusion, the evidence suggests that active managers have struggled to outperform their benchmarks after fees in recent years. The SPIVA report findings confirm that a vast majority of active fund managers have failed to outperform indexes over the long term. While active managers may outperform in specific market conditions, these opportunities are limited, and investors need to be cautious when selecting an active manager. Passive investing, on the other hand, offers a cost-effective and efficient way to achieve long-term investment goals, making it an attractive option for many investors.\n\n**Sources:**\n\n1. \"Active vs. Passive Fund Performance: When Do Active Managers Win?\" (Morningstar, 2026)\n2. \"Outperformance Was Elusive For Active Managers in 2025\" (ETFTrends, 2026)\n3. \"Four key trends in the 2025 active-passive debate\" (SSGA, 2026)\n4. \"Active Management's Persistent Failure: A 2025 Perspective\" (WealthManagement, 2025)\n5. \"Active vs. Passive Fund Performance: When Do Active Managers Win?\" (Morningstar, 2026)\n6. \"Active Fund Managers vs. Indexes: Analyzing SPIVA Scorecards\" (S&P, 2025)\n7. \"SPIVA Report: 21 Years of Data on Active vs Passive - Betashares\" (Betashares, 2025)\n8. \"Outperformance Was Elusive For Active Managers in 2025\" (ETFTrends, 2026)",
+  "latency": 23.449,
+  "word_count": 598,
+  "run_id": "run_20260527_175915",
+  "seed": 0,
+  "question_id": "Q22",
+  "category": "finance",
+  "difficulty": "medium",
+  "tier": "short",
+  "status": "ok",
+  "accuracy": 8,
+  "completeness": 7,
+  "groundedness": 6,
+  "coherence": 9,
+  "reasoning": "The explanation is clear and provides specific data points, but some claims could be more rigorously supported and certain points are touched on lightly.",
+  "overall": 7.15
+}

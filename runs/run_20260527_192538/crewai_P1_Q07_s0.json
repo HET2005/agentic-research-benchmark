@@ -1,0 +1,13 @@
+{
+  "pipeline": "P1",
+  "framework": "crewai",
+  "question": "Compare renewable energy adoption rates and policies across Germany, China, and the United States. Which approach is most effective and why?",
+  "question_id": "Q07",
+  "answer": "",
+  "latency": 0,
+  "word_count": 0,
+  "run_id": "run_20260527_192538",
+  "seed": 0,
+  "status": "error",
+  "error": "get_shared_llm() got an unexpected keyword argument 'seed'"
+}

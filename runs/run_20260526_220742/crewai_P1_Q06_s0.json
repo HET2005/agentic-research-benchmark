@@ -1,0 +1,16 @@
+{
+  "pipeline": "P1",
+  "framework": "crewai",
+  "question": "Compare Python, Rust, and Go for backend web service development: performance, developer experience, ecosystem, and ideal use cases.",
+  "question_id": "Q06",
+  "answer": "",
+  "latency": 0,
+  "word_count": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "cost": 0.0,
+  "run_id": "run_20260526_220742",
+  "seed": 0,
+  "status": "error",
+  "error": "litellm.InternalServerError: AnthropicException - {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"insufficient balance (1008)\"},\"request_id\":\"0664ff77cb0941a3b67df61beea42aea\"}. Handle with `litellm.InternalServerError`."
+}

@@ -1,0 +1,16 @@
+{
+  "pipeline": "P1",
+  "framework": "crewai",
+  "question": "Compare Warren Buffett's value investing principles with quantitative approaches to value investing. Where do they agree, where do they diverge, and which has performed better in recent markets?",
+  "question_id": "Q17",
+  "answer": "",
+  "latency": 0,
+  "word_count": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "cost": 0.0,
+  "run_id": "run_20260526_220742",
+  "seed": 0,
+  "status": "error",
+  "error": "litellm.InternalServerError: AnthropicException - {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"insufficient balance (1008)\"},\"request_id\":\"0664ff7e252d473728b496e7635f6647\"}. Handle with `litellm.InternalServerError`."
+}

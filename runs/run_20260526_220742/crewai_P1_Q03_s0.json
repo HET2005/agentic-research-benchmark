@@ -1,0 +1,16 @@
+{
+  "pipeline": "P1",
+  "framework": "crewai",
+  "question": "Conduct a thorough analysis of the electric vehicle market globally. Discuss Tesla, BYD, legacy OEMs, adoption trends, infrastructure challenges, and a 5-year outlook.",
+  "question_id": "Q03",
+  "answer": "",
+  "latency": 0,
+  "word_count": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "cost": 0.0,
+  "run_id": "run_20260526_220742",
+  "seed": 0,
+  "status": "error",
+  "error": "litellm.InternalServerError: AnthropicException - {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"insufficient balance (1008)\"},\"request_id\":\"0664ff758ce53c480b398ad052d31d49\"}. Handle with `litellm.InternalServerError`."
+}

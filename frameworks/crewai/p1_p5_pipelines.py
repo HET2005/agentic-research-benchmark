@@ -4,9 +4,6 @@ frameworks/crewai/p2_query_rewrite.py        — P2 (Short)
 frameworks/crewai/p3_decompose_parallel.py   — P3 (Short)
 frameworks/crewai/p4_plan_retrieve_draft_cite.py — P4 (Medium)
 frameworks/crewai/p5_retrieve_draft_critique_revise.py — P5 (Medium)
-
-All in one file; each pipeline is a standalone function/module-level callable.
-Import individually or call run_p1(), run_p2(), etc.
 """
 import os
 import time
@@ -14,23 +11,14 @@ os.environ["OPENAI_API_KEY"] = os.environ.get("OPENAI_API_KEY", "sk-dummy-not-us
 os.environ["CREWAI_TRACING_ENABLED"] = "false"
 
 from crewai import Crew, Process
-from .base import WEB_TOOL, FINANCE_TOOL, make_agent, make_task, run_crew, Timer, get_llm, _mock_run
-_LLM = None  # lazy-load to avoid import errors when no API key
-
-
-def _llm():
-    global _LLM
-    if _LLM is None:
-        _LLM = get_llm()
-    return _LLM
-
+from .base import WEB_TOOL, FINANCE_TOOL, make_agent, make_task, run_crew, Timer, get_shared_llm, _mock_run
 
 # ══════════════════════════════════════════════════════════════════════════════
 # P1: Retrieve → Synthesize
 # ══════════════════════════════════════════════════════════════════════════════
 
 def run_p1(question: str, run_id: str = "default", seed: int = 0) -> dict:
-    llm = _llm()
+    llm = get_shared_llm(seed=seed)
     researcher = make_agent(
         role="Research Specialist",
         goal="Retrieve accurate, relevant information from the web to answer research questions.",
@@ -61,7 +49,7 @@ def run_p1(question: str, run_id: str = "default", seed: int = 0) -> dict:
     with Timer() as t:
         answer = run_crew(crew, {"question": question})
     return {"pipeline": "P1", "framework": "crewai", "question": question,
-            "answer": answer, "latency": t.elapsed, "token_count": len(answer.split()),
+            "answer": answer, "latency": t.elapsed, "word_count": len(answer.split()),
             "run_id": run_id, "seed": seed}
 
 
@@ -70,7 +58,7 @@ def run_p1(question: str, run_id: str = "default", seed: int = 0) -> dict:
 # ══════════════════════════════════════════════════════════════════════════════
 
 def run_p2(question: str, run_id: str = "default", seed: int = 0) -> dict:
-    llm = _llm()
+    llm = get_shared_llm(seed=seed)
     query_expert = make_agent(
         role="Search Query Optimisation Expert",
         goal="Rewrite research questions into optimal search queries that maximise recall.",
@@ -113,7 +101,7 @@ def run_p2(question: str, run_id: str = "default", seed: int = 0) -> dict:
     with Timer() as t:
         answer = run_crew(crew, {"question": question})
     return {"pipeline": "P2", "framework": "crewai", "question": question,
-            "answer": answer, "latency": t.elapsed, "token_count": len(answer.split()),
+            "answer": answer, "latency": t.elapsed, "word_count": len(answer.split()),
             "run_id": run_id, "seed": seed}
 
 
@@ -122,7 +110,7 @@ def run_p2(question: str, run_id: str = "default", seed: int = 0) -> dict:
 # ══════════════════════════════════════════════════════════════════════════════
 
 def run_p3(question: str, run_id: str = "default", seed: int = 0) -> dict:
-    llm = _llm()
+    llm = get_shared_llm(seed=seed)
     planner = make_agent(
         role="Research Planner",
         goal="Break complex research questions into focused, searchable sub-questions.",
@@ -165,7 +153,7 @@ def run_p3(question: str, run_id: str = "default", seed: int = 0) -> dict:
     with Timer() as t:
         answer = run_crew(crew, {"question": question})
     return {"pipeline": "P3", "framework": "crewai", "question": question,
-            "answer": answer, "latency": t.elapsed, "token_count": len(answer.split()),
+            "answer": answer, "latency": t.elapsed, "word_count": len(answer.split()),
             "run_id": run_id, "seed": seed}
 
 
@@ -174,7 +162,7 @@ def run_p3(question: str, run_id: str = "default", seed: int = 0) -> dict:
 # ══════════════════════════════════════════════════════════════════════════════
 
 def run_p4(question: str, run_id: str = "default", seed: int = 0) -> dict:
-    llm = _llm()
+    llm = get_shared_llm(seed=seed)
     planner = make_agent(
         role="Senior Research Analyst",
         goal="Create detailed research plans that ensure comprehensive, structured coverage.",
@@ -229,7 +217,7 @@ def run_p4(question: str, run_id: str = "default", seed: int = 0) -> dict:
     with Timer() as t:
         answer = run_crew(crew, {"question": question})
     return {"pipeline": "P4", "framework": "crewai", "question": question,
-            "answer": answer, "latency": t.elapsed, "token_count": len(answer.split()),
+            "answer": answer, "latency": t.elapsed, "word_count": len(answer.split()),
             "run_id": run_id, "seed": seed}
 
 
@@ -238,7 +226,7 @@ def run_p4(question: str, run_id: str = "default", seed: int = 0) -> dict:
 # ══════════════════════════════════════════════════════════════════════════════
 
 def run_p5(question: str, run_id: str = "default", seed: int = 0) -> dict:
-    llm = _llm()
+    llm = get_shared_llm(seed=seed)
     researcher = make_agent(
         role="Research Specialist",
         goal="Retrieve comprehensive, accurate information from the web.",
@@ -293,9 +281,8 @@ def run_p5(question: str, run_id: str = "default", seed: int = 0) -> dict:
     with Timer() as t:
         answer = run_crew(crew, {"question": question})
     return {"pipeline": "P5", "framework": "crewai", "question": question,
-            "answer": answer, "latency": t.elapsed, "token_count": len(answer.split()),
+            "answer": answer, "latency": t.elapsed, "word_count": len(answer.split()),
             "run_id": run_id, "seed": seed}
 
-
 # ── Aliases for clean import ──────────────────────────────────────────────────
-run = run_p1  # Default alias; import specific run_pN for each pipeline
+run = run_p1

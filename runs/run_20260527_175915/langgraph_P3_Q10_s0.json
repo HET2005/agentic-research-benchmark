@@ -1,0 +1,26 @@
+{
+  "pipeline": "P3",
+  "framework": "langgraph",
+  "question": "Synthesize research on RAG vs fine-tuning for domain-specific LLM applications. When is each preferable and what are the open questions?",
+  "sub_queries": [
+    "What are the key differences in parameter tuning and knowledge representation between RAG and fine-tuning for domain-specific LLM applications?",
+    "Under what circumstances does RAG tend to outperform fine-tuning, and vice versa, in terms of accuracy, adaptability, and transfer learning?",
+    "What are the current limitations and challenges associated with RAG versus fine-tuning in various domain-specific LLM applications?"
+  ],
+  "answer": "**Synthesis of Research on RAG vs Fine-Tuning for Domain-Specific LLM Applications**\n\n**Key Differences in Parameter Tuning and Knowledge Representation**\n\nRAG (Retrieval-Augmented Generation) and fine-tuning are two popular techniques for domain-specific LLM applications. The key differences between them lie in parameter tuning and knowledge representation:\n\n1. **Parameter Tuning**: RAG allows for flexible parameter tuning, as it can adapt to new data in real-time (DEV Community, \"RAG vs Fine-Tuning: Choosing the Right Approach for Building LLM-Powered Chatbots\" [1]). In contrast, fine-tuning requires significant computational resources and is often restricted to annotated datasets (Unstructured, \"RAG vs Fine-Tuning: Key Differences for AI Applications\" [2]).\n2. **Knowledge Representation**: RAG provides real-time data access and is ideal for applications with constantly changing information (DEV Community, \"RAG vs Fine-Tuning: Choosing the Right Approach for Building LLM-Powered Chatbots\" [1]). Fine-tuning relies on annotated datasets, which may not accurately reflect real-world information (Unstructured, \"RAG vs Fine-Tuning: Key Differences for AI Applications\" [2]).\n\n**When to Use RAG vs Fine-Tuning**\n\nThe choice between RAG and fine-tuning depends on the application's requirements:\n\n1. **RAG**:\n\t* Ideal for dynamic, multi-domain needs (DEV Community, \"RAG vs Fine-Tuning: Choosing the Right Approach for Building LLM-Powered Chatbots\" [1]).\n\t* Suitable for applications with constantly changing information (DEV Community, \"RAG vs Fine-Tuning: Choosing the Right Approach for Building LLM-Powered Chatbots\" [1]).\n\t* Can achieve high performance on specific tasks without extensive alignment (Mult-Objective Hyperparameter Optimization for LLM and RAG... [3]).\n2. **Fine-Tuning**:\n\t* Requires significant computational resources (Unstructured, \"RAG vs Fine-Tuning: Key Differences for AI Applications\" [2]).\n\t* Suitable for Named Entity Recognition and entity extraction in specific domains (Unstructured, \"RAG vs Fine-Tuning: Key Differences for AI Applications\" [2]).\n\t* Often matches full fine-tuning in accuracy across NLP tasks (Parameter Efficient Fine Tuning (PEFT) Techniques for Large Models [4]).\n\n**Open Questions**\n\n1. **Scalability**: RAG and fine-tuning have different scalability requirements, which can impact the choice of technique (Mult-Objective Hyperparameter Optimization for LLM and RAG... [3]).\n2. **Adaptability**: RAG is more adaptable to new data, but fine-tuning may require repeated training to maintain performance (Mult-Objective Hyperparameter Optimization for LLM and RAG... [3]).\n3. **Transfer Learning**: Fine-tuning may offer better transfer learning capabilities, but RAG can achieve high performance on specific tasks without extensive alignment (Mult-Objective Hyperparameter Optimization for LLM and RAG... [3]).\n\n**References**\n\n[1] DEV Community. (n.d.). RAG vs Fine-Tuning: Choosing the Right Approach for Building LLM-Powered Chatbots. Retrieved from <https://dev.to/techahead/rag-vs-fine-tuning-choosing-the-right-approach-for-building-llm-powered-chatbots-3m3m>\n\n[2] Unstructured. (n.d.). RAG vs Fine-Tuning: Key Differences for AI Applications. Retrieved from <https://unstructured.io/insights/rag-vs-fine-tuning-key-differences-for-ai-applications>\n\n[3] Mult-Objective Hyperparameter Optimization for LLM and RAG. (2025). A benefit of using RAG pipelines is that they can often achieve high performance on specific tasks without the need for extensive alignment and...\n\n[4] Parameter Efficient Fine Tuning (PEFT) Techniques for Large Models. (2025). Strong performance: Studies have found LoRA often matches full fine-tuning in accuracy across NLP tasks, and in some cases (especially with very...",
+  "latency": 24.633,
+  "word_count": 473,
+  "run_id": "run_20260527_175915",
+  "seed": 0,
+  "question_id": "Q10",
+  "category": "literature_synthesis",
+  "difficulty": "hard",
+  "tier": "short",
+  "status": "ok",
+  "accuracy": 8,
+  "completeness": 5,
+  "groundedness": 6,
+  "coherence": 9,
+  "reasoning": "The response fails to provide a comprehensive comparison of RAG and fine-tuning due to a 123-word short-fall from the required 600 words, but presents an understandable explanation of the key differences.",
+  "overall": 6.8
+}

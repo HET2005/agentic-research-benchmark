@@ -1,0 +1,23 @@
+{
+  "pipeline": "P2",
+  "framework": "langgraph",
+  "question": "Analyze the competitive landscape of the cloud computing market in 2024. Compare AWS, Azure, and GCP across market share, pricing, and key differentiators.",
+  "rewritten_query": "Cloud computing market share AWS Azure GCP comparison 2024",
+  "answer": "The competitive landscape of the cloud computing market in 2024 is dominated by three major players: Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP). According to recent estimates, these three cloud providers share approximately 67% of the market pie (Source: Holori.com, June 2024).\n\n**Market Share:**\n\n- AWS leads with 31% of the market share (Source: Holori.com, June 2024; Synergy Research Group, Q3 2025 report).\n- Microsoft Azure follows closely with 25% of the market share (Source: Holori.com, June 2024).\n- Google Cloud Platform (GCP) trails with 11% of the market share (Source: Svitla.com, August 2025).\n\n**Pricing:**\n\nPricing for AWS, Azure, and GCP varies depending on the service and the level of usage. However, here are some general observations:\n\n- AWS offers a range of pricing models, including pay-as-you-go, reserved instances, and spot instances. It also offers a free tier for many of its services (Source: AWS.com).\n- Azure offers a variety of pricing models, including pay-as-you-go, reserved instances, and subscriptions. It also offers a free tier for many of its services (Source: Azure.com).\n- GCP offers a range of pricing models, including pay-as-you-go, committed use discounts, and free tier. It also offers a free tier for many of its services (Source: GCP.com).\n\n**Key Differentiators:**\n\n- **AWS:**\n + Scalability and flexibility: AWS offers a wide range of services and features that make it highly scalable and flexible.\n + Wide range of services: AWS offers a wide range of services, including compute, storage, database, analytics, machine learning, and more.\n + Strong focus on enterprise customers: AWS has a strong focus on enterprise customers and offers a range of services and features that cater to their needs.\n + Large community and ecosystem: AWS has a large community and ecosystem of partners, developers, and users who contribute to its growth and success.\n \n- **Azure:**\n + Integration with Microsoft products: Azure integrates seamlessly with Microsoft products and services, making it a popular choice for enterprises that use Microsoft software.\n + Strong focus on hybrid cloud: Azure has a strong focus on hybrid cloud, allowing customers to deploy cloud applications and services both on-premises and in the cloud.\n + Cost-effective: Azure is often cost-effective compared to AWS, especially for enterprises with a strong Microsoft presence.\n \n- **GCP:**\n + Strong focus on AI and machine learning: GCP has a strong focus on AI and machine learning, offering a range of services and features that make it highly competitive in this space.\n + Integration with other Google platforms: GCP integrates seamlessly with other Google platforms, such as Google Drive, Google Docs, and Google Sheets.\n + Strong focus on simplicity and ease of use: GCP is known for its simplicity and ease of use, making it a popular choice for developers and startups.\n\nIn conclusion, the competitive landscape of the cloud computing market in 2024 is dominated by three major players: AWS, Azure, and GCP. Each cloud provider has its strengths and weaknesses, and the choice of which provider to use will depend on the specific needs and requirements of the customer.",
+  "latency": 21.968,
+  "token_count": 506,
+  "run_id": "run_20260526_160319",
+  "seed": 0,
+  "question_id": "Q01",
+  "category": "market_analysis",
+  "difficulty": "medium",
+  "tier": "short",
+  "status": "ok",
+  "accuracy": 8,
+  "completeness": 9,
+  "groundedness": 8,
+  "coherence": 9,
+  "reasoning": "The answer presents market share and pricing information, but some specific pricing details are not fully elaborated on and certain figures may vary depending on the source. The claims are generally supported by multiple sources, making it grounded, however, there might be minor discrepancies in numbers.",
+  "overall": 8.45,
+  "word_count": 506
+}

@@ -1,0 +1,16 @@
+{
+  "pipeline": "P1",
+  "framework": "crewai",
+  "question": "Synthesize research on RAG vs fine-tuning for domain-specific LLM applications. When is each preferable and what are the open questions?",
+  "question_id": "Q10",
+  "answer": "",
+  "latency": 0,
+  "word_count": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "cost": 0.0,
+  "run_id": "run_20260526_220742",
+  "seed": 0,
+  "status": "error",
+  "error": "litellm.InternalServerError: AnthropicException - {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"insufficient balance (1008)\"},\"request_id\":\"0664ff79a713593e5004d399e9c237a2\"}. Handle with `litellm.InternalServerError`."
+}

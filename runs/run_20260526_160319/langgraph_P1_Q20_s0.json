@@ -1,0 +1,22 @@
+{
+  "pipeline": "P1",
+  "framework": "langgraph",
+  "question": "What is risk parity portfolio construction? Explain how Bridgewater's All Weather portfolio works, its performance in different macro regimes, and its limitations during inflationary periods.",
+  "answer": "**Risk Parity Portfolio Construction:**\n\nRisk parity, also known as risk premia parity, is an approach to investment management that focuses on the allocation of risk, usually defined as volatility, rather than the allocation of capital [1]. This approach is designed to optimize portfolio allocation by targeting a specific level of risk across different asset classes, rather than maximizing returns. By allocating equal amounts of risk to each asset class, risk parity aims to achieve a more stable and consistent portfolio performance.\n\n**Bridgewater's All Weather Portfolio:**\n\nBridgewater Associates, a renowned hedge fund, pioneered the risk parity approach and developed the All Weather portfolio, which is a risk-parity-based strategy designed to perform well across various economic regimes [2]. The All Weather portfolio is constructed using four economic regimes:\n\n1.  Growth: A booming economy with low unemployment and rising inflation.\n2.  Recession: A stagnant economy with high unemployment and low inflation.\n3.  Inflation: A rising economy with high inflation and low unemployment.\n4.  Deflation: A falling economy with low inflation and high unemployment.\n\nThe All Weather portfolio allocates risk across these four regimes, aiming to provide stable returns in any market cycle. The portfolio typically consists of four asset classes: stocks, bonds, commodities, and currencies.\n\n**Performance in Different Macro Regimes:**\n\nThe All Weather portfolio has demonstrated strong performance across various economic regimes. According to a study by Navnoor Raghunath, the All Weather portfolio returned +15.3% over the first three-quarters of 2025, outperforming the S&P 500 returns [2]. In recessionary periods, the portfolio's diversified risk allocation helps to mitigate losses, as it allocates a portion of the risk to lower-risk assets. In inflationary periods, the portfolio's commodities and currencies allocation helps to offset the effects of inflation.\n\n**Limitations During Inflationary Periods:**\n\nWhile the All Weather portfolio has shown strong performance across different economic regimes, it may face limitations during inflationary periods [3]. Inflation can erode the purchasing power of bonds, which can negatively impact the portfolio's returns. Additionally, commodities and currencies may also be affected by inflation, as rising costs can reduce their real returns. However, the All Weather portfolio's diversified risk allocation can help to mitigate these effects by allocating a portion of the risk to lower-risk assets, such as bonds.\n\n**Conclusion:**\n\nRisk parity portfolio construction, as exemplified by Bridgewater's All Weather portfolio, is a valuable approach to investment management. By targeting a specific level of risk across different asset classes, risk parity aims to achieve stable and consistent portfolio performance. While the All Weather portfolio has demonstrated strong performance across various economic regimes, it may face limitations during inflationary periods. Nevertheless, its diversified risk allocation remains a key strength, helping to mitigate losses in times of economic uncertainty.\n\n**References:**\n\n[1] Risk parity - Wikipedia. Retrieved May 26, 2026, from <https://en.wikipedia.org/wiki/Risk_parity>\n\n[2] Bridgewater's Alpha-Beta Framework: How Risk Parity and Risk Premia Parity Came to Be. Retrieved May 26, 2026, from <https://navnoorbawa.substack.com/p/bridgewaters-alpha-beta-framework>\n\n[3] The all-weather portfolio: Ray Dalio's risk-balanced approach to investment. Retrieved May 26, 2026, from <https://www.pfolio.io/academy/all-weather-portfolio>",
+  "latency": 17.958,
+  "token_count": 494,
+  "run_id": "run_20260526_160319",
+  "seed": 0,
+  "question_id": "Q20",
+  "category": "finance",
+  "difficulty": "medium",
+  "tier": "short",
+  "status": "ok",
+  "accuracy": 6,
+  "completeness": 5,
+  "groundedness": 4,
+  "coherence": 5,
+  "reasoning": "Some claims are made without solid evidence, explanation lacks clarity and conciseness and there is room for improvement in providing more details about required topics",
+  "overall": 5.2,
+  "word_count": 494
+}

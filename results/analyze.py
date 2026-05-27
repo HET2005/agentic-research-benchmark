@@ -34,8 +34,8 @@ def load_results(run_id: str) -> list:
 def to_csv(results: list, out_path: Path):
     import csv
     fields = ["framework", "pipeline", "question_id", "category", "difficulty",
-              "tier", "seed", "latency", "word_count", "accuracy", "completeness",
-              "groundedness", "coherence", "overall", "status"]
+              "tier", "seed", "latency", "word_count", "input_tokens", "output_tokens", 
+              "cost", "accuracy", "completeness", "groundedness", "coherence", "overall", "status"]
     with open(out_path, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
         w.writeheader()
@@ -55,8 +55,8 @@ def print_summary_table(results: list):
             error_groups[key] += 1
 
     print(f"\n{'Framework':<12} {'Pipeline':<8} {'N':>4} {'Overall':>8} "
-          f"{'Latency':>9} {'Words':>7} {'Errors':>7} {'ErrRate':>8}")
-    print("-" * 70)
+          f"{'Latency':>9} {'Words':>7} {'Cost($)':>8} {'Errors':>7} {'ErrRate':>8}")
+    print("-" * 80)
 
     for (fw, pid) in sorted(groups.keys()):
         recs = groups[(fw, pid)]
@@ -66,9 +66,10 @@ def print_summary_table(results: list):
         avg_score = sum(r.get("overall", 0) for r in recs) / n if n else 0
         avg_lat = sum(r.get("latency", 0) for r in recs) / n if n else 0
         avg_words = sum(r.get("word_count", 0) for r in recs) / n if n else 0
+        avg_cost = sum(r.get("cost", 0) for r in recs) / n if n else 0
         err_rate = errs / total if total else 0
         print(f"{fw:<12} {pid:<8} {n:>4} {avg_score:>8.2f} "
-              f"{avg_lat:>8.1f}s {avg_words:>7.0f} {errs:>7} {err_rate:>7.1%}")
+              f"{avg_lat:>8.1f}s {avg_words:>7.0f} {avg_cost:>8.4f} {errs:>7} {err_rate:>7.1%}")
 
 
 def print_question_table(results: list):

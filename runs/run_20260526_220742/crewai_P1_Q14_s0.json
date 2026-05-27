@@ -1,0 +1,16 @@
+{
+  "pipeline": "P1",
+  "framework": "crewai",
+  "question": "Analyze NVIDIA's current valuation using DCF analysis. What revenue growth rates, margins, and discount rates are implied by its current market cap? Is the AI premium justified?",
+  "question_id": "Q14",
+  "answer": "",
+  "latency": 0,
+  "word_count": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "cost": 0.0,
+  "run_id": "run_20260526_220742",
+  "seed": 0,
+  "status": "error",
+  "error": "litellm.InternalServerError: AnthropicException - {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"insufficient balance (1008)\"},\"request_id\":\"0664ff7c1eb321c1ee8b4a5f4eea00b9\"}. Handle with `litellm.InternalServerError`."
+}

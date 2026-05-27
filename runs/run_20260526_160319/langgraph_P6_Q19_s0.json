@@ -1,0 +1,17 @@
+{
+  "pipeline": "P6",
+  "framework": "langgraph",
+  "question": "Analyze the current state of global sovereign debt: which countries face the highest debt sustainability risks, what are the triggers for a sovereign debt crisis, and how do IMF interventions work?",
+  "verification_report": "[NO_API_KEY] No working provider found.",
+  "answer": "[NO_API_KEY] No working provider found.",
+  "latency": 13.668,
+  "token_count": 5,
+  "run_id": "run_20260526_160319",
+  "seed": 0,
+  "question_id": "Q19",
+  "category": "finance",
+  "difficulty": "hard",
+  "tier": "medium",
+  "status": "error",
+  "error": "[NO_API_KEY] No working provider found."
+}

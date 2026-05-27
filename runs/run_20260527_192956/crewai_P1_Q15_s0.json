@@ -1,0 +1,22 @@
+{
+  "pipeline": "P1",
+  "framework": "crewai",
+  "question": "What is the current yield curve shape in the US, and what does it historically signal about recession probability? Compare the 2s10s spread today vs prior inversion episodes.",
+  "answer": "[CREWAI MOCK - API error] litellm.BadRequestError: GroqException - {\"error\":{\"message\":\"'messages.0' : for 'role:system' the following must be satisfied[('messages.0' : property 'cache_breakpoint' is unsupported)]\",\"type\":\"invalid_request_error\"}}\n",
+  "latency": 0.101,
+  "word_count": 22,
+  "run_id": "run_20260527_192956",
+  "seed": 0,
+  "question_id": "Q15",
+  "category": "finance",
+  "difficulty": "medium",
+  "tier": "short",
+  "status": "error",
+  "error": "[CREWAI MOCK - API error] litellm.BadRequestError: GroqException - {\"error\":{\"message\":\"'messages.0' : for 'role:system' the following must be satisfied[('messages.0' : property 'cache_breakpoint' is ",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

@@ -1,0 +1,13 @@
+{
+  "pipeline": "P4",
+  "framework": "crewai",
+  "question": "Analyze the global AI regulation landscape in 2024: EU AI Act, US Executive Order on AI, China regulations, and implications for AI companies.",
+  "question_id": "Q09",
+  "answer": "",
+  "latency": 0,
+  "word_count": 0,
+  "run_id": "run_20260527_192538",
+  "seed": 0,
+  "status": "error",
+  "error": "get_shared_llm() got an unexpected keyword argument 'seed'"
+}

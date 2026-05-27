@@ -1,0 +1,16 @@
+{
+  "pipeline": "P1",
+  "framework": "crewai",
+  "question": "Explain options pricing using Black-Scholes: the key assumptions, the Greeks (delta, gamma, theta, vega), and how traders use them for hedging and speculation. What are the model's limitations?",
+  "question_id": "Q18",
+  "answer": "",
+  "latency": 0,
+  "word_count": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "cost": 0.0,
+  "run_id": "run_20260526_220742",
+  "seed": 0,
+  "status": "error",
+  "error": "litellm.InternalServerError: AnthropicException - {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"insufficient balance (1008)\"},\"request_id\":\"0664ff7e6d6f4bd2d03ecfff76003a43\"}. Handle with `litellm.InternalServerError`."
+}

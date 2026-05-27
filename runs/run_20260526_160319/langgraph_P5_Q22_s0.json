@@ -1,0 +1,18 @@
+{
+  "pipeline": "P5",
+  "framework": "langgraph",
+  "question": "Compare active vs passive investing: the evidence on active manager performance after fees, the SPIVA report findings, and under what market conditions active management adds value.",
+  "draft": "[NO_API_KEY] No working provider found.",
+  "critique": "**Accuracy: 8/10**\n\nThe draft appears to be well-researched, but I found some potential inaccuracies:\n\n1. The SPIVA report findings are mentioned, but it would be helpful to specify which SPIVA report series is being referred to (e.g., US, Europe, or Asia). This would ensure that the findings are applicable to the intended audience.\n2. The statement \"under what market conditions active management adds value\" is too vague. To improve accuracy, consider specifying the types of market conditions (e.g., bull, bear, or stable markets) where active management is more likely to outperform passive investing.\n3. I couldn't verify the significance of the \"NO_API_KEY\" section at the end, which seems unrelated to the content. Please remove or provide context for this portion.\n\n**Completeness: 7.5/10**\n\nThe draft covers the comparison between active and passive investing, mentioning the evidence on active manager performance after fees and the SPIVA report findings. However, it lacks discussion on:\n\n1. Additional data points supporting the comparison (e.g., studies on active vs. passive returns in different asset classes).\n2. The role of taxes in the performance difference between active and passive investing.\n3. How to choose between active and passive investment strategies based on personal financial goals and risk tolerance.\n\n**Coherence: 8.5/10**\n\nThe draft is well-organized, and the structure makes sense. However, to improve coherence, consider the following suggestions:\n\n1. Introduce the SPIVA report findings after discussing the overall evidence on active manager performance after fees. This would help to provide context for the SPIVA report's significance.\n2. Consider breaking up the content into clear sections (e.g., Overview, Evidence on Active Manager Performance, SPIVA Report Findings, and Market Conditions for Active Management). This would enhance the readability of the draft.\n3. Provide concrete examples or anecdotes to illustrate the points being made.\n\n**Groundedness: 9/10**\n\nThe draft is well-supported with references to credible sources (e.g., SPIVA report). However, I couldn't verify the credibility of the studies mentioned in the evidence section. To improve groundedness:\n\n1. Provide more specific citations or references to the studies mentioned.\n2. Include more expert opinions or quotes from reputable sources (e.g., academics, fund managers) to add depth to the content.",
+  "answer": "[NO_API_KEY] No working provider found.",
+  "latency": 66.005,
+  "token_count": 5,
+  "run_id": "run_20260526_160319",
+  "seed": 0,
+  "question_id": "Q22",
+  "category": "finance",
+  "difficulty": "medium",
+  "tier": "medium",
+  "status": "error",
+  "error": "[NO_API_KEY] No working provider found."
+}

@@ -8,23 +8,14 @@ os.environ["OPENAI_API_KEY"] = os.environ.get("OPENAI_API_KEY", "sk-dummy-not-us
 os.environ["CREWAI_TRACING_ENABLED"] = "false"
 
 from crewai import Crew, Process
-from .base import WEB_TOOL, FINANCE_TOOL, make_agent, make_task, run_crew, Timer, get_llm, _mock_run
-_LLM = None
-
-
-def _llm():
-    global _LLM
-    if _LLM is None:
-        _LLM = get_llm()
-    return _LLM
-
+from .base import WEB_TOOL, FINANCE_TOOL, make_agent, make_task, run_crew, Timer, get_shared_llm, _mock_run
 
 # ══════════════════════════════════════════════════════════════════════════════
 # P6: Multi-source Retrieve → Cross-verify → Synthesize
 # ══════════════════════════════════════════════════════════════════════════════
 
 def run_p6(question: str, run_id: str = "default", seed: int = 0) -> dict:
-    llm = _llm()
+    llm = get_shared_llm(seed=seed)
     web_researcher = make_agent(
         role="Web Research Analyst",
         goal="Retrieve comprehensive web-based information on research topics.",
@@ -80,7 +71,7 @@ def run_p6(question: str, run_id: str = "default", seed: int = 0) -> dict:
     with Timer() as t:
         answer = run_crew(crew, {"question": question})
     return {"pipeline": "P6", "framework": "crewai", "question": question,
-            "answer": answer, "latency": t.elapsed, "token_count": len(answer.split()),
+            "answer": answer, "latency": t.elapsed, "word_count": len(answer.split()),
             "run_id": run_id, "seed": seed}
 
 
@@ -89,7 +80,7 @@ def run_p6(question: str, run_id: str = "default", seed: int = 0) -> dict:
 # ══════════════════════════════════════════════════════════════════════════════
 
 def run_p7(question: str, run_id: str = "default", seed: int = 0) -> dict:
-    llm = _llm()
+    llm = get_shared_llm(seed=seed)
     scientist = make_agent(
         role="Research Scientist",
         goal="Formulate clear, testable hypotheses for research questions.",
@@ -157,7 +148,7 @@ def run_p7(question: str, run_id: str = "default", seed: int = 0) -> dict:
     with Timer() as t:
         answer = run_crew(crew, {"question": question})
     return {"pipeline": "P7", "framework": "crewai", "question": question,
-            "answer": answer, "latency": t.elapsed, "token_count": len(answer.split()),
+            "answer": answer, "latency": t.elapsed, "word_count": len(answer.split()),
             "run_id": run_id, "seed": seed}
 
 
@@ -166,7 +157,7 @@ def run_p7(question: str, run_id: str = "default", seed: int = 0) -> dict:
 # ══════════════════════════════════════════════════════════════════════════════
 
 def run_p8(question: str, run_id: str = "default", seed: int = 0) -> dict:
-    llm = _llm()
+    llm = get_shared_llm(seed=seed)
     editor = make_agent(
         role="Senior Research Editor",
         goal="Create detailed document outlines that ensure comprehensive, structured research coverage.",
@@ -246,7 +237,7 @@ def run_p8(question: str, run_id: str = "default", seed: int = 0) -> dict:
     with Timer() as t:
         answer = run_crew(crew, {"question": question})
     return {"pipeline": "P8", "framework": "crewai", "question": question,
-            "answer": answer, "latency": t.elapsed, "token_count": len(answer.split()),
+            "answer": answer, "latency": t.elapsed, "word_count": len(answer.split()),
             "run_id": run_id, "seed": seed}
 
 
@@ -255,7 +246,7 @@ def run_p8(question: str, run_id: str = "default", seed: int = 0) -> dict:
 # ══════════════════════════════════════════════════════════════════════════════
 
 def run_p9(question: str, run_id: str = "default", seed: int = 0) -> dict:
-    llm = _llm()
+    llm = get_shared_llm(seed=seed)
     planner = make_agent(
         role="Research Strategist",
         goal="Decompose complex research questions into focused sub-questions for comprehensive coverage.",
@@ -347,7 +338,7 @@ def run_p9(question: str, run_id: str = "default", seed: int = 0) -> dict:
     with Timer() as t:
         answer = run_crew(crew, {"question": question})
     return {"pipeline": "P9", "framework": "crewai", "question": question,
-            "answer": answer, "latency": t.elapsed, "token_count": len(answer.split()),
+            "answer": answer, "latency": t.elapsed, "word_count": len(answer.split()),
             "run_id": run_id, "seed": seed}
 
 
@@ -356,7 +347,7 @@ def run_p9(question: str, run_id: str = "default", seed: int = 0) -> dict:
 # ══════════════════════════════════════════════════════════════════════════════
 
 def run_p10(question: str, run_id: str = "default", seed: int = 0) -> dict:
-    llm = _llm()
+    llm = get_shared_llm(seed=seed)
     lit_reviewer = make_agent(
         role="Literature Review Specialist",
         goal="Conduct comprehensive literature and web scans on research topics.",
@@ -456,5 +447,5 @@ def run_p10(question: str, run_id: str = "default", seed: int = 0) -> dict:
     with Timer() as t:
         answer = run_crew(crew, {"question": question})
     return {"pipeline": "P10", "framework": "crewai", "question": question,
-            "answer": answer, "latency": t.elapsed, "token_count": len(answer.split()),
+            "answer": answer, "latency": t.elapsed, "word_count": len(answer.split()),
             "run_id": run_id, "seed": seed}

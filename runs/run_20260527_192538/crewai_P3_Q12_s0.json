@@ -1,0 +1,13 @@
+{
+  "pipeline": "P3",
+  "framework": "crewai",
+  "question": "Compare the risk-adjusted returns of factor investing strategies (value, momentum, quality, low volatility) over the past decade. Which factors have experienced crowding, and how does factor timing work?",
+  "question_id": "Q12",
+  "answer": "",
+  "latency": 0,
+  "word_count": 0,
+  "run_id": "run_20260527_192538",
+  "seed": 0,
+  "status": "error",
+  "error": "get_shared_llm() got an unexpected keyword argument 'seed'"
+}

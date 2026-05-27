@@ -1,0 +1,13 @@
+{
+  "pipeline": "P1",
+  "framework": "autogen",
+  "question": "Compare the risk-adjusted returns of factor investing strategies (value, momentum, quality, low volatility) over the past decade. Which factors have experienced crowding, and how does factor timing work?",
+  "question_id": "Q12",
+  "answer": "",
+  "latency": 0,
+  "word_count": 0,
+  "run_id": "run_20260527_194046",
+  "seed": 0,
+  "status": "error",
+  "error": "Groq exception occurred: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01ks56dmgzfasa7anm7rtv3xth` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 498854, Requested 1608. Please try again in 1m19.8336s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+}

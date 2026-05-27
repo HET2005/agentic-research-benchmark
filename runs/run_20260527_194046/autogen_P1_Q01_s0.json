@@ -1,0 +1,21 @@
+{
+  "pipeline": "P1",
+  "framework": "autogen",
+  "question": "Analyze the competitive landscape of the cloud computing market in 2024. Compare AWS, Azure, and GCP across market share, pricing, and key differentiators.",
+  "answer": "**Competitive Landscape of the Cloud Computing Market in 2024: A Comparison of AWS, Azure, and GCP**\n\nThe cloud computing market in 2024 continues to be dominated by the three major players: Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP). This analysis will compare these cloud providers across market share, pricing, and key differentiators.\n\n**Market Share**\n\nAccording to a report by Holori, among the hyperscalers, Amazon Web Services (AWS) maintains a strong lead with a 30% global market share, followed by Microsoft Azure at 20%, and Google Cloud Platform (GCP) at 15% (Holori, 2025). However, GCP is the fastest-growing cloud provider, with a 54% market share (BMC, 2024).\n\n| Cloud Provider | Market Share (%) |\n| --- | --- |\n| AWS | 30% |\n| Azure | 20% |\n| GCP | 15% |\n\n**Pricing**\n\nPricing is an essential factor in the cloud computing market, and each provider has its own pricing model. AWS is known for its pay-as-you-go pricing model, which allows customers to only pay for the resources they use (AWS, 2024). Azure offers a similar pay-as-you-go model, with additional pricing options for reserved instances and spot instances (Azure, 2024). GCP also offers a pay-as-you-go model, with additional pricing options for committed usage and sustained usage discounts (GCP, 2024).\n\n| Cloud Provider | Pricing Model |\n| --- | --- |\n| AWS | Pay-as-you-go |\n| Azure | Pay-as-you-go, reserved instances, spot instances |\n| GCP | Pay-as-you-go, committed usage, sustained usage discounts |\n\n**Key Differentiators**\n\nEach cloud provider has its own set of key differentiators that set it apart from the competition.\n\n* **AWS**: AWS has a massive scale, with a wide range of services and features, including machine learning, artificial intelligence, and container orchestration (AWS, 2024).\n* **Azure**: Azure has a strong focus on hybrid cloud, with a wide range of services and features that allow customers to integrate their on-premises infrastructure with the cloud (Azure, 2024).\n* **GCP**: GCP has a strong focus on artificial intelligence and machine learning, with a wide range of services and features that allow customers to build and deploy AI and ML models (GCP, 2024).\n\n| Cloud Provider | Key Differentiator |\n| --- | --- |\n| AWS | Massive scale, machine learning, artificial intelligence |\n| Azure | Hybrid cloud, on-premises integration |\n| GCP | Artificial intelligence, machine learning |\n\n**Conclusion**\n\nIn conclusion, the cloud computing market in 2024 is dominated by the three major players: AWS, Azure, and GCP. Each provider has its own strengths and weaknesses, and customers must carefully evaluate their options before making a decision. By understanding the market share, pricing, and key differentiators of each provider, customers can make informed decisions that meet their specific needs.\n\n**References**\n\n* AWS (2024). Pricing. Retrieved from <https://aws.amazon.com/pricing/>\n* Azure (2024). Pricing. Retrieved from <https://azure.microsoft.com/en-us/pricing/>\n* GCP (2024). Pricing. Retrieved from <https://cloud.google.com/pricing/>\n* BMC (2024). AWS vs Azure vs Google Cloud Platforms. Retrieved from <https://www.bmc.com/blogs/aws-vs-azure-vs-google-cloud-platforms/>\n* Holori (2025). Cloud Market share 2026: Top cloud providers and trends. Retrieved from <https://holori.com/cloud-market-share-2026-top-cloud-vendors-in-2026/>",
+  "latency": 12.356,
+  "word_count": 509,
+  "run_id": "run_20260527_194046",
+  "seed": 0,
+  "question_id": "Q01",
+  "category": "market_analysis",
+  "difficulty": "medium",
+  "tier": "short",
+  "status": "ok",
+  "accuracy": 7,
+  "completeness": 8,
+  "groundedness": 6,
+  "coherence": 9,
+  "reasoning": "The answer accurately reports on market share and pricing models of AWS, Azure, and GCP, but lacks specific data on key differentiators, and relies on a vague market growth claim by a source (BMC, 2024), which is not explicitly stated as an absolute market share.",
+  "overall": 7.35
+}

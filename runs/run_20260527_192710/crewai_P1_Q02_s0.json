@@ -1,0 +1,22 @@
+{
+  "pipeline": "P1",
+  "framework": "crewai",
+  "question": "What has been the recent stock performance of NVIDIA (NVDA) and what factors are driving its valuation?",
+  "answer": "[CREWAI MOCK - API error] litellm.BadRequestError: GroqException - {\"error\":{\"message\":\"'messages.0' : for 'role:system' the following must be satisfied[('messages.0' : property 'cache_breakpoint' is unsupported)]\",\"type\":\"invalid_request_error\"}}\n",
+  "latency": 0.105,
+  "word_count": 22,
+  "run_id": "run_20260527_192710",
+  "seed": 0,
+  "question_id": "Q02",
+  "category": "market_analysis",
+  "difficulty": "easy",
+  "tier": "short",
+  "status": "error",
+  "error": "[CREWAI MOCK - API error] litellm.BadRequestError: GroqException - {\"error\":{\"message\":\"'messages.0' : for 'role:system' the following must be satisfied[('messages.0' : property 'cache_breakpoint' is ",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

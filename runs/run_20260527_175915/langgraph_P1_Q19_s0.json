@@ -1,0 +1,22 @@
+{
+  "pipeline": "P1",
+  "framework": "langgraph",
+  "question": "Analyze the current state of global sovereign debt: which countries face the highest debt sustainability risks, what are the triggers for a sovereign debt crisis, and how do IMF interventions work?",
+  "answer": "**The Current State of Global Sovereign Debt: An Analysis**\n\nThe current global sovereign debt landscape is characterized by rising debt levels, increasing debt-to-GDP ratios, and heightened debt sustainability risks for several countries. This analysis will identify the countries facing the highest debt sustainability risks, discuss the triggers for a sovereign debt crisis, and explore how the International Monetary Fund (IMF) interventions work.\n\n**Countries with the Highest Debt Sustainability Risks**\n\nAccording to a World Population Review analysis in 2026 [1], the countries with the highest national debt are:\n\n1.  **Japan**: 274.3% of GDP\n2.  **United States**: 133.8% of GDP\n3.  **Japan's neighbor, China**: 65.6% of GDP\n4.  **Italy**: 154.6% of GDP\n5.  **Greece**: 197.5% of GDP\n6.  **Portugal**: 123.4% of GDP\n7.  **Ecuador**: 63.2% of GDP\n8.  **Madagascar**: 53.4% of GDP\n9.  **Nigeria**: 34.4% of GDP\n10. **Zambia**: 83.8% of GDP\n\nThese countries are facing significant debt sustainability risks due to high debt-to-GDP ratios, large fiscal deficits, and limited financial buffers. The IMF has warned that these countries need to address their debt levels and implement fiscal consolidation measures to avoid a sovereign debt crisis.\n\n**Triggers for a Sovereign Debt Crisis**\n\nA sovereign debt crisis can be triggered by several factors, including:\n\n1.  **High debt-to-GDP ratios**: Countries with high debt levels relative to their GDP are more vulnerable to a debt crisis.\n2.  **Large fiscal deficits**: Repeated large fiscal deficits can lead to increased debt levels, reducing a country's ability to repay its creditors.\n3.  **External shocks**: External shocks, such as a global economic downturn or a sharp decline in commodity prices, can exacerbate debt servicing difficulties.\n4.  **Liquidity crises**: A liquidity crisis can occur when a country faces difficulty rolling over its debt obligations or accessing new credit.\n\n**IMF Interventions: How They Work**\n\nThe IMF provides financial assistance to countries facing economic difficulties, including sovereign debt crises. The IMF's interventions can take several forms, including:\n\n1.  **Loans**: The IMF provides loans to countries to help them address their fiscal and debt sustainability challenges.\n2.  **Programs**: The IMF works with countries to develop and implement economic programs aimed at restoring fiscal sustainability and improving debt management.\n3.  **Technical assistance**: The IMF provides technical assistance to countries to help them improve their economic management, including debt management and fiscal policy.\n\nIMF interventions aim to promote economic stability, improve debt sustainability, and reduce the risk of a sovereign debt crisis. However, these interventions also come with conditionality, which can limit a country's policy space and lead to social and political tensions.\n\nIn conclusion, the current state of global sovereign debt is characterized by rising debt levels, increasing debt-to-GDP ratios, and heightened debt sustainability risks for several countries. The IMF provides financial assistance and technical support to countries facing economic difficulties, including sovereign debt crises. To mitigate debt sustainability risks, countries need to address their high debt levels, implement fiscal consolidation measures, and improve their economic management.\n\nSources:\n[1] World Population Review, \"Countries by National Debt 2026\"",
+  "latency": 15.745,
+  "token_count": 493,
+  "run_id": "run_20260527_175915",
+  "seed": 0,
+  "question_id": "Q19",
+  "category": "finance",
+  "difficulty": "hard",
+  "tier": "short",
+  "word_count": 493,
+  "status": "ok",
+  "accuracy": 6,
+  "completeness": 7,
+  "groundedness": 6,
+  "coherence": 9,
+  "reasoning": "The analysis provides a reasonable explanation of the current global sovereign debt landscape, but lacks depth in debt sustainability analysis and IMF interventions, and makes some unsupported claims.",
+  "overall": 6.65
+}

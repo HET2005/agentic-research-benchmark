@@ -1,0 +1,17 @@
+{
+  "pipeline": "P6",
+  "framework": "langgraph",
+  "question": "Explain options pricing using Black-Scholes: the key assumptions, the Greeks (delta, gamma, theta, vega), and how traders use them for hedging and speculation. What are the model's limitations?",
+  "verification_report": "[NO_API_KEY] No working provider found.",
+  "answer": "[NO_API_KEY] No working provider found.",
+  "latency": 20.237,
+  "token_count": 5,
+  "run_id": "run_20260526_160319",
+  "seed": 0,
+  "question_id": "Q18",
+  "category": "finance",
+  "difficulty": "hard",
+  "tier": "medium",
+  "status": "error",
+  "error": "[NO_API_KEY] No working provider found."
+}

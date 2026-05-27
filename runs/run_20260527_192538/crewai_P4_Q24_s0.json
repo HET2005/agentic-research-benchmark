@@ -1,0 +1,13 @@
+{
+  "pipeline": "P4",
+  "framework": "crewai",
+  "question": "Analyze merger arbitrage as an investment strategy: how deals are priced, what risks cause spreads to widen, historical returns, and how regulatory risk has changed the strategy in the current antitrust environment.",
+  "question_id": "Q24",
+  "answer": "",
+  "latency": 0,
+  "word_count": 0,
+  "run_id": "run_20260527_192538",
+  "seed": 0,
+  "status": "error",
+  "error": "get_shared_llm() got an unexpected keyword argument 'seed'"
+}

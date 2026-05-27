@@ -1,0 +1,17 @@
+{
+  "pipeline": "P6",
+  "framework": "langgraph",
+  "question": "Analyze NVIDIA's current valuation using DCF analysis. What revenue growth rates, margins, and discount rates are implied by its current market cap? Is the AI premium justified?",
+  "verification_report": "[NO_API_KEY] No working provider found.",
+  "answer": "[NO_API_KEY] No working provider found.",
+  "latency": 15.149,
+  "token_count": 5,
+  "run_id": "run_20260526_160319",
+  "seed": 0,
+  "question_id": "Q14",
+  "category": "finance",
+  "difficulty": "hard",
+  "tier": "medium",
+  "status": "error",
+  "error": "[NO_API_KEY] No working provider found."
+}

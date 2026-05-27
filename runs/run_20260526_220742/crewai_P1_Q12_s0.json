@@ -1,0 +1,16 @@
+{
+  "pipeline": "P1",
+  "framework": "crewai",
+  "question": "Compare the risk-adjusted returns of factor investing strategies (value, momentum, quality, low volatility) over the past decade. Which factors have experienced crowding, and how does factor timing work?",
+  "question_id": "Q12",
+  "answer": "",
+  "latency": 0,
+  "word_count": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "cost": 0.0,
+  "run_id": "run_20260526_220742",
+  "seed": 0,
+  "status": "error",
+  "error": "litellm.InternalServerError: AnthropicException - {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"insufficient balance (1008)\"},\"request_id\":\"0664ff7b5904e2d40061309a3b6d60f0\"}. Handle with `litellm.InternalServerError`."
+}

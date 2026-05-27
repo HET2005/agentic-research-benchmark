@@ -1,0 +1,18 @@
+{
+  "pipeline": "P5",
+  "framework": "langgraph",
+  "question": "What is the current state of the Indian equity market (NSE/BSE)? Analyze valuations (Nifty 50 P/E), FII vs DII flows, key sectoral drivers, and risks for 2025. How does India compare to other emerging markets as an investment destination?",
+  "draft": "[NO_API_KEY] No working provider found.",
+  "critique": "[NO_API_KEY] No working provider found.",
+  "answer": "[NO_API_KEY] No working provider found.",
+  "latency": 15.603,
+  "token_count": 5,
+  "run_id": "run_20260526_160319",
+  "seed": 0,
+  "question_id": "Q25",
+  "category": "finance",
+  "difficulty": "hard",
+  "tier": "medium",
+  "status": "error",
+  "error": "[NO_API_KEY] No working provider found."
+}

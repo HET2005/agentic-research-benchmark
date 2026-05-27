@@ -1,5 +1,6 @@
 langgraph>=0.1.0
 crewai>=1.0.0
+pyautogen==0.2.35
 yfinance>=0.2.0
 duckduckgo-search>=8.0.0
 ddgs>=1.0.0

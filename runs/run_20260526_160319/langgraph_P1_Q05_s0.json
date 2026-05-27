@@ -1,0 +1,22 @@
+{
+  "pipeline": "P1",
+  "framework": "langgraph",
+  "question": "Explain quantum computing: how qubits differ from classical bits, what problems it can solve, and the current state of development.",
+  "answer": "**What is Quantum Computing?**\n\nQuantum computing is a revolutionary concept in computer science that leverages the principles of quantum mechanics to perform calculations and operations that are beyond the capabilities of classical computers. The fundamental unit of information in quantum computing is the **qubit** (quantum bit), which is different from the classical bit found in traditional computers.\n\n**How Qubits Differ from Classical Bits**\n\nClassical bits can exist in one of two states: 0 or 1. In contrast, qubits can exist in a **superposition** of both 0 and 1 simultaneously, known as a quantum state [1]. This means that a qubit can represent not only the values 0 and 1 but also all the possible states between 0 and 1, which is described as a probability distribution [2]. This property allows qubits to process multiple possibilities simultaneously, giving rise to the power of quantum computing.\n\n**What Problems can Quantum Computing Solve?**\n\nQuantum computing has the potential to solve complex problems that are difficult or intractable with classical computers. Some examples include:\n\n1. **Cryptography**: Quantum computers can break certain encryption algorithms currently used to secure online transactions, but they can also be used to create unbreakable encryption methods, such as quantum key distribution [3].\n2. **Optimization problems**: Quantum computers can efficiently solve complex optimization problems, such as the traveling salesman problem or the knapsack problem, which have numerous applications in logistics, finance, and energy management [4].\n3. **Simulations**: Quantum computers can simulate complex quantum systems, enabling breakthroughs in fields like chemistry, materials science, and pharmaceutical research [5].\n4. **Machine learning**: Quantum computers can speed up certain machine learning algorithms, enabling faster and more accurate predictions and classification [6].\n\n**Current State of Development**\n\nQuantum computing is still in its early stages, and significant progress has been made in recent years. Major tech companies, research institutions, and governments are investing heavily in quantum computing initiatives, including the development of qubits, quantum processors, and quantum algorithms. Some notable developments include:\n\n1. **IBM's Q Experience**: A cloud-based quantum computing platform that allows users to experiment with quantum circuits and simulate quantum systems [7].\n2. **Google's Quantum AI Lab**: A platform for researchers and developers to build and run quantum AI applications [8].\n3. **Quantum computing hardware**: Companies like Rigetti Computing, IonQ, and D-Wave Systems are developing quantum computers based on different architectures, such as superconducting qubits, ion traps, and annealers [9].\n\nIn conclusion, quantum computing is a revolutionary field that has the potential to solve complex problems that are difficult or intractable with classical computers. The development of qubits, quantum processors, and quantum algorithms is underway, and significant progress has been made in recent years.\n\nReferences:\n\n[1] Wikipedia (n.d.). Qubit - Wikipedia.\n\n[2] NIST (2025). Quantum Computing Explained.\n\n[3] IBM (n.d.). Quantum Computing 101.\n\n[4] The Quantum Insider (2026). Quantum Computing vs Classical Computing - What's the Real Difference.\n\n[5] GeeksforGeeks (n.d.). Difference Between Bits and Quantum Bits.\n\n[6] Science (2023). Quantum Computing and Machine Learning.\n\n[7] IBM (n.d.). Q Experience.\n\n[8] Google (n.d.). Quantum AI Lab.\n\n[9] Rigetti Computing (n.d.). Quantum Hardware.",
+  "latency": 20.17,
+  "token_count": 507,
+  "run_id": "run_20260526_160319",
+  "seed": 0,
+  "question_id": "Q05",
+  "category": "scientific_explainer",
+  "difficulty": "medium",
+  "tier": "short",
+  "status": "ok",
+  "accuracy": 7,
+  "completeness": 6,
+  "groundedness": 5,
+  "coherence": 8,
+  "reasoning": "The response provides an overview, correctly describes superposition, but lacks sufficient reasoning and grounding, and doesn't adequately address entanglement, hardware development and quantum advantage for a complete picture.",
+  "overall": 6.55,
+  "word_count": 507
+}

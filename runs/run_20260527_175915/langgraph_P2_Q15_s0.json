@@ -1,0 +1,23 @@
+{
+  "pipeline": "P2",
+  "framework": "langgraph",
+  "question": "What is the current yield curve shape in the US, and what does it historically signal about recession probability? Compare the 2s10s spread today vs prior inversion episodes.",
+  "rewritten_query": "US 2s10s yield curve shape recession probability current comparison historic inversion episodes",
+  "answer": "**Current Yield Curve Shape in the US**\n\nThe current yield curve shape in the US is bear steepener, characterized by a sharp decline in long-term yields with little to no change in short-term yields. This is indicated by the 2s10s spread, which measures the difference between the 10-year and 2-year Treasury bond yields. According to Morgan Stanley, we are now at 630+ days of yield curve inversion, the longest inversion ever recorded.\n\n**Historical Signaling of Recession Probability**\n\nThe yield curve inverts when long-term yields are lower than short-term yields, which has historically signaled an increased probability of recession. Since 1960, the yield curve has inverted nine times and recession has followed on seven of those occasions, according to Citigroup research (Source: Facebook post).\n\n**Comparison of 2s10s Spread Today vs Prior Inversion Episodes**\n\nThe current 2s10s spread of approximately 120-150 bps is similar to the 120-150 bps spread seen in the months leading up to the 2020 recession. However, the current inversion is the longest inversion ever recorded, at 630+ days. This suggests that while the 2s10s spread is signaling a higher recession probability, the duration of the inversion is also significant and may increase the likelihood of a recession.\n\n**Historic Inversion Episodes**\n\nHistoric inversion episodes include:\n\n- 2006-2007: Yield curve inversion occurred in August 2006, approximately 18 months before the Great Recession began in December 2007 (Source: Verified Investing).\n- 2020: Yield curve inversion occurred in March 2020, preceding the COVID-19 recession.\n- Historical correlation: A negative 10-2 spread has predicted every recession from 1955 to 2018, occurring 6-24 months before the recession (Source: YCharts).\n\n**Conclusion**\n\nThe current bear steepener yield curve shape in the US signals an increased probability of recession, consistent with historical trends. The 2s10s spread of approximately 120-150 bps, combined with the longest inversion ever recorded, suggests that the likelihood of a recession is higher than average. However, the duration and depth of the inversion will ultimately determine the likelihood and timing of a recession.\n\nSources:\n\n- Facebook post: Morgan Stanley - Watch the duration of the current yield curve inversion, which started May 22, inv.\n- Verified Investing: The yield curve phenomenon: what inversions really tell us about economic cycles.\n- YCharts: 10-2 Year Treasury Yield Spread (Market Daily).\n- Citigroup research (Source: Facebook post).\n- Quora: What is the significance of an inverted yield curve.",
+  "latency": 20.035,
+  "token_count": 391,
+  "run_id": "run_20260527_175915",
+  "seed": 0,
+  "question_id": "Q15",
+  "category": "finance",
+  "difficulty": "medium",
+  "tier": "short",
+  "word_count": 391,
+  "status": "ok",
+  "accuracy": 6,
+  "completeness": 9,
+  "groundedness": 6,
+  "coherence": 9,
+  "reasoning": "The answer effectively connects the bear steepener yield curve shape with its historical signaling of recession probability, supported by data from Morgan Stanley and Citigroup research, but could benefit from more detailed analysis.",
+  "overall": 7.05
+}

@@ -1,0 +1,13 @@
+{
+  "pipeline": "P4",
+  "framework": "crewai",
+  "question": "Compare Warren Buffett's value investing principles with quantitative approaches to value investing. Where do they agree, where do they diverge, and which has performed better in recent markets?",
+  "question_id": "Q17",
+  "answer": "",
+  "latency": 0,
+  "word_count": 0,
+  "run_id": "run_20260527_192538",
+  "seed": 0,
+  "status": "error",
+  "error": "get_shared_llm() got an unexpected keyword argument 'seed'"
+}

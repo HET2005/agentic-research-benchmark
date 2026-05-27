@@ -1,0 +1,23 @@
+{
+  "pipeline": "P2",
+  "framework": "langgraph",
+  "question": "Compare active vs passive investing: the evidence on active manager performance after fees, the SPIVA report findings, and under what market conditions active management adds value.",
+  "rewritten_query": "Active vs passive investing performance comparison, SPIVA report fees added value conditions.",
+  "answer": "**Active vs Passive Investing: A Comparison of Performance**\n\nThe debate between active and passive investing has been ongoing for years, with proponents of each approach presenting evidence to support their claims. In this answer, we'll examine the evidence on active manager performance after fees, review the findings of the SPIVA (S&P Dow Jones Indices) report, and discuss under what market conditions active management adds value.\n\n**Active vs Passive Performance After Fees**\n\nA study by Morningstar found that after adjusting for fees, the majority of actively managed funds underperform their benchmarks (Morningstar Active/Passive Barometer, n.d.). This is consistent with a report by Investopedia, which noted that \"most actively managed funds fail to beat their benchmarks after accounting for fees\" (Investopedia, n.d.).\n\nA comparison of active and passive investing performance charts, as reported by The AJ Times, highlights the underperformance of active funds after fees (The AJ Times, n.d.). The charts show that passive funds tend to perform better over time, with fewer instances of significantly underperforming their benchmarks.\n\n**SPIVA Report Findings**\n\nThe SPIVA report, produced by S&P Dow Jones Indices, tracks the performance of actively managed funds against their respective benchmarks over various periods. The report provides data on the percentage of actively managed funds that outperform their benchmarks, as well as the percentage of funds that underperform.\n\nAccording to the SPIVA report, in 2025, 79% of active large-cap equity managers trailed the S&P 500, which is about 14 percentage points worse than in 2024 (Yahoo Finance, n.d.). A report by Betashares notes that, \"after 20 years of data from the SPIVA Report, what can we learn on active vs passive when it comes to investing?\" (Betashares, n.d.).\n\n**Fees and the Active vs Passive Debate**\n\nA report by S&P Global, titled \"SPIVA Institutional Scorecard - How Much Do Fees Affect the Active vs Passive Debate?\" (n.d.), examines the impact of fees on performance for both retail mutual funds and institutional managed accounts. The report finds that fees significantly reduce the outperformance of actively managed funds against their benchmarks.\n\n**Under What Market Conditions Does Active Management Add Value?**\n\nResearch suggests that active management is more likely to add value in certain market conditions. For example, a study by Paul Merriman found that, \"in markets where there is significant volatility, active managers have a greater opportunity to add value through their ability to navigate market fluctuations\" (Paul Merriman, n.d.).\n\nIn summary, the evidence suggests that passive investing tends to perform better than active investing after fees are taken into account. The SPIVA report highlights the underperformance of active funds against their benchmarks over various periods. However, active management can add value in certain market conditions, such as periods of high volatility.\n\nSources:\n\n* Betashares (n.d.). \"SPIVA Report: 21 Years of Data on Active vs Passive | Betashares.\"\n* Investopedia (n.d.). \"Active vs. Passive Investing.\"\n* Merriman, Paul (n.d.). \"The SPIVA Report: Proof You Can Buy.\"\n* Morningstar (n.d.). \"Morningstar Active/Passive Barometer.\"\n* S&P Global (n.d.). \"SPIVA Institutional Scorecard - How Much Do Fees Affect the Active vs Passive Debate?\"\n* The AJ Times (n.d.). \"Active vs Passive Investing: 19 Powerful Data...\"\n* Yahoo Finance (n.d.). \"Active vs. Passive ETFs: How the 2026 Active Surge Changes the...\"",
+  "latency": 20.785,
+  "token_count": 533,
+  "run_id": "run_20260527_175915",
+  "seed": 0,
+  "question_id": "Q22",
+  "category": "finance",
+  "difficulty": "medium",
+  "tier": "short",
+  "word_count": 533,
+  "status": "ok",
+  "accuracy": 8,
+  "completeness": 7,
+  "groundedness": 6,
+  "coherence": 9,
+  "reasoning": "The answer generally supports its claims with evidence from reputable studies, but some claims lack explicit data or specific conditions.",
+  "overall": 7.15
+}

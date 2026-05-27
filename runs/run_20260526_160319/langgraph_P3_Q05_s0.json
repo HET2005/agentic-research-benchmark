@@ -1,0 +1,28 @@
+{
+  "pipeline": "P3",
+  "framework": "langgraph",
+  "question": "Explain quantum computing: how qubits differ from classical bits, what problems it can solve, and the current state of development.",
+  "sub_queries": [
+    "How do qubits differ structurally and operationally from classical bits?",
+    "What types of computational problems can be efficiently solved by quantum computing?",
+    "What challenges or limitations prevent quantum computers from scaling beyond current capabilities?",
+    "What are the current advancements and future developments in the field of quantum computing?"
+  ],
+  "answer": "**Quantum Computing: Understanding the Basics, Applications, and Current State**\n\nQuantum computing is a rapidly evolving field that leverages the principles of quantum mechanics to perform calculations that are beyond the capabilities of classical computers. At the heart of quantum computing are **qubits**, which differ structurally and operationally from **classical bits**.\n\n**Differences between Qubits and Classical Bits**\n\nA classical bit is a basic unit of information that can have a value of either 0 or 1, and its state cannot be changed until the bit is reset. In contrast, a qubit is a fundamental unit of quantum information that can exist in multiple states simultaneously, represented by a linear combination of 0 and 1. This property, known as **superposition**, allows qubits to process multiple possibilities at the same time, making quantum computing significantly faster than classical computing for specific types of problems.\n\nQubits also exhibit **entanglement**, a phenomenon where two or more qubits become correlated and connected, enabling them to perform certain calculations that are not possible with classical bits. Additionally, qubits are subject to the principles of **quantum interference**, which can amplify or cancel out certain outcomes, further accelerating quantum computations.\n\n**Computational Problems that Can be Efficiently Solved by Quantum Computing**\n\nQuantum computers can efficiently solve problems that are **NP-complete**, which means they involve searching through an exponentially large solution space to find an optimal solution. Some examples of problems that can be solved more efficiently by quantum computers include:\n\n* **Ising models** and the **QUBO problem**, which can be used to encode a wide range of combinatorial optimization problems, such as scheduling, resource allocation, and logistics.\n* **Gaussian bosonic circuit problems**, which involve calculating the properties of quantum systems, such as optical lattices and superconducting circuits.\n* **Computational biology problems**, such as protein structure prediction and drug design, which require simulating complex molecular interactions.\n\n**Challenges and Limitations Preventing Quantum Computers from Scaling**\n\nWhile quantum computing has made significant progress, there are still several challenges and limitations that prevent quantum computers from scaling beyond current capabilities:\n\n* **Quantum noise and error correction**: Quantum computers are highly susceptible to errors caused by decoherence, which can lead to loss of quantum states. Developing robust error correction techniques is essential to maintain the fragile quantum states required for these computations.\n* **Scalability**: Currently, most quantum computers are small-scale and can only perform a limited number of operations. Scaling up the number of qubits while maintaining control and coherence is a significant challenge.\n* **Quantum control and calibration**: Maintaining control over the quantum states of qubits requires precise calibration and tuning of quantum circuits, which can be time-consuming and error-prone.\n* **Software and algorithm development**: Developing practical algorithms and software tools for quantum computing is an ongoing challenge, as quantum computing requires a fundamentally different programming paradigm than classical computing.\n\n**Current State of Development**\n\nThe field of quantum computing is rapidly advancing, with significant investments from governments, corporations, and research institutions. Several organizations are actively working on developing quantum computers, including:\n\n* **IBM**: Developing a 53-qubit quantum processor and providing access to its quantum cloud platform.\n* **Google**: Developing a 72-qubit quantum processor and demonstrating the first quantum supremacy experiment.\n* **Rigetti Computing**: Developing a 128-qubit quantum processor and providing access to its quantum cloud platform.\n* **Microsoft**: Developing a topological quantum computer and collaborating with academia and industry partners.\n\nWhile significant progress has been made, the development of practical, large-scale, and accurate quantum computers is still an ongoing challenge. However, the potential applications and benefits of quantum computing make it an exciting and promising field that will likely continue to evolve and impact various industries in the coming years.",
+  "latency": 32.61,
+  "token_count": 606,
+  "run_id": "run_20260526_160319",
+  "seed": 0,
+  "question_id": "Q05",
+  "category": "scientific_explainer",
+  "difficulty": "medium",
+  "tier": "short",
+  "status": "ok",
+  "accuracy": 6,
+  "completeness": 7,
+  "groundedness": 5,
+  "coherence": 8,
+  "reasoning": "The description of qubits, superposition, and entanglement is mostly accurate, but it lacks sufficient support and detailed analysis of these concepts, and the current state of development is not adequately represented.",
+  "overall": 6.45,
+  "word_count": 606
+}

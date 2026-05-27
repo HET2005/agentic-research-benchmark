@@ -1,0 +1,28 @@
+{
+  "pipeline": "P3",
+  "framework": "langgraph",
+  "question": "What are the key trends shaping the future of work in 2024-2025? Cover remote work, AI automation, skills gaps, and labor market shifts.",
+  "sub_queries": [
+    "What specific types of jobs will be most affected by AI automation in the next two years?",
+    "How will the shift to remote work impact the way organizations design their physical workspaces in 2024-2025?",
+    "What emerging skills will be in high demand to fill skills gaps caused by rapid technological change and industry transformations?",
+    "What are the most significant labor market shifts that we can expect in the United States and other major global economies?"
+  ],
+  "answer": "**Key Trends Shaping the Future of Work in 2024-2025**\n\n**Remote Work: Impact on Physical Workspaces**\n\nThe shift to remote work will continue to impact the way organizations design their physical workspaces in 2024-2025. With fewer employees in the office, there will be a reduced need for maintaining physical workspaces, resulting in associated savings in utilities and support staff [Source 1]. However, organizations will still require some physical spaces for employees who need to collaborate face-to-face, or for meetings and training sessions. This may lead to a more hybrid approach to workspaces, with flexible and modular designs that can accommodate different types of work and collaboration [Source 2].\n\n**AI Automation: Key Job Types**\n\nAI automation will continue to shape the future of work in 2024-2025, with some jobs more vulnerable to automation than others. According to a report by EY, four new AI scenarios provide a framework for strategic planning and risk assessment [Source 3]. Another report, analyzing 784 occupations, reveals that office and administrative support roles dominate the high-risk category, with exposure levels ranging from 77.67% to 96.25% [Source 4]. Microsoft researchers have also identified the 40 professions most and least susceptible to disruption from generative AI [Source 5]. Jobs such as web designers, secretaries, and office administrators are at higher risk, while janitors and other manual laborers may experience less disruption.\n\n**Skills Gaps and Labor Market Shifts**\n\nThe shift to remote work and AI automation will also lead to changes in the skills required by workers. As remote work becomes more prevalent, employees will need to develop new skills such as communication, collaboration, and time management [Source 1]. Organizations will also need to invest in reskilling and upskilling programs to prepare employees for the changing job market.\n\nAccording to a study by ScienceDirect, the sense of belonging in hybrid work settings is crucial for employee engagement and productivity [Source 6]. Organizations will need to prioritize creating inclusive and flexible work environments that foster a sense of community among remote workers.\n\nIn terms of labor market shifts, as AI automation replaces certain jobs, there may be new job opportunities emerging in fields such as AI development, deployment, and maintenance [Source 3]. This could lead to a surge in demand for workers with skills in areas such as data analysis, artificial intelligence, and machine learning.\n\n**References:**\n\n[Source 1]: The rise of remote work: challenges and opportunities for businesses, Penn Libraries. 2025\n\n[Source 2]: Sense of belonging in hybrid work settings, ScienceDirect. 2025\n\n[Source 3]: EY - Future of AI - Shape the Future of AI. 2024\n\n[Source 4]: AI Automation Risk Report: The 50 Jobs Most Exposed to AI. 2024\n\n[Source 5]: Top 40 Jobs Most Likely to Be Impacted by AI - Newsweek. 2025\n\n[Source 6]: Sense of belonging in hybrid work settings - ScienceDirect.com. 2025",
+  "latency": 22.546,
+  "token_count": 466,
+  "run_id": "run_20260526_160319",
+  "seed": 0,
+  "question_id": "Q08",
+  "category": "trend_report",
+  "difficulty": "medium",
+  "tier": "short",
+  "status": "ok",
+  "accuracy": 8,
+  "completeness": 7,
+  "groundedness": 6,
+  "coherence": 9,
+  "reasoning": "The answer provides a coherent and well-structured explanation of the key trends shaping the future of work, but is lacking in some specific detail and lacks a direct reference to the gig economy in the labor market shift. ",
+  "overall": 7.25,
+  "word_count": 466
+}

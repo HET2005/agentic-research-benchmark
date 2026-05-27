@@ -1,0 +1,13 @@
+{
+  "pipeline": "P5",
+  "framework": "crewai",
+  "question": "What is risk parity portfolio construction? Explain how Bridgewater's All Weather portfolio works, its performance in different macro regimes, and its limitations during inflationary periods.",
+  "question_id": "Q20",
+  "answer": "",
+  "latency": 0,
+  "word_count": 0,
+  "run_id": "run_20260527_192538",
+  "seed": 0,
+  "status": "error",
+  "error": "get_shared_llm() got an unexpected keyword argument 'seed'"
+}

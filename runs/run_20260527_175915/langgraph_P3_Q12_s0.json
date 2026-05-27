@@ -1,0 +1,27 @@
+{
+  "pipeline": "P3",
+  "framework": "langgraph",
+  "question": "Compare the risk-adjusted returns of factor investing strategies (value, momentum, quality, low volatility) over the past decade. Which factors have experienced crowding, and how does factor timing work?",
+  "sub_queries": [
+    "What are the historical risk levels and returns of value, momentum, quality, and low volatility factor investing strategies over the past decade?",
+    "How can we identify and measure crowding in factor investing strategies?",
+    "What are the different approaches to factor timing, and which ones have been most effective over the past decade?",
+    "How do we adjust our factor timing strategies to account for changing market conditions and investor behavior?"
+  ],
+  "answer": "**Historical Risk Levels and Returns of Value, Momentum, Quality, and Low Volatility Factor Investing Strategies**\n\nOver the past decade, various studies and reports have attempted to quantify the performance of different factor investing strategies. Based on our analysis of reliable sources, we summarize the historical risk levels and returns of value, momentum, quality, and low volatility factor investing strategies:\n\n* **Value Factor:** Historically, the value factor has outperformed the market on a risk-adjusted basis (Morningstar, 2024; PIMCO, 2026). However, this performance comes with higher idiosyncratic risk and lower Sharpe ratios than its peers.\n* **Momentum Factor:** Momentum strategies have delivered high returns over short periods but are also susceptible to sharp downturns (AQR Capital Management as described in the Morningstar article of  14 November, 2024 and Invesco's  Factor Dashboard). \n* **Quality Factor:** Quality investing has outperformed over longer horizons, mainly due to its association with lower volatility and higher Sharpe ratios (Morningstar, 2024). However, this stability in performance may not be sustainable in a high-volatility environment.\n* **Low Volatility Factor:** Low volatility strategies have exhibited improved risk-adjusted returns, but their absolute returns have been modest, potentially due to the limited upside (PIMCO, 2026). These strategies tend to underperform during periods of high volatility but outperform during stable market conditions.\n\nIn terms of overall performance, a multi-factor approach, which combines multiple strategies like value, momentum, quality, and low volatility, can help balance returns and risk more effectively. These approaches offer a diversified portfolio by including a mix of growth-oriented and value-oriented strategies (Momentum vs Quality vs Value: Which Investing Factor is Best?, 2026).\n\n**Crowding in Factor Investing**\n\nCrowding in factor investing refers to the phenomenon where popular factors become over-traded, leading to reduced excess returns. Several signs of factor crowding have emerged in the literature:\n\n* **Value Factor:** The value strategy has become popular, but there are indications of crowding, particularly in its more extreme forms (e.g., high book-to-price and low price-to-earnings) (Paying Attention to Investment Factors? You Should BeEqual Weight, Quality, Momentum or Low Volatility-\\u2014Why no ... (Morningstar, 2024)).\n* **Momentum Factor:** Momentum factors have experienced significant growth in assets, especially in the form of index funds and ETFs, potentially leading to crowding (Invesco's Factor Dashboard, 2019).\n* **Low Volatility Factor:** Although a relatively recent factor, low volatility investing has started to see increased attention, which could indicate a rise in crowding (PIMCO, 2026).\n\nHowever, we lack detailed insights into crowding in the 'quality factor. In conclusion, the value and momentum factors have experienced some level of crowding.\n\n**Factor Timing: A Brief Overview**\n\nTiming factor investing strategies requires an understanding of market conditions and the dynamics influencing factor performance. Some key considerations include:\n\n* **Macro Environment:** The macroeconomic environment has a significant impact on factor performance. For example, during recessions, the value factor tends to underperform (Paying Attention to Investment Factors? You Should BeEqual Weight, Quality, Momentum or Low Volatility-\\u2014Why no ... (Morningstar, 2024)).\n* **Economic Trends:** Economic trends, such as GDP growth and inflation rates, also play a crucial role in shaping factor performance. In a low-growth environment, the quality and low-volatility factors tend to outperform (Invesco's Factor Dashboard, 2019).\n\nTo effectively time factor investing strategies, it is crucial to remain adaptable, monitor market conditions, and understand the underlying drivers of factor performance.\n\n**References**\n\n1. PIMCO. (2026). 2026 Portfolio Strategies: 2026 Investment Insights.\n2. Invesco. (2026). Factor Dashboard.\n3. etmoney. (2026). Momentum vs Quality vs Value: Which Investing Factor is Best?\n4. Morningstar. (2024). Paying Attention to Investment Factors? You Should BeEqual Weight, Quality, Momentum or Low Volatility-\\u2014Why no ...",
+  "latency": 32.324,
+  "word_count": 591,
+  "run_id": "run_20260527_175915",
+  "seed": 0,
+  "question_id": "Q12",
+  "category": "finance",
+  "difficulty": "hard",
+  "tier": "short",
+  "status": "ok",
+  "accuracy": 8,
+  "completeness": 7,
+  "groundedness": 6,
+  "coherence": 7,
+  "reasoning": "The analysis relies on reliable sources like Morningstar and PIMCO, but lacks concrete data or charts.",
+  "overall": 7.2
+}

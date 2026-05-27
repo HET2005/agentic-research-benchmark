@@ -1,0 +1,28 @@
+{
+  "pipeline": "P3",
+  "framework": "langgraph",
+  "question": "Analyze the current state of global sovereign debt: which countries face the highest debt sustainability risks, what are the triggers for a sovereign debt crisis, and how do IMF interventions work?",
+  "sub_queries": [
+    "What are the current sovereign debt levels of countries globally?",
+    "Which countries are at the highest risk of sovereign debt crisis?",
+    "What are the common economic indicators that trigger a sovereign debt crisis?",
+    "How do the IMF's debt restructuring and bailout programs address debt sustainability risks?"
+  ],
+  "answer": "Global sovereign debt has reached a staggering $44 trillion, with most of the debt concentrated in Europe, according to the Financial Tribune [Source 3]. Developing countries account for less than one third of the total debt, but it has grown twice as fast as in developed countries [Source 4]. The European Union member countries have an agreement, the Stability and Growth Pact (SGP), to maintain a certain level of debt, but this has not been consistently adhered to [Source 1].\n\nCurrently, 9 countries are in debt distress, 28 countries are at high risk, and 25 countries are at moderate risk of facing a sovereign debt crisis, according to the IMF [Source 2]. The countries at high risk of sovereign debt crisis include:\n\n- Africa: Tunisia, 1986; Zaire, 1979; Zambia, 2020 (default due to high debt levels following the COVID-19 pandemic and commodity price drops)\n- Developing countries: 9 countries in debt distress, 28 countries at high risk, and 25 countries at moderate risk\n\nThe triggers for a sovereign debt crisis include:\n\n1. High debt-to-GDP ratios: Ratios above 60-70% are often viewed as warning signals by institutions like the IMF.\n2. Inability to service debt: When servicing costs exceed revenues, governments face a \"debt spiral,\" risking default or restructuring. Sovereign defaults can trigger banking crises, capital flight, and recession far beyond national borders.\n3. Commodity price drops: Countries heavily reliant on commodity exports are vulnerable to price drops, leading to a decline in government revenues and an increase in debt burdens.\n4. Economic instability: Economic instability, such as high inflation or GDP contraction, can reduce a country's ability to service its debt.\n\nIMF interventions work through providing loans to countries in economic trouble. These loans are often conditional on the country implementing economic reforms and austerity measures to stabilize its economy and prevent further debt accumulation [Source 2]. However, these loans can also be high-risk, as seen in the case of Sri Lanka, which is facing a severe economic crisis and has been at the center of international attention [Source 4].\n\nReferences:\n\n[Source 1] \"List of countries by government debt - Wikipedia\".\n[Source 2] \"Sovereign Debt Concerns in Developing Countries - Congress.gov\".\n[Source 3] \"Global Sovereign Debt to Reach $44 Trillion | FinancialTribune\".\n[Source 4] \"A World of Debt 2025 | UN Trade and Development (UNCTAD)\".\n[Source 5] \"The Ultimate Guide to Global Sovereign Debt Crises\".\n[Source 6] \"How Sovereign Debt Crises Are Becoming Geopolitical: Lessons...\".",
+  "latency": 21.875,
+  "token_count": 405,
+  "run_id": "run_20260526_160319",
+  "seed": 0,
+  "question_id": "Q19",
+  "category": "finance",
+  "difficulty": "hard",
+  "tier": "short",
+  "status": "ok",
+  "accuracy": 8,
+  "completeness": 6,
+  "groundedness": 7,
+  "coherence": 7,
+  "reasoning": "The response provides some analysis but lacks detailed information about global debt-to-GDP, IMF lending facilities, and the consequences of a sovereign debt crisis.",
+  "overall": 7.0,
+  "word_count": 405
+}

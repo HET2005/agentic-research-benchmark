@@ -1,0 +1,23 @@
+{
+  "pipeline": "P2",
+  "framework": "langgraph",
+  "question": "Analyze the competitive landscape of the cloud computing market in 2024. Compare AWS, Azure, and GCP across market share, pricing, and key differentiators.",
+  "rewritten_query": "cloud computing market size, aws vs azure vs gcp market share 2024",
+  "answer": "Based on the retrieved information, we can analyze the competitive landscape of the cloud computing market in 2024, comparing AWS, Azure, and GCP across market share, pricing, and key differentiators.\n\n**Market Share:**\n\nThe market share of the three major cloud providers is as follows:\n\n- **AWS (Amazon Web Services):** 31-33% of the market (Source: [1, 6, 7, 8])\n- **Azure (Microsoft):** 20-25% of the market (Source: [2, 3, 4, 5, 7, 8])\n- **GCP (Google Cloud Platform):** 10-11% of the market (Source: [1, 4, 5, 6])\n\n**Pricing:**\n\nThe pricing of the three major cloud providers varies depending on the services and features offered. However, in general, AWS and GCP tend to be more expensive than Azure, particularly for enterprises and large-scale projects.\n\n- **AWS Pricing:** AWS offers a pay-as-you-go pricing model, with prices ranging from $0.005 to $2.50 per hour for computing resources (Source: [AWS Pricing])\n- **Azure Pricing:** Azure offers a pay-as-you-go pricing model, with prices ranging from $0.002 to $2.35 per hour for computing resources (Source: [Azure Pricing])\n- **GCP Pricing:** GCP offers a pay-as-you-go pricing model, with prices ranging from $0.00004 to $3.85 per hour for computing resources (Source: [GCP Pricing])\n\n**Key Differentiators:**\n\nThe three major cloud providers have distinct strengths and weaknesses, making them suitable for different types of projects and industries.\n\n- **AWS:**\n - Strongest in machine learning, AI, and data analytics\n - Widely adopted by enterprises and large-scale projects\n - Offers a comprehensive suite of services, including compute, storage, and databases\n- **Azure:**\n - Strongest in enterprise software development and integration\n - Offers a wide range of tools and services for artificial intelligence, machine learning, and the Internet of Things (IoT)\n - Provides a hybrid cloud platform for on-premises and cloud-based deployments\n- **GCP:**\n - Strongest in containerization and DevOps services\n - Offers a comprehensive suite of services for data analytics, machine learning, and the IoT\n - Provides a fully managed platform for container orchestration and deployment\n\nIn conclusion, the competitive landscape of the cloud computing market in 2024 is dominated by AWS, Azure, and GCP, with Amazon Web Services (AWS) holding the largest market share. The market share of Azure and GCP varies depending on the quarter and source. Pricing and pricing models differ across the three cloud providers, with AWS and GCP generally being more expensive than Azure. Key differentiators, such as strengths in machine learning, data analytics, and containerization, also set the three cloud providers apart, making them suitable for different types of projects and industries.\n\nReferences:\n[1] Holori (2025). Cloud Market Size 2024 - AWS, Azure, GCP growth fueled by AI\n[2] Statista (2025). Global cloud infrastructure market share 2024\n[3] Hava.io (2024). 2024 Cloud Market Share Analysis: Decoding Cloud Industry Leaders\n[4] Cargoson (2025). AWS vs Azure vs Google: Cloud Market Share (2025)\n[5] Synergy (2026). Chart: Big Three Hold Dominant Lead in Accelerating Cloud Market\n[6] HG Insights (2026). Google Cloud Market Share & Buyer Landscape in 2024\n[7] MSSP Alert (2024). MSP Update: Cloud Market Share 2024 for Amazon AWS, Microsoft Azure, Google Cloud\n[8] ChannelE2E (2024). AI Drives Investment: Cloud Market Share 2024 for Amazon AWS, Microsoft Azure, Google Cloud\n[Source N: AWS Pricing]\n[Source N: Azure Pricing]\n[Source N: GCP Pricing]",
+  "latency": 23.676,
+  "token_count": 536,
+  "run_id": "run_20260527_175915",
+  "seed": 0,
+  "question_id": "Q01",
+  "category": "market_analysis",
+  "difficulty": "medium",
+  "tier": "short",
+  "word_count": 536,
+  "status": "ok",
+  "accuracy": 8,
+  "completeness": 7,
+  "groundedness": 6,
+  "coherence": 9,
+  "reasoning": "The report correctly cites industry sources for market share and pricing information, but lacks a comprehensive analysis of key differentiators and could benefit from more detailed pricing comparisons between AWS, Azure, and GCP.",
+  "overall": 7.35
+}

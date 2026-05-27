@@ -1,0 +1,13 @@
+{
+  "pipeline": "P1",
+  "framework": "crewai",
+  "question": "What is the current state of the Indian equity market (NSE/BSE)? Analyze valuations (Nifty 50 P/E), FII vs DII flows, key sectoral drivers, and risks for 2025. How does India compare to other emerging markets as an investment destination?",
+  "question_id": "Q25",
+  "answer": "",
+  "latency": 0,
+  "word_count": 0,
+  "run_id": "run_20260527_192538",
+  "seed": 0,
+  "status": "error",
+  "error": "get_shared_llm() got an unexpected keyword argument 'seed'"
+}

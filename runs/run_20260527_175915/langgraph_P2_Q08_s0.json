@@ -1,0 +1,23 @@
+{
+  "pipeline": "P2",
+  "framework": "langgraph",
+  "question": "What are the key trends shaping the future of work in 2024-2025? Cover remote work, AI automation, skills gaps, and labor market shifts.",
+  "rewritten_query": "Future of work trends 2024 2025 remote work AI automation skills gaps labor shift",
+  "answer": "Based on the search results, the key trends shaping the future of work in 2024-2025 can be summarized as follows:\n\n**Remote Work**: Remote work is becoming increasingly prevalent, with many companies adopting a hybrid or fully remote work model. This trend is driven by technological advancements, changing workforce expectations, and the need for flexibility. According to a report by Remote, global workforce trends in 2025 indicate that organizations are adapting to global hiring, AI automation, and the future of work (Source: Remote.com).\n\n**AI Automation**: Artificial intelligence (AI) is transforming the workforce, with potential to automate more than half of current US work hours. While this may lead to job losses, it will also create new forms of human work. Adoption will take time, and future work will be a partnership between people, agents, and robots, all powered by AI (Source: McKinsey).\n\n**Skills Gaps**: The rise of AI and automation may exacerbate existing skills gaps. To thrive in this new environment, workers will need to develop new skills, such as data analysis, critical thinking, and creativity. This will require significant investments in education and training (Source: IDC FutureScape).\n\n**Labor Market Shifts**: The global labor market is undergoing significant shifts, driven by technological advancements, demographic changes, and sustainability concerns. The Future of Jobs Report 2025, published by the World Economic Forum, highlights key trends, including:\n\n1. **Reskilling and upskilling**: The need to develop new skills and adapt to changing job requirements.\n2. **Digital literacy**: The importance of digital skills for workers and businesses.\n3. **Green transition**: The need to transition to a more sustainable and environmentally friendly workforce.\n4. **Innovation and entrepreneurship**: The importance of innovation and entrepreneurship in driving economic growth and job creation (Source: World Economic Forum).\n\nTo thrive in this new environment, organizations should:\n\n1. **Invest in education and training**: Develop programs to upskill and reskill workers.\n2. **Emphasize digital literacy**: Ensure that workers have the necessary digital skills to adapt to changing job requirements.\n3. **Foster a culture of innovation**: Encourage experimentation, risk-taking, and entrepreneurship.\n4. **Prioritize sustainability**: Emphasize environmental and social sustainability in business decisions.\n\nIn conclusion, the future of work in 2024-2025 will be shaped by technological advancements, demographic changes, and sustainability concerns. Organizations must adapt to these trends by investing in education and training, emphasizing digital literacy, fostering a culture of innovation, and prioritizing sustainability.\n\nSources:\n\n1. EY - Future of AI (2024)\n2. World Economic Forum - The Future of Jobs Report 2025 (2025)\n3. Remote - Global workforce trends 2025: Key insights from Remote (2025)\n4. IDC FutureScape - Worldwide Future of Work 2024 Predictions (2023)\n5. McKinsey - Agents, robots, and us: Skill partnerships in the age of AI (2025)\n6. ScienceDirect - Artificial intelligence, workers, and future of work skills (2024)",
+  "latency": 31.496,
+  "token_count": 460,
+  "run_id": "run_20260527_175915",
+  "seed": 0,
+  "question_id": "Q08",
+  "category": "trend_report",
+  "difficulty": "medium",
+  "tier": "short",
+  "word_count": 460,
+  "status": "ok",
+  "accuracy": 8,
+  "completeness": 7,
+  "groundedness": 6,
+  "coherence": 9,
+  "reasoning": "The answer correctly identifies key future trends in work, but the reasoning could be strengthened by more detailed explanations and supporting evidence",
+  "overall": 7.25
+}

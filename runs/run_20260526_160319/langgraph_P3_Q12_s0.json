@@ -1,0 +1,28 @@
+{
+  "pipeline": "P3",
+  "framework": "langgraph",
+  "question": "Compare the risk-adjusted returns of factor investing strategies (value, momentum, quality, low volatility) over the past decade. Which factors have experienced crowding, and how does factor timing work?",
+  "sub_queries": [
+    "What are the historical risk-adjusted returns of value investing strategies over the past decade?",
+    "How do momentum, quality, and low volatility factor investing strategies compare in terms of risk-adjusted returns over the past decade?",
+    "Which of these factors have exhibited crowding, and what are the implications for investors?",
+    "What strategies and tools do practitioners use for factor timing, and what is their effectiveness in real-world applications?"
+  ],
+  "answer": "**Comprehensive Answer**\n\n**Historical Risk-Adjusted Returns of Value Investing Strategies over the Past Decade:**\n\nValue investing strategies have historically provided strong risk-adjusted returns. According to Edward Betts' [1] research, value investing has delivered higher returns in the past, making it an attractive strategy for investors seeking to minimize risk while maximizing returns.\n\n**Comparison of Risk-Adjusted Returns among Momentum, Quality, and Low Volatility Factor Investing Strategies:**\n\nStudies have shown that low-volatility factor investing strategies tend to outperform the market portfolio in terms of risk-adjusted returns. QuantPedia [2] research highlights that low-risk stocks exhibit significantly higher risk-adjusted returns than the market portfolio, while high-risk stocks significantly underperform on a risk-adjusted basis.\n\n**Crowding in Factor Investing Strategies:**\n\nResearch suggests that momentum investing crowds may be more benign compared to reversal crowding, a concept explored by [3]. This is particularly concerning for investors, as crowding can lead to declining alpha (returns) and increased risk. In contrast, value investing has not exhibited widespread crowding, making it a less concerning strategy to adopt.\n\n**Implications for Investors:**\n\nThe implications for investors are clear: value investing offers a strong track record of delivering risk-adjusted returns, while momentum and low-volatility factor investing may require more caution due to potential crowding. To mitigate crowding, investors can consider combining value and momentum factors, as explored by Alpha Architect [4]. This strategy can help investors enhance their returns while reducing the risks associated with crowding.\n\n**Timeline Summary (Past Decade):**\n\n- **2010-2012:** Value investing strategies delivered strong returns due to the financial crisis and subsequent economic recovery. \n\n- **2013-2015:** Momentum factor investing gained popularity, leading to potential crowding in certain stocks and sectors.\n\n- **2016-2019:** Low-volatility factor investing strategies performed well, helping investors to minimize drawdowns during market turbulence.\n\n- **2020-2022:** Momentum factor investing experienced a decline in alpha, highlighting the importance of monitoring and adjusting factor exposures to avoid crowding.\n\nIn conclusion, value investing has consistently delivered strong risk-adjusted returns, making it a compelling strategy for investors seeking to balance risk and returns. While momentum and low-volatility factor investing strategies have shown promise, investors should exercise caution due to potential crowding and consider strategies to mitigate these risks.\n\n**References:**\n\n[1] Betts, E. (n.d.). Books: risk-adjusted returns. https://edwardbetts.com/monograph/risk-adjusted_returns\n\n[2] QuantPedia. (n.d.). Low Volatility Factor Effect in Stocks. https://quantpedia.com/strategies/low-volatility-factor-effect-in-stocks\n\n[3] Arash, A., et al. (2022). Not All Factors Crowd Equally: Modeling, Measuring, and Trading on Factor Crowding. arXiv preprint arXiv:2512.11913.\n\n[4] Petelin, K. (n.d.). Improving Low Volatility Strategies. Alpha Architect. https://alphaarchitect.com/low-volatility-strategies/\n\nDisclaimer: The information provided is solely for educational purposes and should not be considered financial advice. Please consult a registered financial advisor for personalized investment recommendations.",
+  "latency": 24.413,
+  "token_count": 432,
+  "run_id": "run_20260526_160319",
+  "seed": 0,
+  "question_id": "Q12",
+  "category": "finance",
+  "difficulty": "hard",
+  "tier": "short",
+  "status": "ok",
+  "accuracy": 7,
+  "completeness": 5,
+  "groundedness": 6,
+  "coherence": 8,
+  "reasoning": "The answer provided a few solid points to consider, but failed to address required factor timing and low volatility specifics beyond a general statement.",
+  "overall": 6.3,
+  "word_count": 432
+}

@@ -1,0 +1,18 @@
+{
+  "pipeline": "P5",
+  "framework": "langgraph",
+  "question": "Analyze merger arbitrage as an investment strategy: how deals are priced, what risks cause spreads to widen, historical returns, and how regulatory risk has changed the strategy in the current antitrust environment.",
+  "draft": "[NO_API_KEY] No working provider found.",
+  "critique": "[NO_API_KEY] No working provider found.",
+  "answer": "[NO_API_KEY] No working provider found.",
+  "latency": 15.591,
+  "token_count": 5,
+  "run_id": "run_20260526_160319",
+  "seed": 0,
+  "question_id": "Q24",
+  "category": "finance",
+  "difficulty": "hard",
+  "tier": "medium",
+  "status": "error",
+  "error": "[NO_API_KEY] No working provider found."
+}

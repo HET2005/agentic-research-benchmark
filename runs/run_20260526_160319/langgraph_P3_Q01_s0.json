@@ -1,0 +1,28 @@
+{
+  "pipeline": "P3",
+  "framework": "langgraph",
+  "question": "Analyze the competitive landscape of the cloud computing market in 2024. Compare AWS, Azure, and GCP across market share, pricing, and key differentiators.",
+  "sub_queries": [
+    "What are the market share percentages of AWS, Azure, and GCP in the cloud computing market as of 2024?",
+    "What are the pricing models of AWS, Azure, and GCP, and how do they compare in terms of cost-effectiveness for customers?",
+    "What are the key differentiators of AWS, Azure, and GCP, such as unique features, services, and functionalities?",
+    "How do the business strategies, competitive positioning, and strengths/weaknesses of AWS, Azure, and GCP impact their competitive landscape in 2024?"
+  ],
+  "answer": "**Cloud Computing Market Analysis: AWS, Azure, and GCP in 2024**\n\nThe cloud computing market has seen remarkable growth in recent years, with total spending surging 18% in 2023 to reach $290.4 billion, according to Canalys. As of 2024, the market leaders in cloud infrastructure services are AWS, Azure, and GCP, who together held the dominant share of the global market.\n\n**Market Share:**\n\nAccording to various sources, the market share percentages of AWS, Azure, and GCP in the cloud computing market as of 2024 are:\n\n* AWS: 30%\n* Azure: 20% [Source 4]\n* GCP: 13% [Source 4]\n\nWhile AWS maintains its position as the market leader, both Azure and GCP have been gaining ground in recent years.\n\n**Pricing Models:**\n\nThe pricing models of AWS, Azure, and GCP vary, with each provider offering different options and discounts. Here's a brief comparison of their pricing models:\n\n* AWS: Offers a pay-as-you-go model, with a variety of instance types and regions available. AWS also offers Savings Plans with more flexibility in terms of instance types, regions, and operating systems [Source 4].\n* Azure: Offers a pay-as-you-go model, with a variety of instance types and regions available. Azure also offers Reserved Instances and Spot Instances for discounts [Source 2].\n* GCP: Offers a pay-as-you-go model, with a variety of instance types and regions available. GCP also offers committed usage discounts, which provide a discounted rate for customers who commit to a specific amount of usage [Source 1].\n\nIn terms of cost-effectiveness, a study by Cast AI found that GCP offers the highest price for compute-optimized instances, but with double the RAM of AWS, Azure, and Oracle. However, the cost-effectiveness of each provider depends on the specific usage and requirements of the customer [Source 1].\n\n**Key Differentiators:**\n\nWhile AWS, Azure, and GCP offer similar services, each provider has its unique strengths and differentiators. Some key areas where they differ include:\n\n* Machine learning: AWS offers a wide range of machine learning services, including SageMaker and Rekognition. Azure offers Azure Machine Learning, while GCP offers TensorFlow and AutoML [Source 3].\n* Storage: AWS offers a wide range of storage options, including S3 and EBS. Azure offers Azure Blob Storage, while GCP offers Cloud Storage [Source 3].\n* Security: Azure offers a comprehensive security suite, including Azure Active Directory and Azure Security Center. GCP offers Google Cloud Security Command Center, while AWS offers a wide range of security services, including IAM and Cognito [Source 3].\n\nIn conclusion, the cloud computing market in 2024 is dominated by AWS, Azure, and GCP, who together hold the majority share of the market. While each provider has its unique strengths and differentiators, the pricing models of AWS, Azure, and GCP vary, with each offering different options and discounts. The cost-effectiveness of each provider depends on the specific usage and requirements of the customer.\n\n**Sources:**\n\n1. **Cloud market size 2024**: Holori.com\n2. **Compare AWS and Azure services**: Get Started, Google Cloud\n3. **AWS vs. Azure vs. Google Cloud**: EffectiveSoft\n4. **AWS vs. Azure vs. Google: Cloud Market Share (2025)**: Cargoson",
+  "latency": 23.01,
+  "token_count": 508,
+  "run_id": "run_20260526_160319",
+  "seed": 0,
+  "question_id": "Q01",
+  "category": "market_analysis",
+  "difficulty": "medium",
+  "tier": "short",
+  "status": "ok",
+  "accuracy": 8,
+  "completeness": 7,
+  "groundedness": 7,
+  "coherence": 9,
+  "reasoning": "The response effectively uses market share, pricing, and key differentiator information, but sometimes lacks specific data sources; the structure is well-organized, and comparisons between the cloud providers are adequately supported, with coherent transitions between ideas.",
+  "overall": 7.6,
+  "word_count": 508
+}
