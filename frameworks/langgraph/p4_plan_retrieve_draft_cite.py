@@ -11,12 +11,12 @@ class P4State(TypedDict):
     retrieved: str
     draft: str
     answer: str
-    token_count: int
+    word_count: int
     latency: float
 
 def node_plan(state: P4State) -> dict:
     system = "You are a senior research analyst. Create a structured research plan with key topics, retrieval targets, and answer structure."
-    plan = llm_call(f"Create a research plan for: {state['question']}", system=system, max_tokens=500)
+    plan = llm_call(f"Create a research plan for: {state['question']}", system=system, max_tokens=500, seed=state.get("seed"))
     return {"plan": plan}
 
 def node_retrieve(state: P4State) -> dict:
@@ -27,15 +27,15 @@ def node_retrieve(state: P4State) -> dict:
 def node_draft(state: P4State) -> dict:
     system = "You are a research writer. Draft a comprehensive answer following the plan. Use headers and cite as [Source N]."
     prompt = f"Question: {state['question']}\nPlan:\n{state['plan']}\nSources:\n{state['retrieved'][:3000]}\n\nWrite the full draft."
-    draft = llm_call(prompt, system=system, max_tokens=2500)
+    draft = llm_call(prompt, system=system, max_tokens=2500, seed=state.get("seed"))
     return {"draft": draft}
 
 def node_cite_check(state: P4State) -> dict:
     system = "You are a fact-checking editor. Verify citations, add missing ones from source material, flag unsupported claims. Output the final verified answer."
     prompt = f"Draft:\n{state['draft']}\n\nSource material:\n{state['retrieved'][:2000]}\n\nOutput the citation-verified final answer."
     t0 = time.perf_counter()
-    answer = llm_call(prompt, system=system, max_tokens=3000)
-    return {"answer": answer, "latency": time.perf_counter() - t0, "token_count": len(answer.split())}
+    answer = llm_call(prompt, system=system, max_tokens=3000, seed=state.get("seed"))
+    return {"answer": answer, "latency": time.perf_counter() - t0, "word_count": len(answer.split())}
 
 def build_graph():
     g = StateGraph(P4State)
@@ -53,10 +53,10 @@ def build_graph():
 def run(question: str, run_id: str = "default", seed: int = 0) -> dict:
     graph = build_graph()
     init: P4State = {"question": question, "run_id": run_id, "seed": seed,
-                     "plan": "", "retrieved": "", "draft": "", "answer": "", "token_count": 0, "latency": 0.0}
+                     "plan": "", "retrieved": "", "draft": "", "answer": "", "word_count": 0, "latency": 0.0}
     with Timer() as t:
         final = graph.invoke(init)
     return {"pipeline": "P4", "framework": "langgraph", "question": question,
             "plan": final["plan"], "answer": final["answer"],
-            "latency": t.elapsed, "token_count": final.get("token_count", 0),
+            "latency": t.elapsed, "word_count": final.get("word_count", 0),
             "run_id": run_id, "seed": seed}

@@ -1,0 +1,22 @@
+{
+  "pipeline": "P4",
+  "framework": "crewai",
+  "question": "Compare Warren Buffett's value investing principles with quantitative approaches to value investing. Where do they agree, where do they diverge, and which has performed better in recent markets?",
+  "answer": "[CREWAI MOCK - API error] question=Compare Warren Buffett's value investing principles with qua",
+  "latency": 0.167,
+  "word_count": 13,
+  "run_id": "run_20260529_165946",
+  "seed": 0,
+  "question_id": "Q17",
+  "category": "finance",
+  "difficulty": "medium",
+  "tier": "medium",
+  "status": "error",
+  "error": "[CREWAI MOCK - API error] question=Compare Warren Buffett's value investing principles with qua",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

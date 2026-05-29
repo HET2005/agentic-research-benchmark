@@ -1,0 +1,22 @@
+{
+  "pipeline": "P2",
+  "framework": "crewai",
+  "question": "Analyze merger arbitrage as an investment strategy: how deals are priced, what risks cause spreads to widen, historical returns, and how regulatory risk has changed the strategy in the current antitrust environment.",
+  "answer": "[CREWAI MOCK - API error] question=Analyze merger arbitrage as an investment strategy: how deal",
+  "latency": 0.158,
+  "word_count": 14,
+  "run_id": "run_20260529_165946",
+  "seed": 0,
+  "question_id": "Q24",
+  "category": "finance",
+  "difficulty": "hard",
+  "tier": "short",
+  "status": "error",
+  "error": "[CREWAI MOCK - API error] question=Analyze merger arbitrage as an investment strategy: how deal",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

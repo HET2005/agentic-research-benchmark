@@ -102,9 +102,18 @@ def make_task(description: str, agent: Agent, expected_output: str = "A comprehe
 def run_crew(crew: Crew, inputs: dict) -> str:
     try:
         result = crew.kickoff(inputs=inputs)
-        return str(result.raw) if hasattr(result, "raw") else str(result)
+        
+        # diagnostic loop: Log per-task character counts
+        for i, t in enumerate(crew.tasks):
+            out = getattr(t, "output", None)
+            print(f"  [task {i}] {t.agent.role}: {len(str(out))} chars")
+            
+        text = str(result.raw) if hasattr(result, "raw") else str(result)
+        
+        # Catch silent short-circuits
+        if len(text.strip()) < 50:
+            raise RuntimeError(f"CrewAI produced near-empty output ({len(text)} chars)")
+            
+        return text
     except Exception as e:
-        err = str(e)
-        if any(x in err.lower() for x in ["api", "key", "connect", "openai", "quota", "auth", "cache"]):
-            return f"[CREWAI MOCK - API error] {err}"
-        return f"[CREW ERROR] {err}"
+        raise   # let run_benchmark mark status=error

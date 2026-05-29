@@ -1,0 +1,22 @@
+{
+  "pipeline": "P3",
+  "framework": "crewai",
+  "question": "Compare the risk-adjusted returns of factor investing strategies (value, momentum, quality, low volatility) over the past decade. Which factors have experienced crowding, and how does factor timing work?",
+  "answer": "[CREWAI MOCK - API error] question=Compare the risk-adjusted returns of factor investing strate",
+  "latency": 0.275,
+  "word_count": 13,
+  "run_id": "run_20260529_165946",
+  "seed": 0,
+  "question_id": "Q12",
+  "category": "finance",
+  "difficulty": "hard",
+  "tier": "short",
+  "status": "error",
+  "error": "[CREWAI MOCK - API error] question=Compare the risk-adjusted returns of factor investing strate",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

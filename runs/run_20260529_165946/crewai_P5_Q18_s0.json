@@ -1,0 +1,22 @@
+{
+  "pipeline": "P5",
+  "framework": "crewai",
+  "question": "Explain options pricing using Black-Scholes: the key assumptions, the Greeks (delta, gamma, theta, vega), and how traders use them for hedging and speculation. What are the model's limitations?",
+  "answer": "[CREWAI MOCK - API error] question=Explain options pricing using Black-Scholes: the key assumpt",
+  "latency": 0.191,
+  "word_count": 13,
+  "run_id": "run_20260529_165946",
+  "seed": 0,
+  "question_id": "Q18",
+  "category": "finance",
+  "difficulty": "hard",
+  "tier": "medium",
+  "status": "error",
+  "error": "[CREWAI MOCK - API error] question=Explain options pricing using Black-Scholes: the key assumpt",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

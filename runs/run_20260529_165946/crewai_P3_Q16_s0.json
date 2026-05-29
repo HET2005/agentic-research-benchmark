@@ -1,0 +1,22 @@
+{
+  "pipeline": "P3",
+  "framework": "crewai",
+  "question": "Analyze the private equity industry's current challenges: rising interest rates impact on LBO returns, the exit environment, dry powder deployment, and LP appetite for the asset class in 2024-2025.",
+  "answer": "[CREWAI MOCK - API error] question=Analyze the private equity industry's current challenges: ri",
+  "latency": 0.323,
+  "word_count": 13,
+  "run_id": "run_20260529_165946",
+  "seed": 0,
+  "question_id": "Q16",
+  "category": "finance",
+  "difficulty": "hard",
+  "tier": "short",
+  "status": "error",
+  "error": "[CREWAI MOCK - API error] question=Analyze the private equity industry's current challenges: ri",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

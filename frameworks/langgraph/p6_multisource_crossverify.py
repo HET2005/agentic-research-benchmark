@@ -11,7 +11,7 @@ class P6State(TypedDict):
     finance_results: str
     verification_report: str
     answer: str
-    token_count: int
+    word_count: int
     latency: float
 
 def node_web_retrieve(state: P6State) -> dict:
@@ -31,15 +31,15 @@ def node_finance_retrieve(state: P6State) -> dict:
 def node_cross_verify(state: P6State) -> dict:
     system = "You are a data reconciliation expert. Compare web and financial sources. Flag conflicts. Establish a unified fact set."
     prompt = f"Question: {state['question']}\nWeb:\n{state['web_results'][:2000]}\nFinancial:\n{state['finance_results'][:1000]}\nReconcile and produce verification report."
-    report = llm_call(prompt, system=system, max_tokens=700)
+    report = llm_call(prompt, system=system, max_tokens=700, seed=state.get("seed"))
     return {"verification_report": report}
 
 def node_synthesize(state: P6State) -> dict:
     system = "You are a research analyst. Write a comprehensive answer using verified cross-source data. Cite sources."
     prompt = f"Question: {state['question']}\nVerification:\n{state['verification_report']}\nWeb:\n{state['web_results'][:1500]}\nFinancial:\n{state['finance_results'][:800]}\nWrite the final answer."
     t0 = time.perf_counter()
-    answer = llm_call(prompt, system=system, max_tokens=2500)
-    return {"answer": answer, "latency": time.perf_counter() - t0, "token_count": len(answer.split())}
+    answer = llm_call(prompt, system=system, max_tokens=2500, seed=state.get("seed"))
+    return {"answer": answer, "latency": time.perf_counter() - t0, "word_count": len(answer.split())}
 
 def build_graph():
     g = StateGraph(P6State)
@@ -57,10 +57,10 @@ def build_graph():
 def run(question: str, run_id: str = "default", seed: int = 0) -> dict:
     graph = build_graph()
     init: P6State = {"question": question, "run_id": run_id, "seed": seed,
-                     "web_results": "", "finance_results": "", "verification_report": "", "answer": "", "token_count": 0, "latency": 0.0}
+                     "web_results": "", "finance_results": "", "verification_report": "", "answer": "", "word_count": 0, "latency": 0.0}
     with Timer() as t:
         final = graph.invoke(init)
     return {"pipeline": "P6", "framework": "langgraph", "question": question,
             "verification_report": final["verification_report"], "answer": final["answer"],
-            "latency": t.elapsed, "token_count": final.get("token_count", 0),
+            "latency": t.elapsed, "word_count": final.get("word_count", 0),
             "run_id": run_id, "seed": seed}

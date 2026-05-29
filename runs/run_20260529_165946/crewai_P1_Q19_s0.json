@@ -1,0 +1,22 @@
+{
+  "pipeline": "P1",
+  "framework": "crewai",
+  "question": "Analyze the current state of global sovereign debt: which countries face the highest debt sustainability risks, what are the triggers for a sovereign debt crisis, and how do IMF interventions work?",
+  "answer": "[CREWAI MOCK - API error] question=Analyze the current state of global sovereign debt: which co",
+  "latency": 0.201,
+  "word_count": 15,
+  "run_id": "run_20260529_165946",
+  "seed": 0,
+  "question_id": "Q19",
+  "category": "finance",
+  "difficulty": "hard",
+  "tier": "short",
+  "status": "error",
+  "error": "[CREWAI MOCK - API error] question=Analyze the current state of global sovereign debt: which co",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

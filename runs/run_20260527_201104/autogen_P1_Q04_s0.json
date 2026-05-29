@@ -1,0 +1,21 @@
+{
+  "pipeline": "P1",
+  "framework": "autogen",
+  "question": "Explain how large language models work, from tokenization through attention mechanisms to text generation, for a technically literate audience.",
+  "answer": "**Large Language Models (LLMs): A Comprehensive Overview**\n\nLarge Language Models (LLMs) have revolutionized the field of natural language processing (NLP) by enabling machines to understand and generate human-like text. In this answer, we will delve into the technical details of how LLMs work, from tokenization to text generation.\n\n**Tokenization**\n\nTokenization is the process of breaking down text into smaller units called tokens, which can be words, subwords, or characters. This is typically achieved using a technique called subword tokenization, where words are broken down into smaller subwords (e.g., \"un\" and \"ite\" for the word \"unite\"). This allows the model to capture nuances in word meaning and reduces the dimensionality of the input data.\n\n**Embeddings**\n\nOnce the input text is tokenized, each token is assigned a numerical representation called an embedding. Word embeddings, such as Word2Vec and GloVe, are learned by training on large corpora of text data. These embeddings capture semantic relationships between words, such as synonyms and antonyms, and are used as input to the LLM.\n\n**Transformer Architecture**\n\nThe Transformer architecture is the backbone of most modern LLMs. It consists of an encoder and a decoder. The encoder takes in a sequence of tokens (input) and outputs a sequence of vectors (output). The decoder takes in the output vectors and generates a sequence of tokens (output).\n\n**Encoder**\n\nThe encoder is composed of multiple layers, each consisting of two sub-layers:\n\n1. **Self-Attention Mechanism**: This mechanism allows the model to weigh the importance of different input tokens when computing the output. It does this by computing a set of attention weights, which are then used to compute a weighted sum of the input tokens.\n2. **Feed-Forward Network (FFN)**: This sub-layer applies a non-linear transformation to the output of the self-attention mechanism.\n\n**Decoder**\n\nThe decoder is also composed of multiple layers, each consisting of two sub-layers:\n\n1. **Self-Attention Mechanism**: This mechanism allows the model to weigh the importance of different input tokens when computing the output.\n2. **Encoder-Decoder Attention Mechanism**: This mechanism allows the model to weigh the importance of different input tokens when computing the output, taking into account the output of the encoder.\n\n**Text Generation**\n\nText generation involves predicting the next token in a sequence given the previous tokens. This is typically achieved using a technique called maximum likelihood estimation (MLE), where the model predicts the token with the highest probability.\n\n**Training**\n\nLLMs are typically trained on large corpora of text data using a technique called masked language modeling. In this technique, a portion of the input tokens are randomly replaced with a [MASK] token, and the model is trained to predict the original token.\n\n**Conclusion**\n\nIn conclusion, LLMs work by tokenizing input text, computing embeddings, and then passing the input through a series of self-attention and feed-forward networks to generate a sequence of tokens. The encoder and decoder are the core components of the Transformer architecture, which allows the model to weigh the importance of different input tokens and generate coherent text.",
+  "latency": 9.775,
+  "word_count": 493,
+  "run_id": "run_20260527_201104",
+  "seed": 0,
+  "question_id": "Q04",
+  "category": "scientific_explainer",
+  "difficulty": "easy",
+  "tier": "short",
+  "status": "ok",
+  "accuracy": 6,
+  "completeness": 7,
+  "groundedness": 4,
+  "coherence": 9,
+  "reasoning": "The description of tokenization lacks clarity and fails to explain how subword tokenization works, however the model's architecture is generally correctly described.",
+  "overall": 6.7
+}

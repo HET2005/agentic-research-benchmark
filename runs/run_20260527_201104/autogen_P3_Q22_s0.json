@@ -1,0 +1,21 @@
+{
+  "pipeline": "P3",
+  "framework": "autogen",
+  "question": "Compare active vs passive investing: the evidence on active manager performance after fees, the SPIVA report findings, and under what market conditions active management adds value.",
+  "answer": "Based on the provided research threads, the merged answer is as follows:\n\nThe debate between active and passive investing has been ongoing for years, with proponents on both sides presenting various arguments. Here's a summary of the evidence and findings related to active manager performance after fees and under what market conditions active management adds value.\n\n**Evidence on Active Manager Performance After Fees:**\n\nResearch has consistently shown that active managers struggle to beat the market averages, even after considering fees and other expenses. Studies have demonstrated that:\n\n- The majority of actively managed funds fail to outperform their benchmarks over the long term.\n- The odds are stacked against active managers, with many funds underperforming their respective indices.\n- Fees and expenses can significantly erode an investor's returns, making it challenging for active managers to add value.\n\n**SPIVA Report Findings:**\n\nThe SPIVA (S&P Indices vs. Active) report, published by S&P Dow Jones Indices, provides annual results on the performance of actively managed funds relative to their respective benchmarks. Key findings from the report include:\n\n- In the United States, approximately 70% of actively managed large-cap funds underperformed the S&P 500 Index over a 10-year period.\n- In Europe, around 70% of actively managed large-cap funds underperformed the STOXX Europe 600 Index over a 10-year period.\n- Similar trends are observed in other regions and asset classes, with a significant majority of actively managed funds failing to beat their benchmarks.\n\n**Under What Market Conditions Active Management Adds Value:**\n\nWhile active management has struggled to outperform in recent years, research suggests that it can add value in specific market conditions, such as:\n\n- During periods of high market volatility, active managers may be able to navigate the market more effectively, capturing opportunities and minimizing losses.\n- In sectors with significant changes in market trends, active managers can exploit these shifts, generating returns that exceed those of passive investment strategies.\n- In situations where there are significant changes in regulatory or economic conditions, active managers can adjust their portfolios accordingly, potentially leading to better outcomes.\n\nHowever, these conditions are relatively rare, and investors should be cautious when considering active management as a viable strategy.\n\nIn conclusion, while active management has its place in certain market conditions, the majority of actively managed funds fail to outperform their benchmarks, even after considering fees and expenses. Passive investing has emerged as a more attractive option for many investors, providing a low-cost and efficient way to achieve investment returns.",
+  "latency": 90.452,
+  "word_count": 412,
+  "run_id": "run_20260527_201104",
+  "seed": 0,
+  "question_id": "Q22",
+  "category": "finance",
+  "difficulty": "medium",
+  "tier": "short",
+  "status": "ok",
+  "accuracy": 7,
+  "completeness": 1,
+  "groundedness": 3,
+  "coherence": 6,
+  "reasoning": "Rule-based fallback score",
+  "overall": 3.95
+}

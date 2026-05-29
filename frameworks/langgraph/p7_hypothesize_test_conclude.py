@@ -12,12 +12,12 @@ class P7State(TypedDict):
     refuting_evidence: str
     evidence_evaluation: str
     answer: str
-    token_count: int
+    word_count: int
     latency: float
 
 def node_hypothesize(state: P7State) -> dict:
     system = "You are a research scientist. Form a clear, testable hypothesis (2-3 sentences) for the question."
-    hypothesis = llm_call(f"Form a hypothesis for: {state['question']}", system=system, max_tokens=150)
+    hypothesis = llm_call(f"Form a hypothesis for: {state['question']}", system=system, max_tokens=150, seed=state.get("seed"))
     return {"hypothesis": hypothesis}
 
 def node_gather_supporting(state: P7State) -> dict:
@@ -31,15 +31,15 @@ def node_gather_refuting(state: P7State) -> dict:
 def node_test(state: P7State) -> dict:
     system = "You are a critical thinker. Weigh supporting and refuting evidence objectively."
     prompt = f"Hypothesis: {state['hypothesis']}\nSupporting:\n{state['supporting_evidence'][:1500]}\nRefuting:\n{state['refuting_evidence'][:1500]}\nEvaluate the evidence."
-    evaluation = llm_call(prompt, system=system, max_tokens=700)
+    evaluation = llm_call(prompt, system=system, max_tokens=700, seed=state.get("seed"))
     return {"evidence_evaluation": evaluation}
 
 def node_conclude(state: P7State) -> dict:
     system = "You are a research analyst. Draw balanced, evidence-based conclusions and write a comprehensive final answer."
     prompt = f"Question: {state['question']}\nHypothesis: {state['hypothesis']}\nEvaluation:\n{state['evidence_evaluation']}\nWrite the final comprehensive answer."
     t0 = time.perf_counter()
-    answer = llm_call(prompt, system=system, max_tokens=2500)
-    return {"answer": answer, "latency": time.perf_counter() - t0, "token_count": len(answer.split())}
+    answer = llm_call(prompt, system=system, max_tokens=2500, seed=state.get("seed"))
+    return {"answer": answer, "latency": time.perf_counter() - t0, "word_count": len(answer.split())}
 
 def build_graph():
     g = StateGraph(P7State)
@@ -60,10 +60,10 @@ def run(question: str, run_id: str = "default", seed: int = 0) -> dict:
     graph = build_graph()
     init: P7State = {"question": question, "run_id": run_id, "seed": seed,
                      "hypothesis": "", "supporting_evidence": "", "refuting_evidence": "",
-                     "evidence_evaluation": "", "answer": "", "token_count": 0, "latency": 0.0}
+                     "evidence_evaluation": "", "answer": "", "word_count": 0, "latency": 0.0}
     with Timer() as t:
         final = graph.invoke(init)
     return {"pipeline": "P7", "framework": "langgraph", "question": question,
             "hypothesis": final["hypothesis"], "answer": final["answer"],
-            "latency": t.elapsed, "token_count": final.get("token_count", 0),
+            "latency": t.elapsed, "word_count": final.get("word_count", 0),
             "run_id": run_id, "seed": seed}

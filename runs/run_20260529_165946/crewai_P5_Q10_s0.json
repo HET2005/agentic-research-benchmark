@@ -1,0 +1,22 @@
+{
+  "pipeline": "P5",
+  "framework": "crewai",
+  "question": "Synthesize research on RAG vs fine-tuning for domain-specific LLM applications. When is each preferable and what are the open questions?",
+  "answer": "[CREWAI MOCK - API error] question=Synthesize research on RAG vs fine-tuning for domain-specifi",
+  "latency": 0.176,
+  "word_count": 13,
+  "run_id": "run_20260529_165946",
+  "seed": 0,
+  "question_id": "Q10",
+  "category": "literature_synthesis",
+  "difficulty": "hard",
+  "tier": "medium",
+  "status": "error",
+  "error": "[CREWAI MOCK - API error] question=Synthesize research on RAG vs fine-tuning for domain-specifi",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

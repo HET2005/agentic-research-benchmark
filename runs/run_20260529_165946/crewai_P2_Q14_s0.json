@@ -1,0 +1,22 @@
+{
+  "pipeline": "P2",
+  "framework": "crewai",
+  "question": "Analyze NVIDIA's current valuation using DCF analysis. What revenue growth rates, margins, and discount rates are implied by its current market cap? Is the AI premium justified?",
+  "answer": "[CREWAI MOCK - API error] question=Analyze NVIDIA's current valuation using DCF analysis. What ",
+  "latency": 0.198,
+  "word_count": 13,
+  "run_id": "run_20260529_165946",
+  "seed": 0,
+  "question_id": "Q14",
+  "category": "finance",
+  "difficulty": "hard",
+  "tier": "short",
+  "status": "error",
+  "error": "[CREWAI MOCK - API error] question=Analyze NVIDIA's current valuation using DCF analysis. What ",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

@@ -1,0 +1,13 @@
+{
+  "pipeline": "P1",
+  "framework": "autogen",
+  "question": "Explain the mechanics of collateralized debt obligations (CDOs) and their role in the 2008 financial crisis. How have post-crisis regulations (Dodd-Frank, Basel III) changed structured credit markets?",
+  "question_id": "Q13",
+  "answer": "",
+  "latency": 0,
+  "word_count": 0,
+  "run_id": "run_20260527_201104",
+  "seed": 0,
+  "status": "error",
+  "error": "Groq exception occurred: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01ks56dmgzfasa7anm7rtv3xth` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499593, Requested 1504. Please try again in 3m9.5616s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+}

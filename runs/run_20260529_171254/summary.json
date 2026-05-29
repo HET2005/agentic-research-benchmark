@@ -1,0 +1,15 @@
+[
+  {
+    "pipeline": "P10",
+    "framework": "crewai",
+    "question": "Analyze the competitive landscape of the cloud computing market in 2024. Compare AWS, Azure, and GCP across market share, pricing, and key differentiators.",
+    "question_id": "Q01",
+    "answer": "",
+    "latency": 0,
+    "word_count": 0,
+    "run_id": "run_20260529_171254",
+    "seed": 0,
+    "status": "error",
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - token is unusable (1004)"
+  }
+]

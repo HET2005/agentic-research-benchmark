@@ -1,0 +1,22 @@
+{
+  "pipeline": "P3",
+  "framework": "crewai",
+  "question": "Compare active vs passive investing: the evidence on active manager performance after fees, the SPIVA report findings, and under what market conditions active management adds value.",
+  "answer": "[CREWAI MOCK - API error] question=Compare active vs passive investing: the evidence on active ",
+  "latency": 0.159,
+  "word_count": 14,
+  "run_id": "run_20260529_165946",
+  "seed": 0,
+  "question_id": "Q22",
+  "category": "finance",
+  "difficulty": "medium",
+  "tier": "short",
+  "status": "error",
+  "error": "[CREWAI MOCK - API error] question=Compare active vs passive investing: the evidence on active ",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

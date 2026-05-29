@@ -9,7 +9,7 @@ class P1State(TypedDict):
     seed: int
     retrieved: str
     answer: str
-    token_count: int
+    word_count: int  # FIX: Renamed from token_count
     latency: float
 
 def node_retrieve(state: P1State) -> dict:
@@ -19,8 +19,11 @@ def node_synthesize(state: P1State) -> dict:
     system = "You are a rigorous research assistant. Use the search results to answer accurately. Cite sources as [Source N]."
     prompt = f"Question: {state['question']}\n\nSearch results:\n{state['retrieved']}\n\nWrite a comprehensive answer."
     t0 = time.perf_counter()
-    answer = llm_call(prompt, system=system)
-    return {"answer": answer, "latency": time.perf_counter() - t0, "token_count": len(answer.split())}
+    
+    # FIX: Pass the seed to the LLM to guarantee deterministic outputs!
+    answer = llm_call(prompt, system=system, seed=state.get("seed"))
+    
+    return {"answer": answer, "latency": time.perf_counter() - t0, "word_count": len(answer.split())}
 
 def build_graph():
     g = StateGraph(P1State)
@@ -34,9 +37,9 @@ def build_graph():
 def run(question: str, run_id: str = "default", seed: int = 0) -> dict:
     graph = build_graph()
     init: P1State = {"question": question, "run_id": run_id, "seed": seed,
-                     "retrieved": "", "answer": "", "token_count": 0, "latency": 0.0}
+                     "retrieved": "", "answer": "", "word_count": 0, "latency": 0.0}
     with Timer() as t:
         final = graph.invoke(init)
     return {"pipeline": "P1", "framework": "langgraph", "question": question,
             "answer": final["answer"], "latency": t.elapsed,
-            "token_count": final.get("token_count", 0), "run_id": run_id, "seed": seed}
+            "word_count": final.get("word_count", 0), "run_id": run_id, "seed": seed}

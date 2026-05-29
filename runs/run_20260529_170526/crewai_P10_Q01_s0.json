@@ -1,0 +1,13 @@
+{
+  "pipeline": "P10",
+  "framework": "crewai",
+  "question": "Analyze the competitive landscape of the cloud computing market in 2024. Compare AWS, Azure, and GCP across market share, pricing, and key differentiators.",
+  "question_id": "Q01",
+  "answer": "",
+  "latency": 0,
+  "word_count": 0,
+  "run_id": "run_20260529_170526",
+  "seed": 0,
+  "status": "error",
+  "error": "litellm.BadRequestError: GroqException - {\"error\":{\"message\":\"'messages.0' : for 'role:system' the following must be satisfied[('messages.0' : property 'cache_breakpoint' is unsupported)]\",\"type\":\"invalid_request_error\"}}\n"
+}

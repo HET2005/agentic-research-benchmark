@@ -1,0 +1,22 @@
+{
+  "pipeline": "P1",
+  "framework": "crewai",
+  "question": "Compare Python, Rust, and Go for backend web service development: performance, developer experience, ecosystem, and ideal use cases.",
+  "answer": "[CREWAI MOCK - API error] litellm.BadRequestError: GroqException - {\"error\":{\"message\":\"'messages.0' : for 'role:system' the following must be satisfied[('messages.0' : property 'cache_breakpoint' is unsupported)]\",\"type\":\"invalid_request_error\"}}\n",
+  "latency": 0.108,
+  "word_count": 22,
+  "run_id": "run_20260527_200339",
+  "seed": 0,
+  "question_id": "Q06",
+  "category": "comparative_study",
+  "difficulty": "medium",
+  "tier": "short",
+  "status": "error",
+  "error": "[CREWAI MOCK - API error] litellm.BadRequestError: GroqException - {\"error\":{\"message\":\"'messages.0' : for 'role:system' the following must be satisfied[('messages.0' : property 'cache_breakpoint' is ",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

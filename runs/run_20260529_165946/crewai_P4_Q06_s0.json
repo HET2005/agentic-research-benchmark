@@ -1,0 +1,22 @@
+{
+  "pipeline": "P4",
+  "framework": "crewai",
+  "question": "Compare Python, Rust, and Go for backend web service development: performance, developer experience, ecosystem, and ideal use cases.",
+  "answer": "[CREWAI MOCK - API error] question=Compare Python, Rust, and Go for backend web service develop",
+  "latency": 0.203,
+  "word_count": 15,
+  "run_id": "run_20260529_165946",
+  "seed": 0,
+  "question_id": "Q06",
+  "category": "comparative_study",
+  "difficulty": "medium",
+  "tier": "medium",
+  "status": "error",
+  "error": "[CREWAI MOCK - API error] question=Compare Python, Rust, and Go for backend web service develop",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

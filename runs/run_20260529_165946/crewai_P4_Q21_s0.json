@@ -1,0 +1,22 @@
+{
+  "pipeline": "P4",
+  "framework": "crewai",
+  "question": "Analyze the carry trade strategy in FX markets: how it works, which currency pairs are most used, historical returns, and the risk of sudden unwind events like the 2024 yen carry trade collapse.",
+  "answer": "[CREWAI MOCK - API error] question=Analyze the carry trade strategy in FX markets: how it works",
+  "latency": 0.184,
+  "word_count": 16,
+  "run_id": "run_20260529_165946",
+  "seed": 0,
+  "question_id": "Q21",
+  "category": "finance",
+  "difficulty": "hard",
+  "tier": "medium",
+  "status": "error",
+  "error": "[CREWAI MOCK - API error] question=Analyze the carry trade strategy in FX markets: how it works",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

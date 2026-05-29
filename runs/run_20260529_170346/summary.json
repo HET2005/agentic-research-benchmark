@@ -1,0 +1,15 @@
+[
+  {
+    "pipeline": "P10",
+    "framework": "crewai",
+    "question": "Analyze the competitive landscape of the cloud computing market in 2024. Compare AWS, Azure, and GCP across market share, pricing, and key differentiators.",
+    "question_id": "Q01",
+    "answer": "",
+    "latency": 0,
+    "word_count": 0,
+    "run_id": "run_20260529_170346",
+    "seed": 0,
+    "status": "error",
+    "error": "Unable to initialize LLM with model 'groq/llama-3.1-8b-instant'. The model did not match any supported native provider (openai, anthropic, claude, azure, azure_openai, google, gemini, bedrock, aws, openrouter, deepseek, ollama, ollama_chat, hosted_vllm, cerebras, dashscope), and the LiteLLM fallback package is not installed.\n\nTo fix this, either:\n  1. Install LiteLLM for broad model support: uv add 'crewai[litellm]'\nor\npip install litellm\n\nFor more details, see: https://docs.crewai.com/en/learn/llm-connections"
+  }
+]

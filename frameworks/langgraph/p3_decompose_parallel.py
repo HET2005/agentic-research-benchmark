@@ -17,12 +17,11 @@ class P3State(TypedDict):
 
 def node_decompose(state: P3State) -> dict:
     system = "You are a research planner. Break questions into sub-questions. Return ONLY a JSON array of 4 strings."
-    # Use seed to potentially permute/seed the prompt output (Fix Bug #16)
     prompt = f"Decompose into 4 sub-questions (JSON array only): {state['question']}"
     if state["seed"] > 0:
         prompt += f"\n\n[Seed variation: {state['seed']}]"
         
-    raw = llm_call(prompt, system=system, max_tokens=300)
+    raw = llm_call(prompt, system=system, max_tokens=300, seed=state.get("seed"))
     try:
         sub_queries = json.loads(raw[raw.find("["):raw.rfind("]")+1])
     except Exception:
@@ -31,7 +30,6 @@ def node_decompose(state: P3State) -> dict:
     return {"sub_queries": sub_queries}
 
 def node_parallel_retrieve(state: P3State) -> dict:
-    # Use actual concurrency to perform searches in parallel (Fix Bug #7)
     chunks = []
     with ThreadPoolExecutor(max_workers=4) as executor:
         def fetch(q_enum):
@@ -51,8 +49,7 @@ def node_merge(state: P3State) -> dict:
         prompt += f"\n\n[Seed variation: {state['seed']}]"
         
     t0 = time.perf_counter()
-    answer = llm_call(prompt, system=system, max_tokens=2048)
-    # Fix bug #11: Rename token_count to word_count
+    answer = llm_call(prompt, system=system, max_tokens=2048, seed=state.get("seed"))
     return {"answer": answer, "latency": time.perf_counter() - t0, "word_count": len(answer.split())}
 
 def build_graph():

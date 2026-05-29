@@ -1,0 +1,22 @@
+{
+  "pipeline": "P3",
+  "framework": "crewai",
+  "question": "Explain cryptocurrency market microstructure: how DeFi liquidity pools work (AMMs, impermanent loss), the role of market makers in CEX vs DEX, and how crypto market crashes propagate through the system.",
+  "answer": "[CREWAI MOCK - API error] question=Explain cryptocurrency market microstructure: how DeFi liqui",
+  "latency": 0.166,
+  "word_count": 12,
+  "run_id": "run_20260529_165946",
+  "seed": 0,
+  "question_id": "Q23",
+  "category": "finance",
+  "difficulty": "hard",
+  "tier": "short",
+  "status": "error",
+  "error": "[CREWAI MOCK - API error] question=Explain cryptocurrency market microstructure: how DeFi liqui",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

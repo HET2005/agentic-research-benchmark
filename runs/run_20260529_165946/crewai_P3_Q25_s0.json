@@ -1,0 +1,22 @@
+{
+  "pipeline": "P3",
+  "framework": "crewai",
+  "question": "What is the current state of the Indian equity market (NSE/BSE)? Analyze valuations (Nifty 50 P/E), FII vs DII flows, key sectoral drivers, and risks for 2025. How does India compare to other emerging markets as an investment destination?",
+  "answer": "[CREWAI MOCK - API error] question=What is the current state of the Indian equity market (NSE/B",
+  "latency": 0.315,
+  "word_count": 16,
+  "run_id": "run_20260529_165946",
+  "seed": 0,
+  "question_id": "Q25",
+  "category": "finance",
+  "difficulty": "hard",
+  "tier": "short",
+  "status": "error",
+  "error": "[CREWAI MOCK - API error] question=What is the current state of the Indian equity market (NSE/B",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

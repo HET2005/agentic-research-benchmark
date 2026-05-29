@@ -1,0 +1,22 @@
+{
+  "pipeline": "P1",
+  "framework": "crewai",
+  "question": "Analyze the global AI regulation landscape in 2024: EU AI Act, US Executive Order on AI, China regulations, and implications for AI companies.",
+  "answer": "[CREWAI MOCK - API error] question=Analyze the global AI regulation landscape in 2024: EU AI Ac",
+  "latency": 0.149,
+  "word_count": 16,
+  "run_id": "run_20260529_165946",
+  "seed": 0,
+  "question_id": "Q09",
+  "category": "trend_report",
+  "difficulty": "hard",
+  "tier": "short",
+  "status": "error",
+  "error": "[CREWAI MOCK - API error] question=Analyze the global AI regulation landscape in 2024: EU AI Ac",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}
