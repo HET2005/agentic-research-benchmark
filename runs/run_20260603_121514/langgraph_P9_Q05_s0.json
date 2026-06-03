@@ -1,0 +1,40 @@
+{
+  "pipeline": "P9",
+  "framework": "langgraph",
+  "question": "Explain quantum computing: how qubits differ from classical bits, what problems it can solve, and the current state of development.",
+  "sub_questions": [
+    {
+      "sub-question": "How does a qubit differ from a classical bit in terms of its quantum properties and how does it enable quantum computing?"
+    },
+    {
+      "sub-question": "What types of complex problems and applications can quantum computing potentially solve or improve, and what are their characteristics?"
+    },
+    {
+      "sub-question": "Can you provide an overview of the current advancements and challenges in the development of quantum computing, including technology, hardware, and software?"
+    },
+    {
+      "sub-question": "What are the current research and development priorities in the field of quantum computing, and what potential applications or breakthroughs can be expected in the near future?"
+    }
+  ],
+  "adversarial_critique": "It seems like the provided draft doesn't contain a working text. However, I'll demonstrate how an attack on a hypothetical similar draft might look. I'll then create a hypothetical draft to critique:\n\n**Hypothetical Draft:**\n\nQuantum computing is a rapidly evolving field that could potentially solve complex problems in various sectors. Unlike classical computers, which use bits, quantum computers rely on qubits.\n\n**Attack:**\n\n1. **Lack of Definition**: The draft doesn't provide a clear definition of quantum computing or explain its fundamental principles. A good draft should define the subject to establish context.\n2. **Overstatement**: The phrase \"rapidly evolving field\" is an overstatement without evidence to support it. Provide metrics or specific examples to demonstrate the field's growth.\n3. **Misleading Comparison**: The comparison between classical computers and quantum computers is incomplete. Explain how qubits differ from classical bits in terms of properties and functionality.\n4. **Limited Explanation**: The sentence \"quantum computers rely on qubits\" is a simplistic explanation. Expand on the characteristics of qubits and their role in quantum computing.\n5. **Lack of Counterarguments**: The draft doesn't address potential criticisms or challenges in quantum computing. Introduce counterarguments to strengthen the narrative.\n6. **No Specific Examples**: The draft fails to provide real-world examples of problems solved or in progress. Provide concrete examples to illustrate the potential of quantum computing.\n7. **Incomplete Discussion on Current State**: The sentence \"the current state of development\" is vague. Provide an update on current developments, research projects, or notable achievements in the field.\n\n**Hypothetical Refactored Draft:**\n\nQuantum computing is a cutting-edge technology that utilizes qubits, the fundamental units of quantum information, to tackle complex problems across various industries. Unlike classical computers, which use binary bits to represent 0s and 1s, qubits leverage quantum-mechanical phenomena to process information in multiple states simultaneously.\n\nThis characteristic allows quantum computers to perform calculations exponentially faster than their classical counterparts, making them a potential solution for complex problems such as simulating molecular interactions and optimizing complex systems.\n\n**Addressing Potential Criticisms**: \n\nOne potential criticism of quantum computing is the noise and decoherence inherent in qubits, which can lead to errors and affect the accuracy of calculations. However, researchers are developing novel materials and techniques to mitigate these effects.\n\n**Current State of Development**: Notable projects such as Google's Quantum AI Lab and IBM's Quantum Experience are driving advancements in quantum computing. These initiatives have resulted in breakthroughs in areas like machine learning and cryptography.\n\nTo further explore the potential of quantum computing, researchers have started applying it to real-world problems, such as simulating molecular interactions and optimizing complex systems. These applications demonstrate the potential of quantum computing and its ability to tackle complex problems in various sectors.\n\nNote that the provided hypothetical refactored draft addresses the identified errors and gaps, but still requires further polishing and refinement.",
+  "answer": "[NO_API_KEY] No working provider found.",
+  "latency": 198.449,
+  "word_count": 5,
+  "run_id": "run_20260603_121514",
+  "seed": 0,
+  "question_id": "Q05",
+  "category": "scientific_explainer",
+  "difficulty": "medium",
+  "tier": "long",
+  "input_tokens": 202,
+  "output_tokens": 747,
+  "cost": 7e-05,
+  "status": "error",
+  "error": "[NO_API_KEY] No working provider found.",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

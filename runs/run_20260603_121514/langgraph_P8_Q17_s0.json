@@ -1,0 +1,41 @@
+{
+  "pipeline": "P8",
+  "framework": "langgraph",
+  "question": "Compare Warren Buffett's value investing principles with quantitative approaches to value investing. Where do they agree, where do they diverge, and which has performed better in recent markets?",
+  "outline": [
+    {
+      "title": "Introduction"
+    },
+    {
+      "title": "Value Investing Principles: A Comparison of Warren Buffett and Quantitative Approaches"
+    },
+    {
+      "title": "Key Similarities and Differences: Buffett's Qualitative vs. Quantitative Value Investing"
+    },
+    {
+      "title": "Performance Comparison: Buffett's Track Record vs. Quantitative Strategies"
+    },
+    {
+      "title": "Conclusion: Reconciling Value Investing Principles with Modern Quantitative Approaches"
+    }
+  ],
+  "answer": "**Document Error: No API Key Available**\n\n**Publication-Ready Version:**\n\nUnfortunately, the system was unable to find a working provider. In order to resolve this issue, we recommend procuring an API key that can be used to authenticate requests and facilitate data retrieval.\n\n**Executive Summary:**\nThe absence of a functioning provider has resulted in an unsuccessful operation. Obtaining an API key is essential for initiating the process and enabling the system to function as intended.\n\n**Key Takeaways:**\n\n1. **API Key Required**: A valid API key is necessary to authenticate requests and initiate the operation.\n2. **Obtain an API Key**: Procure an API key to resolve the issue and enable the system to function correctly.\n3. **Resolve Error**: The absence of a functioning provider is preventing the operation from completing successfully.\n\n**Recommendations:**\n\n- Obtain an API key from the relevant provider or authority.\n- Ensure the API key is correctly configured and entered into the system.\n- Test the system again to verify that the operation can complete successfully.",
+  "latency": 132.025,
+  "word_count": 166,
+  "run_id": "run_20260603_121514",
+  "seed": 0,
+  "question_id": "Q17",
+  "category": "finance",
+  "difficulty": "medium",
+  "tier": "long",
+  "input_tokens": 236,
+  "output_tokens": 612,
+  "cost": 6.1e-05,
+  "status": "ok",
+  "accuracy": 2,
+  "completeness": 0,
+  "groundedness": 3,
+  "coherence": 6,
+  "reasoning": "Rule-based fallback score",
+  "overall": 2.2
+}

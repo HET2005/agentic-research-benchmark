@@ -1,0 +1,40 @@
+{
+  "pipeline": "P9",
+  "framework": "langgraph",
+  "question": "What has been the recent stock performance of NVIDIA (NVDA) and what factors are driving its valuation?",
+  "sub_questions": [
+    {
+      "sub-question": "What are the recent technical and fundamental trends of NVIDIA (NVDA) stock prices?"
+    },
+    {
+      "sub-question": "How have changes in global demand for NVIDIA's key products (e.g. GPUs, AI chips) impacted its stock performance?"
+    },
+    {
+      "sub-question": "What role have investor sentiment, market competition, and industry trends played in shaping NVIDIA's valuation?"
+    },
+    {
+      "sub-question": "Can we identify any correlations between NVIDIA's stock performance and broader economic indicators (e.g. GDP growth, interest rates)?"
+    }
+  ],
+  "adversarial_critique": "[NO_API_KEY] No working provider found.",
+  "answer": "[NO_API_KEY] No working provider found.",
+  "latency": 204.502,
+  "word_count": 5,
+  "run_id": "run_20260603_121514",
+  "seed": 0,
+  "question_id": "Q02",
+  "category": "market_analysis",
+  "difficulty": "easy",
+  "tier": "long",
+  "input_tokens": 516,
+  "output_tokens": 814,
+  "cost": 9.1e-05,
+  "status": "error",
+  "error": "[NO_API_KEY] No working provider found.",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

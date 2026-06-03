@@ -1,0 +1,42 @@
+{
+  "pipeline": "P8",
+  "framework": "langgraph",
+  "question": "What is risk parity portfolio construction? Explain how Bridgewater's All Weather portfolio works, its performance in different macro regimes, and its limitations during inflationary periods.",
+  "outline": [
+    {
+      "title": "Introduction to Risk Parity Portfolio Construction"
+    },
+    {
+      "title": "Understanding Bridgewater's All Weather Portfolio"
+    },
+    {
+      "title": "Performance of the All Weather Portfolio in Different Macro Regimes"
+    },
+    {
+      "title": "All Weather Portfolio Performance during Inflationary Periods"
+    },
+    {
+      "title": "Limitations and Future Prospects of the All Weather Portfolio"
+    }
+  ],
+  "answer": "[NO_API_KEY] No working provider found.",
+  "latency": 115.607,
+  "word_count": 5,
+  "run_id": "run_20260603_121514",
+  "seed": 0,
+  "question_id": "Q20",
+  "category": "finance",
+  "difficulty": "medium",
+  "tier": "long",
+  "input_tokens": 165,
+  "output_tokens": 489,
+  "cost": 4.7e-05,
+  "status": "error",
+  "error": "[NO_API_KEY] No working provider found.",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

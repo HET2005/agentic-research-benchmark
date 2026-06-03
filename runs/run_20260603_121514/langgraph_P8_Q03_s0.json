@@ -1,0 +1,42 @@
+{
+  "pipeline": "P8",
+  "framework": "langgraph",
+  "question": "Conduct a thorough analysis of the electric vehicle market globally. Discuss Tesla, BYD, legacy OEMs, adoption trends, infrastructure challenges, and a 5-year outlook.",
+  "outline": [
+    {
+      "title": "Executive Overview: Electric Vehicle Market Landscape"
+    },
+    {
+      "title": "Key Players: Tesla, BYD, and Legacy OEMs"
+    },
+    {
+      "title": "Adoption Trends, Drivers, and Barriers"
+    },
+    {
+      "title": "Infrastructure Challenges and Investment Opportunities"
+    },
+    {
+      "title": "5-Year Outlook and Future Market Prospects"
+    }
+  ],
+  "answer": "[NO_API_KEY] No working provider found.",
+  "latency": 55.611,
+  "word_count": 5,
+  "run_id": "run_20260603_121514",
+  "seed": 0,
+  "question_id": "Q03",
+  "category": "market_analysis",
+  "difficulty": "hard",
+  "tier": "long",
+  "input_tokens": 97,
+  "output_tokens": 78,
+  "cost": 1.1e-05,
+  "status": "error",
+  "error": "[NO_API_KEY] No working provider found.",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

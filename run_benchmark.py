@@ -1,4 +1,3 @@
-# run_benchmark.py
 import argparse
 import json
 import os
@@ -8,11 +7,17 @@ import traceback
 from datetime import datetime
 from pathlib import Path
 
+# Force LiteLLM to strip Anthropic-specific parameters (like cache_breakpoint) before sending to Groq
+os.environ["LITELLM_DROP_PARAMS"] = "True"
+os.environ["DROP_PARAMS"] = "True"
+os.environ["CREWAI_TELEMETRY_OPT_OUT"] = "True"
+
 ROOT = Path(__file__).parent
 sys.path.insert(0, str(ROOT))
 
 from questions.question_set import QUESTIONS
 from evals.judge import score_answer
+from frameworks.shared_llm import reset_usage, get_usage  # IMPORT ADDED HERE
 
 RUNS_DIR = ROOT / "runs"
 RUNS_DIR.mkdir(exist_ok=True)
@@ -35,6 +40,10 @@ def run_one(framework, pipeline, question_dict, seed, run_id) -> dict:
     runner = get_runner(framework, pipeline)
     q = question_dict["question"]
     qid = question_dict["id"]
+    
+    # FIX #26: Reset the token/cost tracker for this specific run
+    reset_usage()
+    
     try:
         t0 = time.perf_counter()
         result = runner(q, run_id=run_id, seed=seed)
@@ -64,6 +73,12 @@ def run_one(framework, pipeline, question_dict, seed, run_id) -> dict:
         result["answer"] = answer
         result["word_count"] = len(answer.split()) # BUG 9 FIX: Calculate true word count here
 
+        # FIX #26: Extract tokens and cost and inject them into the result
+        usage_stats = get_usage()
+        result["input_tokens"] = usage_stats.get("input_tokens", 0)
+        result["output_tokens"] = usage_stats.get("output_tokens", 0)
+        result["cost"] = round(usage_stats.get("cost", 0.0), 6)
+
         # BUG 4 FIX: Catch embedded errors (not just startswith) to prevent scoring mock/error garbage
         error_prefixes = ("[LLM ERROR]", "[MOCK]", "[CREWAI MOCK", "[CREW ERROR]", "[NO_API_KEY]")
         if not answer.strip() or any(p in answer for p in error_prefixes):
@@ -82,12 +97,17 @@ def run_one(framework, pipeline, question_dict, seed, run_id) -> dict:
                 result.update(scores)
 
     except Exception as e:
+        # If it crashes mid-run, grab whatever tokens it managed to use
+        usage_stats = get_usage()
         result = {
             "pipeline": pipeline, "framework": framework,
             "question": q, "question_id": qid,
             "answer": "", "latency": 0, "word_count": 0,
             "run_id": run_id, "seed": seed, "status": "error",
             "error": str(e),
+            "input_tokens": usage_stats.get("input_tokens", 0),
+            "output_tokens": usage_stats.get("output_tokens", 0),
+            "cost": round(usage_stats.get("cost", 0.0), 6),
         }
     return result
 

@@ -1,0 +1,42 @@
+{
+  "pipeline": "P8",
+  "framework": "langgraph",
+  "question": "Compare renewable energy adoption rates and policies across Germany, China, and the United States. Which approach is most effective and why?",
+  "outline": [
+    {
+      "title": "Introduction and Research Question"
+    },
+    {
+      "title": "Comparison of Renewable Energy Policies in Germany, China, and the United States"
+    },
+    {
+      "title": "Analysis of Renewable Energy Adoption Rates in Germany, China, and the United States"
+    },
+    {
+      "title": "Comparison of Effective Approaches and Key Factors Influencing Success"
+    },
+    {
+      "title": "Conclusion: Which Approach is Most Effective and Why?"
+    }
+  ],
+  "answer": "[NO_API_KEY] No working provider found.",
+  "latency": 104.034,
+  "word_count": 5,
+  "run_id": "run_20260603_121514",
+  "seed": 0,
+  "question_id": "Q07",
+  "category": "comparative_study",
+  "difficulty": "medium",
+  "tier": "long",
+  "input_tokens": 88,
+  "output_tokens": 91,
+  "cost": 1.2e-05,
+  "status": "error",
+  "error": "[NO_API_KEY] No working provider found.",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

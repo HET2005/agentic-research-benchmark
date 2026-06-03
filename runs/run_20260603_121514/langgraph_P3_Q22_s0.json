@@ -1,0 +1,30 @@
+{
+  "pipeline": "P3",
+  "framework": "langgraph",
+  "question": "Compare active vs passive investing: the evidence on active manager performance after fees, the SPIVA report findings, and under what market conditions active management adds value.",
+  "sub_queries": [
+    "What are the historical performances of active managers compared to their respective benchmark indices after fees are deducted?",
+    "Can the SPIVA report findings indicate any trends, patterns, or correlations in active manager performance?",
+    "Under what specific market conditions do active management strategies and techniques tend to outperform their benchmark indices after fees, if at all?",
+    "Do the benefits of active management in terms of outperformance justify the associated higher fees, or are the results consistent with random chance or other market factors?"
+  ],
+  "answer": "**Comparison of Active vs Passive Investing: Evidence on Active Manager Performance**\n\nThe debate between active and passive investing has been a long-standing topic in the finance industry. Active managers strive to outperform their benchmark indices, while passive investors aim to track the market's performance. This answer will summarize the historical performances of active managers compared to their respective benchmark indices after fees are deducted, the SPIVA report findings, and under what market conditions active management adds value.\n\n**Historical Performances of Active Managers**\n\nResearch by S&P Global and Morningstar has consistently shown that active fund managers struggle to outperform their respective benchmark indices after fees are deducted. The SPIVA U.S. Scorecard, which has been tracking performance since 2002, has found that a lack of consistency by active fund managers in outperforming their indexes has been a constant theme [1]. A study analyzing the average performance of actively managed U.S. funds from 2004 through 2016 showed that relatively few active managers were able to outperform passive managers over any given time period [2]. Moreover, a recent Morningstar report found that active funds \"struggled mightily\" to beat their index fund counterparts over the past year, even amid market gyrations [3].\n\n**SPIVA Report Findings**\n\nThe SPIVA report provides insights into the performance of active fund managers relative to their benchmark indices. The report has consistently shown that relatively few active managers are able to outperform passive managers over any given time period. However, the true measure of successful active management is whether a manager or strategy can deliver above-average returns consistently over multiple periods [4]. Research on identifying superior active fund managers reveals persistent challenges, highlighting the need to critically evaluate the ability of active managers to consistently outperform their benchmark indices [5].\n\n**Trends, Patterns, or Correlations in Active Manager Performance**\n\nThe SPIVA report findings indicate several trends and patterns in active manager performance. Firstly, the report shows that active managers are often unable to outperform their benchmark indices, especially over longer periods. Secondly, the report highlights the importance of selecting a manager with a proven track record of delivering above-average returns consistently over multiple periods. Lastly, research suggests that the performance of active managers is often driven by market conditions, with some managers performing well in certain market environments and struggling in others [6].\n\n**Under What Market Conditions Active Management Adds Value?**\n\nResearch suggests that active management can add value in certain market conditions, particularly when there is a significant deviation from historical norms. Active managers who are skilled at navigating market downturns or taking advantage of investment opportunities in changing market conditions may be able to deliver above-average returns. Additionally, active managers who have a strong research and stock-picking capabilities may be able to outperform their benchmark indices in certain market conditions.\n\n**Conclusion**\n\nIn conclusion, the historical performances of active managers compared to their respective benchmark indices after fees are deducted, the SPIVA report findings, and under what market conditions active management adds value suggest that active management may not be the most effective investment strategy. While some active managers may be able to deliver above-average returns, relatively few active managers are able to consistently outperform their benchmark indices over any given time period. As such, investors should carefully evaluate the potential benefits and risks of active management and consider their own investment goals and risk tolerance before making a decision.\n\nReferences:\n\n[1] \"Active Fund Managers vs. Indexes: Analyzing SPIVA Scorecards\" (Source: IFA)\n[2] \"Active funds versus passive indexes: the latest scorecards\" (Source: MathInvestor)\n[3] \"Active funds struggled 'mightily' to beat index funds amid market gyrations\" (Source: CNBC)\n[4] \"TalkingPoints: Assessing the Impact of 20 Years of SPIVA\" (Source: S&P Dow Jones Indices)\n[5] \"Superior Active Fund Management | IBF Financial Knowledge Center\" (Source: JP ICFS)\n[6] \"A Question of Amplitude, Not Breadth: What Drives Active Manager Performance?\" (Source: LinkedIn)",
+  "latency": 19.659,
+  "word_count": 638,
+  "run_id": "run_20260603_121514",
+  "seed": 0,
+  "question_id": "Q22",
+  "category": "finance",
+  "difficulty": "medium",
+  "tier": "short",
+  "input_tokens": 1119,
+  "output_tokens": 929,
+  "cost": 0.00013,
+  "status": "ok",
+  "accuracy": 7,
+  "completeness": 6,
+  "groundedness": 5,
+  "coherence": 8,
+  "reasoning": "While the answer presents relevant data and sources, it lacks sufficient detail and examples to fully support its claims, leading to somewhat limited groundedness",
+  "overall": 6.15
+}

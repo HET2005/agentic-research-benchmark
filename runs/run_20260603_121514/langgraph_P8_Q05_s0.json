@@ -1,0 +1,42 @@
+{
+  "pipeline": "P8",
+  "framework": "langgraph",
+  "question": "Explain quantum computing: how qubits differ from classical bits, what problems it can solve, and the current state of development.",
+  "outline": [
+    {
+      "title": "Introduction to Quantum Computing"
+    },
+    {
+      "title": "What are qubits and how do they differ from classical bits?"
+    },
+    {
+      "title": "Potential Applications and Problems Solved by Quantum Computing"
+    },
+    {
+      "title": "Current State of Quantum Computing Development"
+    },
+    {
+      "title": "Future Directions and Opportunities"
+    }
+  ],
+  "answer": "[NO_API_KEY] No working provider found.",
+  "latency": 89.394,
+  "word_count": 5,
+  "run_id": "run_20260603_121514",
+  "seed": 0,
+  "question_id": "Q05",
+  "category": "scientific_explainer",
+  "difficulty": "medium",
+  "tier": "long",
+  "input_tokens": 158,
+  "output_tokens": 480,
+  "cost": 4.6e-05,
+  "status": "error",
+  "error": "[NO_API_KEY] No working provider found.",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

@@ -1,0 +1,42 @@
+{
+  "pipeline": "P8",
+  "framework": "langgraph",
+  "question": "Analyze the competitive landscape of the cloud computing market in 2024. Compare AWS, Azure, and GCP across market share, pricing, and key differentiators.",
+  "outline": [
+    {
+      "title": "Executive Summary"
+    },
+    {
+      "title": "Market Share Analysis of AWS, Azure, and GCP"
+    },
+    {
+      "title": "Pricing Comparison of Leading Cloud Providers"
+    },
+    {
+      "title": "Key Differentiators of AWS, Azure, and GCP"
+    },
+    {
+      "title": "Conclusion and Future Outlook"
+    }
+  ],
+  "answer": "[NO_API_KEY] No working provider found.",
+  "latency": 45.354,
+  "word_count": 5,
+  "run_id": "run_20260603_121514",
+  "seed": 0,
+  "question_id": "Q01",
+  "category": "market_analysis",
+  "difficulty": "medium",
+  "tier": "long",
+  "input_tokens": 167,
+  "output_tokens": 478,
+  "cost": 4.7e-05,
+  "status": "error",
+  "error": "[NO_API_KEY] No working provider found.",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

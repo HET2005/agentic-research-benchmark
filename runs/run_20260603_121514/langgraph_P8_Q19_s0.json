@@ -1,0 +1,42 @@
+{
+  "pipeline": "P8",
+  "framework": "langgraph",
+  "question": "Analyze the current state of global sovereign debt: which countries face the highest debt sustainability risks, what are the triggers for a sovereign debt crisis, and how do IMF interventions work?",
+  "outline": [
+    {
+      "title": "Introduction: Context and Objectives"
+    },
+    {
+      "title": "Methodology and Data: Identifying High-Risk Countries"
+    },
+    {
+      "title": "Sovereign Debt Sustainability: Risk Factors and Triggers"
+    },
+    {
+      "title": "IMF Interventions and Their Implications"
+    },
+    {
+      "title": "Case Studies and Policy Recommendations"
+    }
+  ],
+  "answer": "[NO_API_KEY] No working provider found.",
+  "latency": 109.159,
+  "word_count": 5,
+  "run_id": "run_20260603_121514",
+  "seed": 0,
+  "question_id": "Q19",
+  "category": "finance",
+  "difficulty": "hard",
+  "tier": "long",
+  "input_tokens": 169,
+  "output_tokens": 485,
+  "cost": 4.7e-05,
+  "status": "error",
+  "error": "[NO_API_KEY] No working provider found.",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

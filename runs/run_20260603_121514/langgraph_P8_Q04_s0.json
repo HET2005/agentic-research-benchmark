@@ -1,0 +1,42 @@
+{
+  "pipeline": "P8",
+  "framework": "langgraph",
+  "question": "Explain how large language models work, from tokenization through attention mechanisms to text generation, for a technically literate audience.",
+  "outline": [
+    {
+      "title": "Section 1: Introduction to Large Language Models"
+    },
+    {
+      "title": "Section 2: Tokenization and Input Representation"
+    },
+    {
+      "title": "Section 3: Encoder-Decoder Architectures and Attention Mechanisms"
+    },
+    {
+      "title": "Section 4: Training Large Language Models"
+    },
+    {
+      "title": "Section 5: Text Generation and Application in NLP"
+    }
+  ],
+  "answer": "[NO_API_KEY] No working provider found.",
+  "latency": 35.019,
+  "word_count": 5,
+  "run_id": "run_20260603_121514",
+  "seed": 0,
+  "question_id": "Q04",
+  "category": "scientific_explainer",
+  "difficulty": "easy",
+  "tier": "long",
+  "input_tokens": 87,
+  "output_tokens": 87,
+  "cost": 1.1e-05,
+  "status": "error",
+  "error": "[NO_API_KEY] No working provider found.",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

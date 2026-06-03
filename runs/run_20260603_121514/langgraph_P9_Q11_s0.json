@@ -1,0 +1,40 @@
+{
+  "pipeline": "P9",
+  "framework": "langgraph",
+  "question": "Analyze the impact of the Federal Reserve's interest rate hiking cycle from 2022-2024 on US equity valuations, bond markets, and commercial real estate. What are the transmission mechanisms and lagged effects?",
+  "sub_questions": [
+    {
+      "question": "How has the 2022-2024 Federal Reserve interest rate hiking cycle influenced US equity valuations compared to historical benchmarks?"
+    },
+    {
+      "question": "What are the key transmission mechanisms through which the Federal Reserve's interest rate hikes have affected the US bond market, considering variables such as yield curve shifts, bond price volatility, and investor sentiment?"
+    },
+    {
+      "question": "What have been the lagged effects of the Federal Reserve's interest rate hiking cycle on commercial real estate values, rents, and capitalization rates, and how have these impacts varied across different property types and regional markets?"
+    },
+    {
+      "question": "To what extent have the Federal Reserve's interest rate hikes influenced the broader US economy, and how have these macroeconomic effects influenced US equity valuations, bond markets, and commercial real estate, through channels like inflation, GDP growth, and consumer spending?"
+    }
+  ],
+  "adversarial_critique": "[NO_API_KEY] No working provider found.",
+  "answer": "[NO_API_KEY] No working provider found.",
+  "latency": 193.685,
+  "word_count": 5,
+  "run_id": "run_20260603_121514",
+  "seed": 0,
+  "question_id": "Q11",
+  "category": "finance",
+  "difficulty": "hard",
+  "tier": "long",
+  "input_tokens": 671,
+  "output_tokens": 895,
+  "cost": 0.000105,
+  "status": "error",
+  "error": "[NO_API_KEY] No working provider found.",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

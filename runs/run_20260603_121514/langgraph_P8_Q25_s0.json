@@ -1,0 +1,41 @@
+{
+  "pipeline": "P8",
+  "framework": "langgraph",
+  "question": "What is the current state of the Indian equity market (NSE/BSE)? Analyze valuations (Nifty 50 P/E), FII vs DII flows, key sectoral drivers, and risks for 2025. How does India compare to other emerging markets as an investment destination?",
+  "outline": [
+    {
+      "title": "Market Overview: Current State of Indian Equity Market (NSE/BSE)"
+    },
+    {
+      "title": "Valuation Landscape: Nifty 50 P/E Ratios and Flows"
+    },
+    {
+      "title": "FII vs DII Flows and Sectoral Performance: Key Drivers"
+    },
+    {
+      "title": "Comparing India with Emerging Markets: Investment Destination"
+    },
+    {
+      "title": "Risks and Outlook for 2025: Indian Equity Market Projections"
+    }
+  ],
+  "answer": "**Document Error: No working provider found**\n\nAs it stands, the provided document does not comprise a complete or coherent piece of information. However, based on its content and the context it seems to be associated with, I can attempt to rephrase and expand it into a more comprehensible document.\n\n**Expanded Document**\n\n**Error Notification: No working provider found**\n\nDuring the execution of a request, an error occurred due to the unavailability of a suitable provider. A provider is a critical component required for the successful completion of the task. The error indicates that none of the available providers were able to fulfill the request.\n\n**Causes of the Error**\n\nThere are several reasons why this error might occur:\n\n1.  **Insufficient provider setup**: The provider might not have been properly configured or installed.\n2.  **Provider availability issues**: The provider might be experiencing technical difficulties or downtime.\n3.  **Request-specific provider incompatibility**: The request might require a specific provider that is not available or compatible with the current configuration.\n\n**Recommended Action**\n\nTo resolve this issue, please ensure that:\n\n1.  **Proper provider setup**: Verify that the provider has been correctly configured and installed.\n2.  **Provider status**: Check the status of the provider and its availability.\n3.  **Request adjustments**: Review the request and adjust it to utilize an alternative provider if possible.\n\nIf none of the above measures resolve the issue, please contact our support team for further assistance.\n\n**Executive Summary**\n\nThe document describes an error that occurs when no working provider is found to fulfill a request. The causes of the error and recommended actions to resolve it are also outlined.\n\n**Key Takeaways**\n\n1.  **Error description**: No working provider found, preventing the successful completion of the task.\n2.  **Causes of the error**: Insufficient provider setup, provider availability issues, or request-specific provider incompatibility.\n3.  **Recommended actions**: Verify proper provider setup, check provider status, and adjust the request to utilize an alternative provider if possible.\n\nThis expanded document should provide more context and clarity regarding the error and the steps necessary to resolve it.",
+  "latency": 113.992,
+  "word_count": 336,
+  "run_id": "run_20260603_121514",
+  "seed": 0,
+  "question_id": "Q25",
+  "category": "finance",
+  "difficulty": "hard",
+  "tier": "long",
+  "input_tokens": 261,
+  "output_tokens": 844,
+  "cost": 8.1e-05,
+  "status": "ok",
+  "accuracy": 3,
+  "completeness": 0,
+  "groundedness": 3,
+  "coherence": 6,
+  "reasoning": "Rule-based fallback score",
+  "overall": 2.25
+}

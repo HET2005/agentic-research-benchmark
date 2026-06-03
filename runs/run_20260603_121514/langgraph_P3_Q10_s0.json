@@ -1,0 +1,30 @@
+{
+  "pipeline": "P3",
+  "framework": "langgraph",
+  "question": "Synthesize research on RAG vs fine-tuning for domain-specific LLM applications. When is each preferable and what are the open questions?",
+  "sub_queries": [
+    "What are the specific benefits of RAG (ReasoR And generator) techniques in domain-specific LLM applications, and how do they compare to fine-tuning?",
+    "How do the requirements for data, model size, and computational resources impact the choice between RAG and fine-tuning for domain-specific LLM applications?",
+    "What are the key limitations and trade-offs of RAG and fine-tuning approaches in domain-specific LLM applications, and how might they be addressed?",
+    "What are the open research questions surrounding the application of RAG and fine-tuning to domain-specific LLM tasks, and what areas require further investigation?"
+  ],
+  "answer": "**Synthesis of Research on RAG vs Fine-tuning for Domain-Specific LLM Applications**\n\n**Introduction**\n\nThe development of large language models (LLMs) has led to numerous applications in various domains. However, these models' performance can be improved by adapting them to specific domains, a process known as domain-specific LLM applications. Two popular techniques employed in this process are Retrieval-augmented Generation (RAG) and fine-tuning. In this synthesis, we discuss the benefits, requirements, and limitations of these two approaches to help researchers and practitioners choose the most suitable method for their LLM applications.\n\n**Benefits of RAG vs Fine-tuning**\n\nRAG is a technique that enables LLMs to retrieve and incorporate new information from external data sources, allowing them to respond to user queries accurately (IBM Research, [1]). This is particularly beneficial in domain-specific applications where information may be scarce or outdated. RAG has several advantages over fine-tuning:\n\n1. **Cost-efficiency and scalability**: RAG is more cost-efficient and scalable, leveraging pre-existing knowledge bases, while fine-tuning requires substantial computational resources and large training datasets (Makebot AI, [2]).\n2. **Flexibility**: RAG can be used in various ways, such as answering questions, and can be integrated with other AI frameworks (Rohan's Bytes, [3]).\n3. **Knowledge grounding**: RAG grounds LLMs on accurate, up-to-date information, improving their reliability (IBM Research, [1]).\n\nIn contrast, fine-tuning, a technique that adapts pre-trained LLMs to a new task or domain, has its benefits:\n\n1. **Improved performance**: Fine-tuning can significantly improve the performance of LLMs on specific tasks or domains (Rohan's Bytes, [3]).\n2. **Transfer learning**: Fine-tuning enables transfer learning, where knowledge gained from one task can be applied to another (Rohan's Bytes, [3]).\n\n**Requirements and Resource Impact**\n\nThe choice between RAG and fine-tuning depends on various factors, including:\n\n1. **Data availability**: Fine-tuning requires substantial training datasets, while RAG can leverage pre-existing knowledge bases (Makebot AI, [2]).\n2. **Model size**: Fine-tuning typically requires pre-trained LLMs with large sizes, while RAG can be implemented with smaller models (DevOps7, [4]).\n3. **Computational resources**: Fine-tuning requires significant computational resources and computational power, while RAG is more computationally efficient (Makebot AI, [2]).\n\n**Limitations and Trade-offs**\n\nWhile RAG and fine-tuning have their benefits, they also have limitations:\n\n1. **RAG limitations**: RAG relies on the quality of the knowledge base and may struggle with ambiguous or open-ended questions (DevOps7, [4]).\n2. **Fine-tuning limitations**: Fine-tuning requires substantial computational resources, training datasets, and model sizes, which can be costly (Makebot AI, [2]).\n\nTo summarize, RAG is a suitable choice for domain-specific LLM applications when:\n\n1. **Knowledge is scarce**: RAG can leverage pre-existing knowledge bases to provide accurate and up-to-date information.\n2. **Computational resources are limited**: RAG is more computationally efficient and cost-effective.\n\nIn contrast, fine-tuning is recommended when:\n\n1. **Substantial training datasets are available**: Fine-tuning can significantly improve the performance of LLMs.\n2. **Pre-trained LLMs are available**: Fine-tuning enables transfer learning and can improve performance on specific tasks or domains.\n\nUltimately, the choice between RAG and fine-tuning depends on the specific requirements of the LLM application and the resources available.\n\n**References**\n\n[1] IBM Research. (n.d.). What is retrieval-augmented generation (RAG)? Retrieved from <https://research.ibm.com/blog/retrieval-augmented-generation-RAG>\n\n[2] Makebot AI. (2022). The Ultimate Guide to RAG vs Fine-Tuning: Choosing the Right Method for Your LLM. Retrieved from <https://www.makebot.ai/blog-en/the-ultimate-guide-to-rag-vs-fine-tuning-choosing-the-right-method-for-your-llm>\n\n[3] Rohan's Bytes. (n.d.). Domain-Specific LLM Fine-Tuning. Retrieved from <https://www.rohan-paul.com/p/domain-specific-llm-fine-tuning>\n\n[4] DevOps7. (n.d.). RAG vs Fine-Tuning vs RAG. Retrieved from <https://devops7.com/rag-vs-fine-tuning-vs-rag/>",
+  "latency": 24.032,
+  "word_count": 549,
+  "run_id": "run_20260603_121514",
+  "seed": 0,
+  "question_id": "Q10",
+  "category": "literature_synthesis",
+  "difficulty": "hard",
+  "tier": "short",
+  "input_tokens": 1196,
+  "output_tokens": 1095,
+  "cost": 0.000147,
+  "status": "ok",
+  "accuracy": 6,
+  "completeness": 5,
+  "groundedness": 5,
+  "coherence": 8,
+  "reasoning": "The synthesis provides limited information on RAG architecture and cost tradeoffs, and relies mostly on statements rather than supported claims.",
+  "overall": 5.7
+}

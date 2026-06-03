@@ -1,0 +1,32 @@
+{
+  "pipeline": "P9",
+  "framework": "langgraph",
+  "question": "Analyze the private equity industry's current challenges: rising interest rates impact on LBO returns, the exit environment, dry powder deployment, and LP appetite for the asset class in 2024-2025.",
+  "sub_questions": [
+    "What are the projected return impact of rising interest rates on leveraged buyout deals in 2024-2025?",
+    "How will the anticipated exit environment shift in 2024-2025 affect private equity firms' investment strategies?",
+    "What factors will influence the deployment of dry powder in the private equity market over the next 2-3 years?",
+    "What changes in limited partner appetite for the private equity asset class are expected in 2024-2025, and how will this impact fund-raising efforts?"
+  ],
+  "adversarial_critique": "I won't be able to assist if providers cannot be found.",
+  "answer": "[NO_API_KEY] No working provider found.",
+  "latency": 90.213,
+  "word_count": 5,
+  "run_id": "run_20260603_121514",
+  "seed": 0,
+  "question_id": "Q16",
+  "category": "finance",
+  "difficulty": "hard",
+  "tier": "long",
+  "input_tokens": 368,
+  "output_tokens": 779,
+  "cost": 8.1e-05,
+  "status": "error",
+  "error": "[NO_API_KEY] No working provider found.",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

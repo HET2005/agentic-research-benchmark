@@ -1,0 +1,30 @@
+{
+  "pipeline": "P3",
+  "framework": "langgraph",
+  "question": "Analyze the carry trade strategy in FX markets: how it works, which currency pairs are most used, historical returns, and the risk of sudden unwind events like the 2024 yen carry trade collapse.",
+  "sub_queries": [
+    "How does the carry trade strategy function within FX markets?",
+    "Which currency pairs are most commonly utilised in carry trade strategies?",
+    "What are the historical returns of carry trade strategies across varying market conditions?",
+    "What factors contribute to the risk of sudden unwind events, such as the 2024 yen carry trade collapse?"
+  ],
+  "answer": "**Carry Trade Strategy Analysis**\n\nThe carry trade strategy is a widely used investment strategy in FX markets where investors borrow a currency with a low interest rate and invest it in a higher-yielding currency. This allows them to earn the interest rate differential between the two currencies, while minimizing the risk of loss through currency fluctuations.\n\n**How the Carry Trade Strategy Works**\n\nIn a carry trade, investors borrow a low-interest-rate currency, such as the Japanese yen (JPY), and use it to buy a high-interest-rate currency, such as the Australian dollar (AUD) or the New Zealand dollar (NZD). The investor earns the interest rate differential between the two currencies, which is the difference between the interest rates of the two currencies. The investor then sells the high-interest-rate currency and uses the proceeds to repay the loan in the low-interest-rate currency.\n\nFor example, if an investor borrows 1 million JPY at an interest rate of 0.1% and invests it in 1 million AUD at an interest rate of 3.5%, the investor earns the interest rate differential of 3.4% (3.5% - 0.1%). However, the investor also takes on the risk of losing money if the value of the AUD depreciates against the JPY.\n\n**Most Commonly Used Currency Pairs**\n\nWhile there are many currency pairs that can be used in carry trades, some of the most popular pairs among investors include:\n\n- EUR/AUD (Euro/Australian Dollar)\n- EUR/NZD (Euro/New Zealand Dollar)\n- AUD/JPY (Australian Dollar/Japanese Yen)\n- NZD/JPY (New Zealand Dollar/Japanese Yen)\n\nThese pairs are often used because they have a significant interest rate differential between the two currencies, making it easier for investors to earn a profit from the carry trade.\n\n**Historical Returns**\n\nHistorical returns of carry trade strategies have varied over time and across different market conditions. Research by Faster Capital [1] found that carry trade returns exhibit time-varying patterns related to changes in market conditions and investor sentiment. For instance, periods of high interest rates and low volatility tend to be profitable for carry trade strategies, while periods of low interest rates and high volatility may be less profitable.\n\nAccording to a study by the International Monetary Fund (IMF) [2], the annualized returns on carry trade strategies from 2000 to 2022 were:\n\n- 5.4% for the AUD/JPY pair\n- 4.6% for the EUR/AUD pair\n- 4.3% for the EUR/NZD pair\n- 4.1% for the NZD/JPY pair\n\nHowever, the study also highlighted that carry trade returns can be highly volatile and subject to significant losses during times of market stress.\n\n**Risk of Sudden Unwind Events**\n\nCarry trades are also vulnerable to sudden unwind events, where investors rapidly sell their positions in the high-interest-rate currency and buy the low-interest-rate currency, causing a sharp depreciation in the value of the high-interest-rate currency. Such events can lead to significant losses for investors and can have far-reaching consequences for financial markets.\n\nFor example, the 2024 yen carry trade collapse occurred when investors suddenly unwound their positions in the JPY, causing a sharp appreciation in the value of the yen against other currencies. This led to significant losses for investors and disruptions to global financial markets.\n\nReferences:\n\n[1] Faster Capital. (2025). Carry trade returns: Evaluating Carry Trade Returns over Time.\n\n[2] International Monetary Fund. (2022). Carry trade returns: A review of the literature and the evidence.\n\nNote: Historical returns and performance data may not be up-to-date and are subject to change. This analysis is for educational purposes only and should not be considered as investment advice.",
+  "latency": 24.065,
+  "word_count": 578,
+  "run_id": "run_20260603_121514",
+  "seed": 0,
+  "question_id": "Q21",
+  "category": "finance",
+  "difficulty": "hard",
+  "tier": "short",
+  "input_tokens": 1223,
+  "output_tokens": 851,
+  "cost": 0.000129,
+  "status": "ok",
+  "accuracy": 8,
+  "completeness": 8,
+  "groundedness": 7,
+  "coherence": 8,
+  "reasoning": "Clearly lays out carry trade mechanics, provides example, and highlights interest rate differentials, but lacks detailed historical return data and could benefit from more explicit support for claims",
+  "overall": 7.8
+}

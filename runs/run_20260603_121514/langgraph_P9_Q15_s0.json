@@ -1,0 +1,40 @@
+{
+  "pipeline": "P9",
+  "framework": "langgraph",
+  "question": "What is the current yield curve shape in the US, and what does it historically signal about recession probability? Compare the 2s10s spread today vs prior inversion episodes.",
+  "sub_questions": [
+    {
+      "sub-question": "What is the historical trend and current shape of the US yield curve?"
+    },
+    {
+      "sub-question": "To what extent does a flat or inverted US yield curve historically signal a recession?"
+    },
+    {
+      "sub-question": "How does the current 2s10s spread compare to prior instances of yield curve inversion?"
+    },
+    {
+      "sub-question": "Are there any differences in macroeconomic conditions or monetary policy responses between the current and past yield curve inversion episodes?"
+    }
+  ],
+  "adversarial_critique": "[NO_API_KEY] No working provider found.",
+  "answer": "[NO_API_KEY] No working provider found.",
+  "latency": 165.572,
+  "word_count": 5,
+  "run_id": "run_20260603_121514",
+  "seed": 0,
+  "question_id": "Q15",
+  "category": "finance",
+  "difficulty": "medium",
+  "tier": "long",
+  "input_tokens": 101,
+  "output_tokens": 114,
+  "cost": 1.4e-05,
+  "status": "error",
+  "error": "[NO_API_KEY] No working provider found.",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

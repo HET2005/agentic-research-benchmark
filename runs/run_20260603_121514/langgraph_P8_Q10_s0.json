@@ -1,0 +1,47 @@
+{
+  "pipeline": "P8",
+  "framework": "langgraph",
+  "question": "Synthesize research on RAG vs fine-tuning for domain-specific LLM applications. When is each preferable and what are the open questions?",
+  "outline": [
+    {
+      "id": 1,
+      "title": "Introduction to RAG and Fine-Tuning for Domain-Specific LLM Applications"
+    },
+    {
+      "id": 2,
+      "title": "RAG (Retrieval-Augmented Generation): Theory and Practice"
+    },
+    {
+      "id": 3,
+      "title": "Fine-Tuning for Domain-Specific LLM Applications: When and How"
+    },
+    {
+      "id": 4,
+      "title": "Comparison of RAG and Fine-Tuning: When Each is Preferable and Open Questions"
+    },
+    {
+      "id": 5,
+      "title": "Conclusion and Future Directions for Domain-Specific LLM Applications"
+    }
+  ],
+  "answer": "[NO_API_KEY] No working provider found.",
+  "latency": 105.981,
+  "word_count": 5,
+  "run_id": "run_20260603_121514",
+  "seed": 0,
+  "question_id": "Q10",
+  "category": "literature_synthesis",
+  "difficulty": "hard",
+  "tier": "long",
+  "input_tokens": 161,
+  "output_tokens": 455,
+  "cost": 4.4e-05,
+  "status": "error",
+  "error": "[NO_API_KEY] No working provider found.",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

@@ -1,0 +1,42 @@
+{
+  "pipeline": "P8",
+  "framework": "langgraph",
+  "question": "What has been the recent stock performance of NVIDIA (NVDA) and what factors are driving its valuation?",
+  "outline": [
+    {
+      "Section 1": "Introduction to NVIDIA (NVDA)"
+    },
+    {
+      "Section 2": "Recent Stock Performance Analysis"
+    },
+    {
+      "Section 3": "Key Drivers of NVIDIA's Valuation"
+    },
+    {
+      "Section 4": "Market Trends and Competitor Analysis"
+    },
+    {
+      "Section 5": "Conclusion and Future Outlook"
+    }
+  ],
+  "answer": "[NO_API_KEY] No working provider found.",
+  "latency": 89.589,
+  "word_count": 5,
+  "run_id": "run_20260603_121514",
+  "seed": 0,
+  "question_id": "Q02",
+  "category": "market_analysis",
+  "difficulty": "easy",
+  "tier": "long",
+  "input_tokens": 84,
+  "output_tokens": 70,
+  "cost": 1e-05,
+  "status": "error",
+  "error": "[NO_API_KEY] No working provider found.",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

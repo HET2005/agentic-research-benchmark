@@ -1,0 +1,41 @@
+{
+  "pipeline": "P8",
+  "framework": "langgraph",
+  "question": "Analyze the global AI regulation landscape in 2024: EU AI Act, US Executive Order on AI, China regulations, and implications for AI companies.",
+  "outline": [
+    {
+      "title": "Introduction"
+    },
+    {
+      "title": "Global AI Regulation Landscape"
+    },
+    {
+      "title": "Regional Regulations: EU AI Act and US Executive Order on AI"
+    },
+    {
+      "title": "Emerging Trends: China's AI Regulations and Global Implications"
+    },
+    {
+      "title": "Conclusion: Navigating the Complexities of Global AI Regulation"
+    }
+  ],
+  "answer": "**Document Error: No API Key Available**\n\n**Publication-Ready Version:**\n\nUnfortunately, the system was unable to find a working provider. In order to resolve this issue, we recommend procuring an API key that can be used to authenticate requests and facilitate data retrieval.\n\n**Executive Summary:**\nThe absence of a functioning provider has resulted in an unsuccessful operation. Obtaining an API key is essential for initiating the process and enabling the system to function as intended.\n\n**Key Takeaways:**\n\n1. **API Key Required**: A valid API key is necessary to authenticate requests and initiate the operation.\n2. **Obtain an API Key**: Procure an API key to resolve the issue and enable the system to function correctly.\n3. **Resolve Error**: The absence of a functioning provider is preventing the operation from completing successfully.\n\n**Recommendations:**\n\n- Obtain an API key from the relevant provider or authority.\n- Ensure the API key is correctly configured and entered into the system.\n- Test the system again to verify that the operation can complete successfully.",
+  "latency": 113.371,
+  "word_count": 166,
+  "run_id": "run_20260603_121514",
+  "seed": 0,
+  "question_id": "Q09",
+  "category": "trend_report",
+  "difficulty": "hard",
+  "tier": "long",
+  "input_tokens": 233,
+  "output_tokens": 695,
+  "cost": 6.7e-05,
+  "status": "ok",
+  "accuracy": 1,
+  "completeness": 0,
+  "groundedness": 3,
+  "coherence": 6,
+  "reasoning": "Rule-based fallback score",
+  "overall": 1.55
+}

@@ -1,0 +1,42 @@
+{
+  "pipeline": "P8",
+  "framework": "langgraph",
+  "question": "Explain the mechanics of collateralized debt obligations (CDOs) and their role in the 2008 financial crisis. How have post-crisis regulations (Dodd-Frank, Basel III) changed structured credit markets?",
+  "outline": [
+    {
+      "title": "Introduction to Collateralized Debt Obligations (CDOs) and 2008 Financial Crisis"
+    },
+    {
+      "title": "Mechanics of CDOs and their Role in the 2008 Financial Crisis"
+    },
+    {
+      "title": "Impact of CDOs on the 2008 Financial Crisis"
+    },
+    {
+      "title": "Post-Crisis Regulations: Dodd-Frank Act and Basel III"
+    },
+    {
+      "title": "Changing Landscape of Structured Credit Markets"
+    }
+  ],
+  "answer": "[NO_API_KEY] No working provider found.",
+  "latency": 94.002,
+  "word_count": 5,
+  "run_id": "run_20260603_121514",
+  "seed": 0,
+  "question_id": "Q13",
+  "category": "finance",
+  "difficulty": "hard",
+  "tier": "long",
+  "input_tokens": 178,
+  "output_tokens": 469,
+  "cost": 4.6e-05,
+  "status": "error",
+  "error": "[NO_API_KEY] No working provider found.",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

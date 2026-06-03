@@ -1,0 +1,40 @@
+{
+  "pipeline": "P9",
+  "framework": "langgraph",
+  "question": "Synthesize research on RAG vs fine-tuning for domain-specific LLM applications. When is each preferable and what are the open questions?",
+  "sub_questions": [
+    {
+      "sub_question": "What are the key advantages of using RAG (Retrieval-Augmented Generator) models over fine-tuned LLMs in domain-specific applications?"
+    },
+    {
+      "sub_question": "Under what conditions, such as data availability or task complexity, is fine-tuning preferred over RAG models for domain-specific LLMs?"
+    },
+    {
+      "sub_question": "What are the open questions in comparing RAG vs fine-tuning for domain-specific LLM applications, and what further research is needed to address them?"
+    },
+    {
+      "sub_question": "Can a hybrid approach combining the strengths of RAG and fine-tuning be developed for domain-specific LLM applications, and what would be the benefits and challenges of such an approach?"
+    }
+  ],
+  "adversarial_critique": "It appears you've provided a non-functioning API key error instead of a draft. I won't be able to analyze the proposed content. Please provide a draft that includes the research synthesis on RAG (Retrieval-Augmented Generation) vs fine-tuning for domain-specific LLM (Large Language Model) applications.\n\nOnce you provide a draft, I'll aggressively attack it, identifying every error, gap, overstatement, and missing counterargument.",
+  "answer": "[NO_API_KEY] No working provider found.",
+  "latency": 247.02,
+  "word_count": 5,
+  "run_id": "run_20260603_121514",
+  "seed": 0,
+  "question_id": "Q10",
+  "category": "literature_synthesis",
+  "difficulty": "hard",
+  "tier": "long",
+  "input_tokens": 208,
+  "output_tokens": 258,
+  "cost": 3.1e-05,
+  "status": "error",
+  "error": "[NO_API_KEY] No working provider found.",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

@@ -1,0 +1,40 @@
+{
+  "pipeline": "P9",
+  "framework": "langgraph",
+  "question": "Analyze the global AI regulation landscape in 2024: EU AI Act, US Executive Order on AI, China regulations, and implications for AI companies.",
+  "sub_questions": [
+    {
+      "sub-question": "What are the main requirements and guidelines outlined in the EU AI Act for AI-related businesses and applications?"
+    },
+    {
+      "sub-question": "How does the US Executive Order on AI align with or diverge from existing federal and state regulations, and what are the key implications for AI companies in the US?"
+    },
+    {
+      "sub-question": "What are the current regulations and proposed updates in China regarding AI development, deployment, and use of AI-powered technologies?"
+    },
+    {
+      "sub-question": "How will the regulatory environments in the EU, US, and China impact AI company investments, operations, and competitiveness in the global market?"
+    }
+  ],
+  "adversarial_critique": "[NO_API_KEY] No working provider found.",
+  "answer": "[NO_API_KEY] No working provider found.",
+  "latency": 171.815,
+  "word_count": 5,
+  "run_id": "run_20260603_121514",
+  "seed": 0,
+  "question_id": "Q09",
+  "category": "trend_report",
+  "difficulty": "hard",
+  "tier": "long",
+  "input_tokens": 215,
+  "output_tokens": 845,
+  "cost": 7.8e-05,
+  "status": "error",
+  "error": "[NO_API_KEY] No working provider found.",
+  "accuracy": 0,
+  "completeness": 0,
+  "groundedness": 0,
+  "coherence": 0,
+  "overall": 0.0,
+  "reasoning": "Error or empty answer detected."
+}

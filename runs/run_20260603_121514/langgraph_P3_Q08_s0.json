@@ -1,0 +1,30 @@
+{
+  "pipeline": "P3",
+  "framework": "langgraph",
+  "question": "What are the key trends shaping the future of work in 2024-2025? Cover remote work, AI automation, skills gaps, and labor market shifts.",
+  "sub_queries": [
+    "What remote work trends (types of remote work arrangements, benefits and challenges for employees and employers) can we expect in 2024-2025?",
+    "How will advances in AI automation impact job displacement, creation of new job categories, and skills required for existing jobs?",
+    "What are the emerging skills gaps in the workforce, including soft skills, technical skills, and industry-specific skills, that will be most critical for future job success?",
+    "What are the key labor market shifts (shifts in demand for certain industries, shifts in the global distribution of work, changes in labor participation rates) that will influence the future of work in 2024-2025?"
+  ],
+  "answer": "**The Future of Work: Trends and Insights (2024-2025)**\n\nThe world of work is undergoing significant shifts, driven by technological advancements, changing workforce behaviors, and evolving labor market conditions. In this comprehensive overview, we'll explore the key trends shaping the future of work, covering remote work, AI automation, skills gaps, and labor market shifts.\n\n**Remote Work Trends (2024-2025)**\n\nRemote work is expected to continue its upward trajectory, with various types of remote work arrangements emerging. Employers are embracing hybrid work models, which offer flexibility and productivity benefits for both employees and organizations. Key trends include:\n\n1. **Hybrid work arrangements**: Six in 10 employees with remote-capable jobs want a hybrid work arrangement, with about one-third preferring fully remote work and less than 10% preferring to work on-site (Gallup, 2025).\n2. **Flexible hours**: Flexible hours are the top benefits of working remotely, according to remote workers (Forbes Advisor, 2026).\n3. **Increased productivity**: Remote employees report significant boosts in productivity, spurred by limited office distractions (Penn Medicine, 2025).\n\n**AI Automation and its Impact (2024-2025)**\n\nAdvances in AI automation will significantly impact job displacement, creation of new job categories, and skills required for existing jobs. Key trends include:\n\n1. **Job displacement**: Old job categories are disappearing while new ones are emerging (Simple Agency, 2026).\n2. **New job creation**: AI is expected to create around 97 million new jobs in fields such as AI development, data analysis, and digital marketing by 2025 (LinkedIn, 2024).\n3. **Skillset changes**: Roles being displaced will require different skill sets compared to those being created (LinkedIn, 2024).\n\n**Emerging Skills Gaps (2024-2025)**\n\nThe workforce is experiencing emerging skills gaps, including soft skills, technical skills, and industry-specific skills, critical for future job success. Key trends include:\n\n1. **Soft skills**: Skills like creativity, problem-solving, and communication will become increasingly important (Nexford University, 2026).\n2. **Technical skills**: Technical skills like data analysis, AI development, and digital marketing will be in high demand (LinkedIn, 2024).\n3. **Industry-specific skills**: Industry-specific skills, such as healthcare or finance, will continue to evolve with technological advancements (Penn Medicine, 2025).\n\n**Labor Market Shifts (2024-2025)**\n\nThe labor market is undergoing significant changes, driven by demographic shifts, technological advancements, and shifting workforce behaviors. Key trends include:\n\n1. **Aging workforce**: The global workforce is aging, leading to skills shortages and knowledge gaps (CIPD, 2025).\n2. **Diverse workforce**: The workforce is becoming more diverse, with changing demographics and needs (Gallup, 2025).\n3. **Remote work and gig economy**: The rise of remote work and the gig economy will continue to transform traditional employment arrangements (Penn Medicine, 2025).\n\nIn conclusion, the future of work is characterized by increasing remote work arrangements, AI-powered job displacement and creation, emerging skills gaps, and labor market shifts. As we navigate these trends, it's essential to prioritize skills development, adapt to changing workforce behaviors, and embrace emerging technologies to remain competitive in the future job market.\n\nReferences:\n\n[1] Gallup (2025) - \"Global Indicator: Hybrid Work\"\n[2] Penn Medicine (2025) - \"The rise of remote work: challenges and opportunities for businesses\"\n[3] Forbes Advisor (2026) - \"Top Remote Work Statistics And Trends\"\n[4] CIPD (2025) - \"Flexible and hybrid working practices in 2025\"\n[5] LinkedIn (2024) - \"The Future of Work: AI's Impact on Jobs and Skills in 2024\"\n[6] Simple Agency (2026) - \"The Job Displacement Reality: What AI Is Actually Doing to...\"\n[7] Nexford University (2026) - \"How will Artificial Intelligence Affect Jobs...\"",
+  "latency": 25.028,
+  "word_count": 562,
+  "run_id": "run_20260603_121514",
+  "seed": 0,
+  "question_id": "Q08",
+  "category": "trend_report",
+  "difficulty": "medium",
+  "tier": "short",
+  "input_tokens": 1170,
+  "output_tokens": 992,
+  "cost": 0.000138,
+  "status": "ok",
+  "accuracy": 8,
+  "completeness": 9,
+  "groundedness": 6,
+  "coherence": 6,
+  "reasoning": "While some specific claims like 'six in 10 employees with remote-capable jobs want a hybrid work arrangement' could be more grounded, the answer generally presents accurate information, covers all required topics, and structures ideas logically",
+  "overall": 7.65
+}

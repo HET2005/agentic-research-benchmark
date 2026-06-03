@@ -11,7 +11,7 @@ os.environ["OPENAI_API_KEY"] = os.environ.get("OPENAI_API_KEY", "sk-dummy-not-us
 os.environ["CREWAI_TRACING_ENABLED"] = "false"
 
 from crewai import Crew, Process
-from .base import WEB_TOOL, FINANCE_TOOL, make_agent, make_task, run_crew, Timer, get_shared_llm, _mock_run
+from .base import WEB_TOOL, FINANCE_TOOL, make_agent, make_task, run_crew, Timer, get_shared_llm
 
 # ══════════════════════════════════════════════════════════════════════════════
 # P1: Retrieve → Synthesize

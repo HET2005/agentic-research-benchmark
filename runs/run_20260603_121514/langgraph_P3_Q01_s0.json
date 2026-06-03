@@ -1,0 +1,30 @@
+{
+  "pipeline": "P3",
+  "framework": "langgraph",
+  "question": "Analyze the competitive landscape of the cloud computing market in 2024. Compare AWS, Azure, and GCP across market share, pricing, and key differentiators.",
+  "sub_queries": [
+    "What are the projected market share distribution of AWS, Azure, and GCP in 2024?",
+    "How do the pricing models of AWS, Azure, and GCP compare and impact customer decision-making?",
+    "What are the unique key differentiators of AWS, Azure, and GCP that set them apart from competitors?",
+    "What emerging trends and technologies (e.g., edge computing, AI) will influence the competitive landscape of cloud computing in 2024?"
+  ],
+  "answer": "**Analyzing the Competitive Landscape of Cloud Computing Market in 2024**\n\nThe cloud computing market is projected to be dominated by AWS, Azure, and GCP, with each player offering unique strengths, pricing models, and key differentiators.\n\n**Market Share Distribution in 2024**\n\nAccording to various estimates, the projected market share distribution of AWS, Azure, and GCP in 2024 is as follows:\n\n- AWS is expected to maintain its leadership position, with a market share ranging from 30-40% (Source: [1]).\n- Azure is expected to continue its growth trajectory, with a market share of around 20-30% (Source: [1]).\n- GCP is expected to be the fastest-growing player, with a market share of around 10-20% (Source: [3]).\n\n**Pricing Models Comparison**\n\nThe pricing models of AWS, Azure, and GCP are designed to cater to different customer needs, impacting decision-making. \n\n- AWS pricing is generally considered to be more complex, with a wide range of services and pricing models (Source: [4]).\n- Azure pricing is more competitive, with a focus on hybrid and multi-cloud offerings (Source: [5]).\n- GCP pricing is more straightforward, with a focus on simple and transparent pricing (Source: [6]).\n\n**Key Differentiators**\n\nThe unique key differentiators of AWS, Azure, and GCP set them apart from competitors.\n\n- **Security Features:** AWS has a robust security framework, including AWS IAM and Amazon Inspector (Source: [8]).\n- **Artificial Intelligence (AI) and Machine Learning (ML) Capabilities:** Azure offers a suite of AI and ML services, including Azure Machine Learning and Azure Cognitive Services (Source: [7]).\n- **Enterprise Features:** GCP offers a range of enterprise features, including Google Cloud Anthos and Google Cloud Security Command Center (Source: [9]).\n\n**Comparing AWS, Azure, and GCP**\n\nWhile AWS is the market leader, Azure and GCP are gaining traction with their competitive pricing models and unique features.\n\n| Cloud Provider | Market Share (2024) | Pricing Model | Key Differentiators |\n| --- | --- | --- | --- |\n| AWS | 30-40% | Complex pricing | Robust security features |\n| Azure | 20-30% | Competitive pricing | AI and ML capabilities |\n| GCP | 10-20% | Simple pricing | Enterprise features |\n\nIn conclusion, the competitive landscape of the cloud computing market in 2024 is characterized by a leadership position held by AWS, with Azure and GCP gaining ground. While pricing models and key differentiators vary, each player offers unique strengths that set them apart from competitors.\n\nReferences:\n[1] https://holori.com/top-cloud-providers-in-2024/\n[2] https://thecuberesearch.com/breaking-analysis-how-aws-azure-and-gcp-compete-for-cloud-leadership-in-the-2020s/\n[3] https://www.tekrevol.com/blogs/global-cloud-market-share-report-statistics-2025/\n[4] https://www.veritis.com/blog/aws-vs-azure-vs-gcp-the-cloud-platform-of-your-choice/\n[5] https://intellipaat.com/blog/aws-vs-azure-vs-google-cloud/\n[6] https://www.bmc.com/blogs/aws-vs-azure-vs-google-cloud-platforms/\n[7] https://azure.microsoft.com/en-us/solutions/ai/\n[8] https://aws.amazon.com/security/\n[9] https://cloud.google.com/anthos",
+  "latency": 23.492,
+  "word_count": 418,
+  "run_id": "run_20260603_121514",
+  "seed": 0,
+  "question_id": "Q01",
+  "category": "market_analysis",
+  "difficulty": "medium",
+  "tier": "short",
+  "input_tokens": 1234,
+  "output_tokens": 837,
+  "cost": 0.000129,
+  "status": "ok",
+  "accuracy": 8,
+  "completeness": 7,
+  "groundedness": 8,
+  "coherence": 9,
+  "reasoning": "The answer provides estimates for market share, a comparison of pricing models, and a description of key differentiators, demonstrating a good understanding of the competitive landscape of the cloud computing market in 2024.",
+  "overall": 7.85
+}

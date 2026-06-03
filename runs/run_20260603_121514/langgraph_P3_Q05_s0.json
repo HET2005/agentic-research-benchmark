@@ -1,0 +1,30 @@
+{
+  "pipeline": "P3",
+  "framework": "langgraph",
+  "question": "Explain quantum computing: how qubits differ from classical bits, what problems it can solve, and the current state of development.",
+  "sub_queries": [
+    "How do qubits differ structurally and functionally from classical bits?",
+    "Which types of complex problems can quantum computing approach and solve more efficiently compared to classical computation?",
+    "What are the most significant applications of quantum computing, and in which fields will it have a transformative impact?",
+    "What are the major technological and infrastructure advancements needed to make quantum computing a practical reality for widespread adoption?"
+  ],
+  "answer": "**Quantum Computing: A Comprehensive Overview**\n\nQuantum computing is a revolutionary computing paradigm that leverages the principles of quantum mechanics to process information beyond the limitations of classical computing systems. At the heart of quantum computing lies the \"qubit\" (quantum bit), which differs structurally and functionally from the classical bit.\n\n**Qubits vs Classical Bits: The Structural and Functional Differences**\n\nA qubit can occupy a rich continuum of states due to the phenomenon of superposition, allowing it to exist in a state of 0, 1, or any superposition of both at the same time [1]. This property enables qubits to process multiple possibilities simultaneously, making them exponentially more powerful than classical bits. In contrast, classical bits can only exist as 0 or 1, with no possibility of intermediate states. Moreover, multiple qubits can exhibit quantum entanglement, a phenomenon where the states of two or more qubits become correlated in a way that cannot be explained by classical physics [2].\n\n**Complex Problems That Quantum Computing Can Solve More Efficiently**\n\nQuantum computers are particularly effective at solving problems that involve:\n\n1. **Exponential or polynomial speedups over classical algorithms**: For specific problems, quantum computers can achieve exponential or polynomial speedups over classical algorithms, making them theoretically faster for solving these problems [3].\n2. **Factoring large numbers**: Quantum computers are capable of finding the prime factors of enormous integers, which is a problem that remains difficult for classical computers [4].\n3. **Optimization problems**: Quantum computers can be applied to optimization problems, such as maximizing the yield of a chemical reaction or minimizing the energy consumption of a network.\n4. **Simulation of complex systems**: Quantum computers can simulate the behavior of complex systems, such as molecular interactions or quantum systems, which is crucial for fields like materials science and drug discovery [5].\n\n**The Current State of Development**\n\nQuantum computing is still in its early stages, with various companies and organizations actively developing quantum hardware and software. The National Institute of Standards and Technology (NIST) is leading the development of quantum standards and protocols, while companies like IBM, Google, and Microsoft are investing heavily in quantum computing research and development [6]. Despite the progress made, quantum computing is not yet ready for widespread adoption, and significant challenges remain, such as:\n\n1. **Quantum noise and error correction**: Quantum computers are prone to errors due to the noisy nature of quantum systems, which needs to be corrected.\n2. **Scalability**: Currently, quantum computers are small-scale and need to be scaled up to perform complex tasks.\n3. **Quantum software development**: Developing software that can effectively utilize the power of quantum computers is an active area of research.\n\nIn conclusion, quantum computing offers a new paradigm for computing that can solve complex problems more efficiently than classical computers. While significant challenges remain, the development of quantum computing is an exciting area of research that has the potential to revolutionize various fields.\n\nReferences:\n\n[1] \"Understanding Quantum Bits and Why They Matter | SpinQ\" [Source N: 4]\n\n[2] \"Qubit - Wikipedia\" [Source N: 1]\n\n[3] \"Quantum Computing vs Classical Computing - What\u2019s the Real ... | The Quantum Insider\" [Source N: 2]\n\n[4] \"Which problems are quantum computers good for?\" | IBM Quantum [Source N: 3]\n\n[5] \"Quantum Computing Explained | NIST\" [Source N: 1]\n\n[6] \"Quantum Computing: A Guide to Understanding the Future of Computing\" | The Quantum Insider [Source N: 2]",
+  "latency": 21.997,
+  "word_count": 558,
+  "run_id": "run_20260603_121514",
+  "seed": 0,
+  "question_id": "Q05",
+  "category": "scientific_explainer",
+  "difficulty": "medium",
+  "tier": "short",
+  "input_tokens": 1124,
+  "output_tokens": 823,
+  "cost": 0.000122,
+  "status": "ok",
+  "accuracy": 9,
+  "completeness": 8,
+  "groundedness": 4,
+  "coherence": 9,
+  "reasoning": "The explanation accurately describes structural and functional differences between qubits and classical bits, but lacks sufficient evidence and supporting details for claims, which results in moderate groundedness, and lacks explicit connections between points, but overall flows well and is relatively organized.",
+  "overall": 7.95
+}

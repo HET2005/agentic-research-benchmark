@@ -1,6 +1,7 @@
 # frameworks/autogen/pipelines.py
 import os
 import json
+import time
 import autogen
 from .base import web_search, finance_search, result_dict
 
@@ -19,6 +20,10 @@ def run_multi_agent(question: str, agents_dict: dict, sequence: list, seed: int)
     for idx, (agent_name, prompt_addition) in enumerate(sequence):
         user.initiate_chat(agents[agent_name], message=f"{last_msg}\n{prompt_addition}", max_turns=1, summary_method="last_msg")
         last_msg = user.last_message()["content"]
+        
+        # FIX: Added pacing to prevent Groq 429 rate limit failures
+        time.sleep(4) 
+        
     return last_msg
 
 def run_p1(question: str, run_id: str = "default", seed: int = 0) -> dict:

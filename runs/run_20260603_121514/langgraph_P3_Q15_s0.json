@@ -1,0 +1,30 @@
+{
+  "pipeline": "P3",
+  "framework": "langgraph",
+  "question": "What is the current yield curve shape in the US, and what does it historically signal about recession probability? Compare the 2s10s spread today vs prior inversion episodes.",
+  "sub_queries": [
+    "What are the current factors affecting the US yield curve shape?",
+    "How do historical inverted yield curves signal recession probabilities in the US?",
+    "How does the 2s10s spread compare to previous inversion episodes in the US?",
+    "What are the common characteristics and consequences of yield curve inversions in the US?"
+  ],
+  "answer": "**Current Yield Curve Shape in the US:**\n\nAs of 2025, the US yield curve is experiencing a 'swoosh-shape' or an inverted pattern, with short-term interest rates gradually declining (Source 1: Understanding the 'Swoosh'-Shaped Yield Curve for Treasuries [Source 1]). This shape change is influenced by factors such as the most recently auctioned 4-, 6-, 8-, 13-, 17-, 26-, and 52-week bills, as outlined in the Treasury Yield Curve Methodology [Source 3].\n\n**Historical Signaling of Recession Probabilities:**\n\nHistorically, inverted yield curves have signaled recession probabilities in the US. According to Morgan Stanley, inversions preceded almost every US recession since 1957 (Source 2: Inverted Yield Curve: Recessionary Signal? | Morgan Stanley [Source 4]). Moreover, the track record suggests that inversions have typically led to recessions 4-6 quarters later (Source 2: The $50 Trillion Question: Is Wall Street's Favorite Recession... | LinkedIn [Source 5]). However, it is essential to note that inverted yield curves are not infallible predictors, and other factors should be considered in conjunction with the yield curve (Source 3: Inverted Yield Curves | Financial Analysis | Earl O\u2019Garro [Source 6]).\n\n**Comparing the 2s10s Spread to Previous Episodes:**\n\nTo compare the current 2s10s spread to previous inversion episodes, we rely on historical data. According to Fisher Investments, prior inversions have often led to recessions, but the relationship between the yield curve and recession is not mechanical (Source 4: Yield Curve Inversion: What It Is & What It... | Fisher Investments [Source 7]). The 2s10s spread for previous inversions is not directly comparable, but we can consider the general trend and lead times. In 2019, the 2s10s spread inverted before the recession, and the May 2019 inversion was followed by recession in March 2020, with a lead time of approximately 12 months (Source 2: The $50 Trillion Question: Is Wall Street's Favorite Recession... | LinkedIn [Source 5]).\n\n**Summary:**\n\nIn summary, the current US yield curve is experiencing a 'swoosh-shape' or inversion, which historically signals recession probabilities. Inverted yield curves have preceded almost every US recession since 1957, but they are not infallible predictors. The 2s10s spread for the current episode is not directly comparable to previous inversions, but we can consider the general trend and lead times. The lead time for inversions has typically been 4-6 quarters, with some episodes having shorter or longer lead times.\n\n**References:**\n\n[Source 1: https://www.stlouisfed.org/on-the-economy/2025/oct/understanding-swoosh-shaped-yield-curve-treasuries](https://www.stlouisfed.org/on-the-economy/2025/oct/understanding-swoosh-shaped-yield-curve-treasuries)\n[Source 2: https://www.morganstanley.com/ideas/inverted-yield-curve-recession-outlook](https://www.morganstanley.com/ideas/inverted-yield-curve-recession-outlook)\n[Source 3: https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics/treasury-yield-curve-methodology](https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics/treasury-yield-curve-methodology)\n[Source 4: https://www.hartfordfunds.com/insights/market-perspectives/fixed-income/what-the-shape-shifting-yield-curve-is-telling-us-about-markets.html](https://www.hartfordfunds.com/insights/market-perspectives/fixed-income/what-the-shape-shifting-yield-curve-is-telling-us-about-markets.html)\n[Source 5: https://www.linkedin.com/pulse/50-trillion-question-wall-streets-favorite-recession-predictor-varma-svyse](https://www.linkedin.com/pulse/50-trillion-question-wall-streets-favorite-recession-predictor-varma-svyse)\n[Source 6: https://www.earlogarro.com/post/inverted-yield-curves-so-what](https://www.earlogarro.com/post/inverted-yield-curves-so-what)\n[Source 7: https://www.fisherinvestments.com/en-us/insights/personal-wealth-management/yield-curve-inversion](https://www.fisherinvestments.com/en-us/insights/personal-wealth-management/yield-curve-inversion)",
+  "latency": 22.323,
+  "word_count": 406,
+  "run_id": "run_20260603_121514",
+  "seed": 0,
+  "question_id": "Q15",
+  "category": "finance",
+  "difficulty": "medium",
+  "tier": "short",
+  "input_tokens": 1225,
+  "output_tokens": 1086,
+  "cost": 0.000148,
+  "status": "ok",
+  "accuracy": 8,
+  "completeness": 7,
+  "groundedness": 8,
+  "coherence": 9,
+  "reasoning": "The text provides historical evidence and expert opinions from Morgan Stanley that inverted yield curves are a strong predictor of recessions, but lacks some key details on the current economic context.",
+  "overall": 7.75
+}
