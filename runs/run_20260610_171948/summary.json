@@ -1,0 +1,26 @@
+[
+  {
+    "pipeline": "P1",
+    "framework": "langgraph",
+    "question": "Analyze the competitive landscape of the cloud computing market in 2024. Compare AWS, Azure, and GCP across market share, pricing, and key differentiators.",
+    "answer": "Based on the search results, here is a comprehensive analysis of the competitive landscape of the cloud computing market in 2024, comparing Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP) across market share, pricing, and key differentiators.\n\n**Market Share:**\nThe latest market share analysis indicates that:\n\n- AWS holds 32% of the global market share [Source 3].\n- Microsoft Azure has a 24% market share [Source 3].\n- Google Cloud Platform (GCP) captures 13% of the market in Q3 2025, but a report from 2024 shows it had 12% market share [Source 1 and Source 5].\n\n**Pricing:**\nPricing is comparable on-demand across all three cloud providers, with GCP being typically 5-10% cheaper for compute costs [Source 4]. However, egress costs and architecture decisions matter more than per-hour rates. Therefore, it is essential to evaluate the pricing structure based on specific use cases and requirements.\n\n**Key Differentiators:**\nHere are some key differentiators for each cloud provider:\n\n- **AWS:** Known for its extensive ecosystem and a wide range of services, AWS has a strong market presence. Its Trainium3 instances offer 3x faster performance than Trainium2 for AI training [Source 2].\n\n- **Azure:** Azure offers a robust set of tools for artificial intelligence (AI) and machine learning (ML), particularly with its integration of OpenAI and GPT-5 into enterprise services [Source 2]. Azure's AI/ML capabilities set it apart from its competitors.\n\n- **GCP:** GCP is the fastest-growing hyperscaler and is known for its DevOps-friendly tools and Kubernetes leadership [Source 3]. Its ability to cater to various use cases and requirements makes it a primary contender in the market.\n\n**Growth and Projections:**\n- AWS is expected to grow 20% in 2024, with a 54% market share growth rate [Source 1].\n- GCP is the fastest-growing cloud provider, capturing 13% of the market in Q3 2025 [Source 3].\n\n**Conclusion:**\nIn conclusion, the cloud computing market is dominated by AWS, Azure, and GCP, each with its unique strengths and differentiators. AWS holds the largest market share, followed by Azure and GCP. Pricing is comparable across all three, but GCP is typically cheaper for compute costs. As the market continues to evolve, GCP is poised to continue its growth, while AWS and Azure remain strong contenders. AI/ML capabilities, pricing, and DevOps-friendly tools will continue to play a crucial role in differentiating these cloud providers in the market.\n\nReferences:\n\n[Source 1] BMC Software | Blogs: \"AWS vs Azure vs GCP: Comparing The Big 3 Cloud Platforms\"\n\n[Source 2] Tech Insider: \"AWS vs Azure vs Google Cloud 2026 [Compared]\"\n\n[Source 3] hava.io: \"2024 Cloud Market Share Analysis: Decoding Cloud Industry Leaders\"\n\n[Source 4] DigitalOcean: \"Comparing AWS, Azure, and GCP for Startups in 2026\"\n\n[Source 5] hginsights.com: \"Google Cloud Market Share & Buyer Landscape in 2024\"",
+    "latency": 10.079,
+    "word_count": 458,
+    "run_id": "run_20260610_171948",
+    "seed": 0,
+    "question_id": "Q01",
+    "category": "market_analysis",
+    "difficulty": "medium",
+    "tier": "short",
+    "input_tokens": 812,
+    "output_tokens": 684,
+    "cost": 9.5e-05,
+    "status": "ok",
+    "accuracy": 8,
+    "completeness": 7,
+    "groundedness": 6,
+    "coherence": 8.5,
+    "reasoning": "Good effort, with mostly correct facts, and decent structuring, but a couple of minor errors in market share and data inconsistency between Q3 2023 and 2024 figures, and unclear or missing reasoning and supporting details for some claims.",
+    "overall": 7.28
+  }
+]

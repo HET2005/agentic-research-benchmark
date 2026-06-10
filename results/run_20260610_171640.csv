@@ -1,0 +1,2 @@
+framework,pipeline,question_id,category,difficulty,tier,seed,latency,word_count,input_tokens,output_tokens,cost,accuracy,completeness,groundedness,coherence,overall,status
+langgraph,P1,Q01,market_analysis,medium,short,0,8.714,454,866,755,0.000104,8,8,7,9,7.9,ok

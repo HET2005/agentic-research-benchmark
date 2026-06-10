@@ -1,0 +1,16 @@
+{
+  "pipeline": "P1",
+  "framework": "langgraph",
+  "question": "Analyze the competitive landscape of the cloud computing market in 2024. Compare AWS, Azure, and GCP across market share, pricing, and key differentiators.",
+  "question_id": "Q01",
+  "answer": "",
+  "latency": 0,
+  "word_count": 0,
+  "run_id": "run_20260610_171605",
+  "seed": 0,
+  "status": "error",
+  "error": "Can't instantiate abstract class InMemoryStore without an implementation for abstract method 'get_memories'",
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "cost": 0.0
+}

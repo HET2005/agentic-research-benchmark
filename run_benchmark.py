@@ -17,8 +17,8 @@ sys.path.insert(0, str(ROOT))
 
 from questions.question_set import QUESTIONS
 from evals.judge import score_answer
-from frameworks.shared_llm import reset_usage, get_usage  # IMPORT ADDED HERE
 
+from frameworks.shared_llm import reset_usage, get_usage, reset_memory
 RUNS_DIR = ROOT / "runs"
 RUNS_DIR.mkdir(exist_ok=True)
 
@@ -37,6 +37,8 @@ def get_runner(framework: str, pipeline: str):
     return RUNNERS[pipeline]
 
 def run_one(framework, pipeline, question_dict, seed, run_id) -> dict:
+    reset_usage()
+    reset_memory()
     runner = get_runner(framework, pipeline)
     q = question_dict["question"]
     qid = question_dict["id"]

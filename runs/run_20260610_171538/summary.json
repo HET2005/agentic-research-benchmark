@@ -1,0 +1,26 @@
+[
+  {
+    "pipeline": "P1",
+    "framework": "langgraph",
+    "question": "Analyze the competitive landscape of the cloud computing market in 2024. Compare AWS, Azure, and GCP across market share, pricing, and key differentiators.",
+    "answer": "Based on the search results, we can analyze the competitive landscape of the cloud computing market in 2024 and compare AWS, Azure, and GCP across market share, pricing, and key differentiators.\n\n**Market Share:**\nAccording to different sources, the market share of each cloud provider is as follows:\n\n- AWS: 29-31% [Source 2], [Source 3]\n- Azure: 20-24% [Source 2], [Source 3]\n- GCP: 13-12% [Source 2], [Source 3]\n\n**Pricing:**\nIt is reported that GCP reduced its compute pricing by 8% across all regions [Source 3]. However, specific pricing details are not provided in the search results.\n\n**Key Differentiators:**\nBased on the provided information, here are some key differentiators for each cloud provider:\n\n- **AWS:** Leads on service breadth [Source 5]. AWS has a wide range of services, including computing, storage, databases, analytics, machine learning, and more.\n- **Azure:** Leads in enterprise integration [Source 5]. Azure has strong connections with Microsoft's other products and services, making it a popular choice for enterprise customers.\n- **GCP:** Leads in data and AI infrastructure [Source 5]. GCP has robust data processing capabilities, including Google Cloud Storage, Bigtable, and Pub/Sub, making it a top choice for data-driven applications.\n\n**Comparison of Local SSD Disks:**\nAccording to the search results, GCP offers Always-encrypted solid-state storage (Local SSD disks) for Compute Engine VMs, while AWS offers Nitro SSD and NVMe disks for Compute [Source 2].\n\n**Conclusion:**\nIn summary, the competitive landscape of the cloud computing market in 2024 is dominated by AWS, followed by Azure and GCP. AWS leads on service breadth, while Azure excels in enterprise integration and GCP leads in data and AI infrastructure. Pricing remains a competitive aspect, with GCP offering reduced compute pricing.\n\nReferences:\n[Source 1] Etraverse. (2024, July 19). Cloud Computing 2024: AWS vs. Azure vs. GCP Comparison. Retrieved from https://etraverse.com/blogs/the-future-of-cloud-computing-aws-vs-azure-vs-gcp-and-emerging-trends-in-2024/\n[Source 2] Google Cloud. (2024, December 3). Compare AWS and Azure services to Google Cloud | Get started. Retrieved from https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison\n[Source 3] Tech Insider. (2026, March 19). AWS vs Azure vs Google Cloud 2026 [Compared]. Retrieved from https://tech-insider.org/aws-vs-azure-vs-google-cloud-2026/\n[Source 4] Channel Insider. (2025, December 16). AWS vs Azure vs Google Cloud: Key Features and Pricing. Retrieved from https://www.channelinsider.com/infrastructure/aws-vs-azure-vs-google-cloud/\n[Source 5] Cloud Toggle. (2026, January 20). AWS vs Azure vs GCP A Definitive Cloud Comparison. Retrieved from https://www.cloudtoggle.com/blog-en/aws-vs-azure-vs-gcp/\n[Source 6] Cygnet.One. (2026, May 12). AWS vs Azure vs GCP: Which Cloud Is Right for You? - Enterprise Cloud Comparison Guide. Retrieved from https://www.cygnet.one/blog/aws-vs-azure-vs-gcp-enterprise-cloud-comparison-guide/",
+    "latency": 11.435,
+    "word_count": 401,
+    "run_id": "run_20260610_171538",
+    "seed": 0,
+    "question_id": "Q01",
+    "category": "market_analysis",
+    "difficulty": "medium",
+    "tier": "short",
+    "input_tokens": 740,
+    "output_tokens": 741,
+    "cost": 9.6e-05,
+    "status": "ok",
+    "accuracy": 7,
+    "completeness": 6,
+    "groundedness": 5,
+    "coherence": 8,
+    "reasoning": "The analysis provides a fair representation of the current cloud computing landscape, but lacks in depth and specific data points for claims. ",
+    "overall": 6.35
+  }
+]
