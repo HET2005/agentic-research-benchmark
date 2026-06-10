@@ -1,0 +1,270 @@
+[
+  {
+    "solution": "InMemory (baseline)",
+    "scenarios": [
+      {
+        "scenario": "Research: AI Enterprise Adoption",
+        "domain": "research",
+        "recall_results": [
+          {
+            "query": "Which industries lead AI adoption?",
+            "recalled_snippet": "[user]: Which industries are leading in AI adoption?\n[user]: What are the biggest barriers to AI adoption?\n[assistant]: Financial services, healthcare, and retail lead adoption. Finance uses AI for fr",
+            "kw_score": 0.6,
+            "llm_score": 1.0,
+            "latency_ms": 0.2
+          },
+          {
+            "query": "What barriers did we discuss?",
+            "recalled_snippet": "[user]: What are the biggest barriers to AI adoption?\n[assistant]: Key barriers include data quality and availability issues, lack of AI talent, regulatory uncertainty especially in healthcare and fin",
+            "kw_score": 0.8,
+            "llm_score": 0.9,
+            "latency_ms": 0.1
+          },
+          {
+            "query": "How do SMEs differ from large enterprises in AI adoption?",
+            "recalled_snippet": "[user]: How does AI adoption differ between large enterprises and SMEs?\n[assistant]: Large enterprises have dedicated AI teams and budgets but move slowly due to legacy systems. SMEs can adopt faster ",
+            "kw_score": 0.6,
+            "llm_score": 0.8,
+            "latency_ms": 0.2
+          }
+        ],
+        "patterns": "Top recurring terms: adoption(5), healthcare(3), smes(3), what(2), main(2), drivers(2), include(2), availability(2), apis(2), retail(2)",
+        "pattern_score": 0.4
+      },
+      {
+        "scenario": "Finance: Fed Rate Hiking Cycle",
+        "domain": "finance",
+        "recall_results": [
+          {
+            "query": "What happened to tech stocks during rate hikes?",
+            "recalled_snippet": "[user]: What happened to bond markets during the same period?\n[user]: How did the rate hikes specifically impact tech stocks versus value stocks?\n[assistant]: Tech stocks, which are long-duration asse",
+            "kw_score": 0.6,
+            "llm_score": 0.9,
+            "latency_ms": 0.2
+          },
+          {
+            "query": "How were bonds affected?",
+            "recalled_snippet": "[assistant]: Banks holding long-duration bonds saw unrealised losses balloon. Silicon Valley Bank had concentrated exposure to long-duration MBS and Treasuries. When it needed to sell these at a loss ",
+            "kw_score": 0.8,
+            "llm_score": 1.0,
+            "latency_ms": 0.2
+          },
+          {
+            "query": "What caused SVB to collapse?",
+            "recalled_snippet": "[user]: What happened to bond markets during the same period?\n[assistant]: Banks holding long-duration bonds saw unrealised losses balloon. Silicon Valley Bank had concentrated exposure to long-durati",
+            "kw_score": 0.4,
+            "llm_score": 0.9,
+            "latency_ms": 0.3
+          }
+        ],
+        "patterns": "Top recurring terms: stocks(5), bond(4), markets(3), over(3), value(3), fell(3), 2022(3), long-duration(3), losses(3), bank(3)",
+        "pattern_score": 0.2
+      }
+    ],
+    "avg_recall_kw": 0.633,
+    "avg_recall_llm": 0.917,
+    "avg_pattern": 0.3,
+    "avg_latency_ms": 0.1
+  },
+  {
+    "solution": "mem0",
+    "scenarios": [
+      {
+        "scenario": "Research: AI Enterprise Adoption",
+        "domain": "research",
+        "recall_results": [
+          {
+            "query": "Which industries lead AI adoption?",
+            "recalled_snippet": "",
+            "kw_score": 0.0,
+            "llm_score": 0.0,
+            "latency_ms": 1469.4
+          },
+          {
+            "query": "What barriers did we discuss?",
+            "recalled_snippet": "",
+            "kw_score": 0.0,
+            "llm_score": 0.0,
+            "latency_ms": 50.3
+          },
+          {
+            "query": "How do SMEs differ from large enterprises in AI adoption?",
+            "recalled_snippet": "",
+            "kw_score": 0.0,
+            "llm_score": 0.0,
+            "latency_ms": 70.7
+          }
+        ],
+        "patterns": "No memories stored.",
+        "pattern_score": 0.0
+      },
+      {
+        "scenario": "Finance: Fed Rate Hiking Cycle",
+        "domain": "finance",
+        "recall_results": [
+          {
+            "query": "What happened to tech stocks during rate hikes?",
+            "recalled_snippet": "",
+            "kw_score": 0.0,
+            "llm_score": 0.0,
+            "latency_ms": 57.7
+          },
+          {
+            "query": "How were bonds affected?",
+            "recalled_snippet": "",
+            "kw_score": 0.0,
+            "llm_score": 0.0,
+            "latency_ms": 42.4
+          },
+          {
+            "query": "What caused SVB to collapse?",
+            "recalled_snippet": "",
+            "kw_score": 0.0,
+            "llm_score": 0.0,
+            "latency_ms": 49.9
+          }
+        ],
+        "patterns": "No memories stored.",
+        "pattern_score": 0.0
+      }
+    ],
+    "avg_recall_kw": 0.0,
+    "avg_recall_llm": 0.0,
+    "avg_pattern": 0.0,
+    "avg_latency_ms": 146.6
+  },
+  {
+    "solution": "Zep",
+    "scenarios": [
+      {
+        "scenario": "Research: AI Enterprise Adoption",
+        "domain": "research",
+        "recall_results": [
+          {
+            "query": "Which industries lead AI adoption?",
+            "recalled_snippet": "[Zep recall error: Zep create session failed: 'Zep' object has no attribute 'memory']",
+            "kw_score": 0.0,
+            "llm_score": 0.0,
+            "latency_ms": 0.0
+          },
+          {
+            "query": "What barriers did we discuss?",
+            "recalled_snippet": "[Zep recall error: Zep create session failed: 'Zep' object has no attribute 'memory']",
+            "kw_score": 0.0,
+            "llm_score": 0.0,
+            "latency_ms": 0.0
+          },
+          {
+            "query": "How do SMEs differ from large enterprises in AI adoption?",
+            "recalled_snippet": "[Zep recall error: Zep create session failed: 'Zep' object has no attribute 'memory']",
+            "kw_score": 0.0,
+            "llm_score": 0.0,
+            "latency_ms": 0.0
+          }
+        ],
+        "patterns": "[Zep pattern error: Zep create session failed: 'Zep' object has no attribute 'memory']",
+        "pattern_score": 0.0
+      },
+      {
+        "scenario": "Finance: Fed Rate Hiking Cycle",
+        "domain": "finance",
+        "recall_results": [
+          {
+            "query": "What happened to tech stocks during rate hikes?",
+            "recalled_snippet": "[Zep recall error: Zep create session failed: 'Zep' object has no attribute 'memory']",
+            "kw_score": 0.0,
+            "llm_score": 0.0,
+            "latency_ms": 0.0
+          },
+          {
+            "query": "How were bonds affected?",
+            "recalled_snippet": "[Zep recall error: Zep create session failed: 'Zep' object has no attribute 'memory']",
+            "kw_score": 0.0,
+            "llm_score": 0.0,
+            "latency_ms": 0.0
+          },
+          {
+            "query": "What caused SVB to collapse?",
+            "recalled_snippet": "[Zep recall error: Zep create session failed: 'Zep' object has no attribute 'memory']",
+            "kw_score": 0.0,
+            "llm_score": 0.0,
+            "latency_ms": 0.0
+          }
+        ],
+        "patterns": "[Zep pattern error: Zep create session failed: 'Zep' object has no attribute 'memory']",
+        "pattern_score": 0.0
+      }
+    ],
+    "avg_recall_kw": 0.0,
+    "avg_recall_llm": 0.0,
+    "avg_pattern": 0.0,
+    "avg_latency_ms": 0.1
+  },
+  {
+    "solution": "LangChain SummaryBuffer",
+    "scenarios": [
+      {
+        "scenario": "Research: AI Enterprise Adoption",
+        "domain": "research",
+        "recall_results": [
+          {
+            "query": "Which industries lead AI adoption?",
+            "recalled_snippet": "[human]: Which industries are leading in AI adoption?\n[ai]: Financial services, healthcare, and retail lead adoption. Finance uses AI for fraud detection and algorithmic trading. Healthcare applies it",
+            "kw_score": 0.8,
+            "llm_score": 1.0,
+            "latency_ms": 0.0
+          },
+          {
+            "query": "What barriers did we discuss?",
+            "recalled_snippet": "[human]: Which industries are leading in AI adoption?\n[ai]: Financial services, healthcare, and retail lead adoption. Finance uses AI for fraud detection and algorithmic trading. Healthcare applies it",
+            "kw_score": 0.8,
+            "llm_score": 0.9,
+            "latency_ms": 0.1
+          },
+          {
+            "query": "How do SMEs differ from large enterprises in AI adoption?",
+            "recalled_snippet": "[human]: Which industries are leading in AI adoption?\n[ai]: Financial services, healthcare, and retail lead adoption. Finance uses AI for fraud detection and algorithmic trading. Healthcare applies it",
+            "kw_score": 0.8,
+            "llm_score": 0.8,
+            "latency_ms": 0.1
+          }
+        ],
+        "patterns": "Top terms: adoption(5), healthcare(3), smes(3), what(2), main(2), drivers(2), include(2), availability(2)",
+        "pattern_score": 0.4
+      },
+      {
+        "scenario": "Finance: Fed Rate Hiking Cycle",
+        "domain": "finance",
+        "recall_results": [
+          {
+            "query": "What happened to tech stocks during rate hikes?",
+            "recalled_snippet": "[human]: How did the rate hikes specifically impact tech stocks versus value stocks?\n[ai]: Tech stocks, which are long-duration assets with earnings far in the future, were hit hardest \u2014 the Nasdaq fe",
+            "kw_score": 0.8,
+            "llm_score": 0.9,
+            "latency_ms": 0.0
+          },
+          {
+            "query": "How were bonds affected?",
+            "recalled_snippet": "[human]: How did the rate hikes specifically impact tech stocks versus value stocks?\n[ai]: Tech stocks, which are long-duration assets with earnings far in the future, were hit hardest \u2014 the Nasdaq fe",
+            "kw_score": 0.8,
+            "llm_score": 0.9,
+            "latency_ms": 0.1
+          },
+          {
+            "query": "What caused SVB to collapse?",
+            "recalled_snippet": "[human]: How did the rate hikes specifically impact tech stocks versus value stocks?\n[ai]: Tech stocks, which are long-duration assets with earnings far in the future, were hit hardest \u2014 the Nasdaq fe",
+            "kw_score": 0.8,
+            "llm_score": 0.9,
+            "latency_ms": 0.1
+          }
+        ],
+        "patterns": "Top terms: stocks(5), bond(4), markets(3), over(3), value(3), fell(3), 2022(3), long-duration(3)",
+        "pattern_score": 0.2
+      }
+    ],
+    "avg_recall_kw": 0.8,
+    "avg_recall_llm": 0.9,
+    "avg_pattern": 0.3,
+    "avg_latency_ms": 0.1
+  }
+]

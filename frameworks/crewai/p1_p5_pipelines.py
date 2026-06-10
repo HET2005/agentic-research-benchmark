@@ -1,3 +1,4 @@
+from frameworks.memory_utils import with_memory
 """
 frameworks/crewai/p1_retrieve_synthesize.py  — P1 (Short)
 frameworks/crewai/p2_query_rewrite.py        — P2 (Short)
@@ -17,6 +18,7 @@ from .base import WEB_TOOL, FINANCE_TOOL, make_agent, make_task, run_crew, Timer
 # P1: Retrieve → Synthesize
 # ══════════════════════════════════════════════════════════════════════════════
 
+@with_memory
 def run_p1(question: str, run_id: str = "default", seed: int = 0) -> dict:
     llm = get_shared_llm(seed=seed)
     researcher = make_agent(
@@ -57,6 +59,7 @@ def run_p1(question: str, run_id: str = "default", seed: int = 0) -> dict:
 # P2: Query Rewrite → Retrieve → Answer
 # ══════════════════════════════════════════════════════════════════════════════
 
+@with_memory
 def run_p2(question: str, run_id: str = "default", seed: int = 0) -> dict:
     llm = get_shared_llm(seed=seed)
     query_expert = make_agent(
@@ -109,6 +112,7 @@ def run_p2(question: str, run_id: str = "default", seed: int = 0) -> dict:
 # P3: Decompose → Parallel Retrieve → Merge
 # ══════════════════════════════════════════════════════════════════════════════
 
+@with_memory
 def run_p3(question: str, run_id: str = "default", seed: int = 0) -> dict:
     llm = get_shared_llm(seed=seed)
     planner = make_agent(
@@ -161,6 +165,7 @@ def run_p3(question: str, run_id: str = "default", seed: int = 0) -> dict:
 # P4: Plan → Retrieve → Draft → Cite-check
 # ══════════════════════════════════════════════════════════════════════════════
 
+@with_memory
 def run_p4(question: str, run_id: str = "default", seed: int = 0) -> dict:
     llm = get_shared_llm(seed=seed)
     planner = make_agent(
@@ -225,6 +230,7 @@ def run_p4(question: str, run_id: str = "default", seed: int = 0) -> dict:
 # P5: Retrieve → Draft → Self-critique → Revise
 # ══════════════════════════════════════════════════════════════════════════════
 
+@with_memory
 def run_p5(question: str, run_id: str = "default", seed: int = 0) -> dict:
     llm = get_shared_llm(seed=seed)
     researcher = make_agent(

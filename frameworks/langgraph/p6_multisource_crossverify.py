@@ -1,3 +1,4 @@
+from frameworks.memory_utils import with_memory
 import time
 from typing import TypedDict
 from langgraph.graph import StateGraph, END, START
@@ -54,6 +55,7 @@ def build_graph():
     g.add_edge("synthesize", END)
     return g.compile()
 
+@with_memory
 def run(question: str, run_id: str = "default", seed: int = 0) -> dict:
     graph = build_graph()
     init: P6State = {"question": question, "run_id": run_id, "seed": seed,

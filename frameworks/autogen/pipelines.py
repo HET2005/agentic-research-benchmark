@@ -1,3 +1,4 @@
+from frameworks.memory_utils import with_memory
 # frameworks/autogen/pipelines.py
 import os
 import json
@@ -26,6 +27,7 @@ def run_multi_agent(question: str, agents_dict: dict, sequence: list, seed: int)
         
     return last_msg
 
+@with_memory
 def run_p1(question: str, run_id: str = "default", seed: int = 0) -> dict:
     retrieved = web_search(question)
     agents = {"Synthesizer": "You are a synthesis agent. Write comprehensive, cited research answers."}
@@ -33,6 +35,7 @@ def run_p1(question: str, run_id: str = "default", seed: int = 0) -> dict:
     answer = run_multi_agent(question, agents, seq, seed)
     return result_dict("P1", question, answer, 0, run_id, seed)
 
+@with_memory
 def run_p2(question: str, run_id: str = "default", seed: int = 0) -> dict:
     agents = {"Rewriter": "Rewrite questions as optimal search queries. Output ONLY the query.", 
               "Writer": "Write comprehensive cited answers."}
@@ -41,6 +44,7 @@ def run_p2(question: str, run_id: str = "default", seed: int = 0) -> dict:
     answer = run_multi_agent(question, {"Writer": agents["Writer"]}, [("Writer", f"Search used: {rewritten}\nResults: {retrieved}\nWrite final answer.")], seed)
     return result_dict("P2", question, answer, 0, run_id, seed)
 
+@with_memory
 def run_p3(question: str, run_id: str = "default", seed: int = 0) -> dict:
     planner_out = run_multi_agent(question, {"Planner": "Decompose into 4 sub-questions. Return JSON array only."}, [("Planner", "Decompose.")], seed)
     try: sub_qs = json.loads(planner_out[planner_out.find("["):planner_out.rfind("]")+1])
@@ -49,6 +53,7 @@ def run_p3(question: str, run_id: str = "default", seed: int = 0) -> dict:
     answer = run_multi_agent(question, {"Merger": "Merge multiple research threads into one answer."}, [("Merger", f"Threads: {threads}\nMerge them.")], seed)
     return result_dict("P3", question, answer, 0, run_id, seed)
 
+@with_memory
 def run_p4(question: str, run_id: str = "default", seed: int = 0) -> dict:
     retrieved = web_search(question, 8)
     agents = {"Planner": "Create structured research plans.", "Writer": "Draft answer.", "Checker": "Verify claims have sources."}
@@ -56,6 +61,7 @@ def run_p4(question: str, run_id: str = "default", seed: int = 0) -> dict:
     answer = run_multi_agent(question, agents, seq, seed)
     return result_dict("P4", question, answer, 0, run_id, seed)
 
+@with_memory
 def run_p5(question: str, run_id: str = "default", seed: int = 0) -> dict:
     retrieved = web_search(question, 8)
     agents = {"Writer": "Draft answer.", "Critic": "Evaluate Accuracy, Completeness, Coherence, Groundedness.", "Editor": "Improve drafts based on critique."}
@@ -63,6 +69,7 @@ def run_p5(question: str, run_id: str = "default", seed: int = 0) -> dict:
     answer = run_multi_agent(question, agents, seq, seed)
     return result_dict("P5", question, answer, 0, run_id, seed)
 
+@with_memory
 def run_p6(question: str, run_id: str = "default", seed: int = 0) -> dict:
     web = web_search(question, 6)
     fin = finance_search("AAPL") if "apple" in question.lower() else ""
@@ -71,6 +78,7 @@ def run_p6(question: str, run_id: str = "default", seed: int = 0) -> dict:
     answer = run_multi_agent(question, agents, seq, seed)
     return result_dict("P6", question, answer, 0, run_id, seed)
 
+@with_memory
 def run_p7(question: str, run_id: str = "default", seed: int = 0) -> dict:
     agents = {"Hypothesizer": "Output clear hypothesis.", "Evaluator": "Weigh evidence objectively.", "Concluder": "Draw balanced conclusion."}
     hyp = run_multi_agent(question, {"H": agents["Hypothesizer"]}, [("H", "Form hypothesis.")], seed)
@@ -78,6 +86,7 @@ def run_p7(question: str, run_id: str = "default", seed: int = 0) -> dict:
     answer = run_multi_agent(question, agents, [("Evaluator", f"Hypothesis: {hyp}\nEv: {evidence}\nEvaluate."), ("Concluder", "Output final conclusion.")], seed)
     return result_dict("P7", question, answer, 0, run_id, seed)
 
+@with_memory
 def run_p8(question: str, run_id: str = "default", seed: int = 0) -> dict:
     agents = {"Writer": "Long form research writer.", "Critic": "Peer reviewer.", "Editor": "Polished publisher."}
     sources = web_search(question, 8)
@@ -85,6 +94,7 @@ def run_p8(question: str, run_id: str = "default", seed: int = 0) -> dict:
     answer = run_multi_agent(question, agents, seq, seed)
     return result_dict("P8", question, answer, 0, run_id, seed)
 
+@with_memory
 def run_p9(question: str, run_id: str = "default", seed: int = 0) -> dict:
     sources = web_search(question, 8)
     agents = {"Synth": "Synthesis agent.", "RedTeam": "Aggressively find every flaw. Be brutal.", "Reviser": "Format professional report."}
@@ -92,6 +102,7 @@ def run_p9(question: str, run_id: str = "default", seed: int = 0) -> dict:
     answer = run_multi_agent(question, agents, seq, seed)
     return result_dict("P9", question, answer, 0, run_id, seed)
 
+@with_memory
 def run_p10(question: str, run_id: str = "default", seed: int = 0) -> dict:
     sources = web_search(question, 10)
     agents = {"Author": "Academic paper writer.", "ReviewerBoard": "Provide methodology, clarity, and evidence review.", "Editor": "Final copy-edit."}

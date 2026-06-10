@@ -1,3 +1,4 @@
+from frameworks.memory_utils import with_memory
 import json
 import time
 from typing import TypedDict, List
@@ -63,6 +64,7 @@ def build_graph():
     g.add_edge("merge", END)
     return g.compile()
 
+@with_memory
 def run(question: str, run_id: str = "default", seed: int = 0) -> dict:
     graph = build_graph()
     init: P3State = {"question": question, "run_id": run_id, "seed": seed,

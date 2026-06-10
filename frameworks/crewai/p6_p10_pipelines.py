@@ -1,3 +1,4 @@
+from frameworks.memory_utils import with_memory
 """
 frameworks/crewai/p6_p10_pipelines.py
 CrewAI implementations of P6 through P10 (Medium and Long tier).
@@ -14,6 +15,7 @@ from .base import WEB_TOOL, FINANCE_TOOL, make_agent, make_task, run_crew, Timer
 # P6: Multi-source Retrieve → Cross-verify → Synthesize
 # ══════════════════════════════════════════════════════════════════════════════
 
+@with_memory
 def run_p6(question: str, run_id: str = "default", seed: int = 0) -> dict:
     llm = get_shared_llm(seed=seed)
     web_researcher = make_agent(
@@ -79,6 +81,7 @@ def run_p6(question: str, run_id: str = "default", seed: int = 0) -> dict:
 # P7: Hypothesize → Gather Evidence → Test → Conclude
 # ══════════════════════════════════════════════════════════════════════════════
 
+@with_memory
 def run_p7(question: str, run_id: str = "default", seed: int = 0) -> dict:
     llm = get_shared_llm(seed=seed)
     scientist = make_agent(
@@ -156,6 +159,7 @@ def run_p7(question: str, run_id: str = "default", seed: int = 0) -> dict:
 # P8: Outline → Section-wise Retrieve → Draft → Critique → Revise → Final Edit
 # ══════════════════════════════════════════════════════════════════════════════
 
+@with_memory
 def run_p8(question: str, run_id: str = "default", seed: int = 0) -> dict:
     llm = get_shared_llm(seed=seed)
     editor = make_agent(
@@ -245,6 +249,7 @@ def run_p8(question: str, run_id: str = "default", seed: int = 0) -> dict:
 # P9: Full Research Loop with Adversarial Critique
 # ══════════════════════════════════════════════════════════════════════════════
 
+@with_memory
 def run_p9(question: str, run_id: str = "default", seed: int = 0) -> dict:
     llm = get_shared_llm(seed=seed)
     planner = make_agent(
@@ -346,6 +351,7 @@ def run_p9(question: str, run_id: str = "default", seed: int = 0) -> dict:
 # P10: Academic Workflow with Multi-agent Peer Review
 # ══════════════════════════════════════════════════════════════════════════════
 
+@with_memory
 def run_p10(question: str, run_id: str = "default", seed: int = 0) -> dict:
     llm = get_shared_llm(seed=seed)
     lit_reviewer = make_agent(
