@@ -8,14 +8,14 @@
         "recall_results": [
           {
             "query": "Which industries lead AI adoption?",
-            "recalled_snippet": "[user]: Which industries are leading in AI adoption?\n[user]: What are the biggest barriers to AI adoption?\n[assistant]: Financial services, healthcare, and retail lead adoption. Finance uses AI for fr",
+            "recalled_snippet": "[user]: Which industries are leading in AI adoption?\n[assistant]: Financial services, healthcare, and retail lead adoption. Finance uses AI for fraud detection and algorithmic trading. Healthcare appl",
             "kw_score": 0.6,
-            "llm_score": 1.0,
-            "latency_ms": 0.2
+            "llm_score": 0.9,
+            "latency_ms": 0.1
           },
           {
             "query": "What barriers did we discuss?",
-            "recalled_snippet": "[user]: What are the biggest barriers to AI adoption?\n[assistant]: Key barriers include data quality and availability issues, lack of AI talent, regulatory uncertainty especially in healthcare and fin",
+            "recalled_snippet": "[user]: What are the biggest barriers to AI adoption?\n[user]: What are the main drivers of AI adoption in enterprise software?\n[assistant]: Key barriers include data quality and availability issues, l",
             "kw_score": 0.8,
             "llm_score": 0.9,
             "latency_ms": 0.1
@@ -24,8 +24,8 @@
             "query": "How do SMEs differ from large enterprises in AI adoption?",
             "recalled_snippet": "[user]: How does AI adoption differ between large enterprises and SMEs?\n[assistant]: Large enterprises have dedicated AI teams and budgets but move slowly due to legacy systems. SMEs can adopt faster ",
             "kw_score": 0.6,
-            "llm_score": 0.8,
-            "latency_ms": 0.2
+            "llm_score": 0.9,
+            "latency_ms": 0.1
           }
         ],
         "patterns": "Top recurring terms: adoption(5), healthcare(3), smes(3), what(2), main(2), drivers(2), include(2), availability(2), apis(2), retail(2)",
@@ -37,34 +37,34 @@
         "recall_results": [
           {
             "query": "What happened to tech stocks during rate hikes?",
-            "recalled_snippet": "[user]: What happened to bond markets during the same period?\n[user]: How did the rate hikes specifically impact tech stocks versus value stocks?\n[assistant]: Tech stocks, which are long-duration asse",
+            "recalled_snippet": "[user]: How did the rate hikes specifically impact tech stocks versus value stocks?\n[assistant]: Tech stocks, which are long-duration assets with earnings far in the future, were hit hardest \u2014 the Nas",
             "kw_score": 0.6,
-            "llm_score": 0.9,
-            "latency_ms": 0.2
+            "llm_score": 0.8,
+            "latency_ms": 0.1
           },
           {
             "query": "How were bonds affected?",
-            "recalled_snippet": "[assistant]: Banks holding long-duration bonds saw unrealised losses balloon. Silicon Valley Bank had concentrated exposure to long-duration MBS and Treasuries. When it needed to sell these at a loss ",
+            "recalled_snippet": "[user]: Explain how the Federal Reserve's rate hiking cycle of 2022-2023 affected equity markets.\n[assistant]: Tech stocks, which are long-duration assets with earnings far in the future, were hit har",
             "kw_score": 0.8,
-            "llm_score": 1.0,
-            "latency_ms": 0.2
+            "llm_score": 0.8,
+            "latency_ms": 0.1
           },
           {
             "query": "What caused SVB to collapse?",
-            "recalled_snippet": "[user]: What happened to bond markets during the same period?\n[assistant]: Banks holding long-duration bonds saw unrealised losses balloon. Silicon Valley Bank had concentrated exposure to long-durati",
-            "kw_score": 0.4,
-            "llm_score": 0.9,
-            "latency_ms": 0.3
+            "recalled_snippet": "[user]: What happened to bond markets during the same period?\n[user]: Explain how the Federal Reserve's rate hiking cycle of 2022-2023 affected equity markets.\n[assistant]: The Fed raised rates from n",
+            "kw_score": 0.6,
+            "llm_score": 0.7,
+            "latency_ms": 0.1
           }
         ],
         "patterns": "Top recurring terms: stocks(5), bond(4), markets(3), over(3), value(3), fell(3), 2022(3), long-duration(3), losses(3), bank(3)",
         "pattern_score": 0.2
       }
     ],
-    "avg_recall_kw": 0.633,
-    "avg_recall_llm": 0.917,
+    "avg_recall_kw": 0.667,
+    "avg_recall_llm": 0.833,
     "avg_pattern": 0.3,
-    "avg_latency_ms": 0.1
+    "avg_latency_ms": 0.0
   },
   {
     "solution": "mem0",
@@ -78,21 +78,21 @@
             "recalled_snippet": "",
             "kw_score": 0.0,
             "llm_score": 0.0,
-            "latency_ms": 1469.4
+            "latency_ms": 1599.8
           },
           {
             "query": "What barriers did we discuss?",
             "recalled_snippet": "",
             "kw_score": 0.0,
             "llm_score": 0.0,
-            "latency_ms": 50.3
+            "latency_ms": 39.1
           },
           {
             "query": "How do SMEs differ from large enterprises in AI adoption?",
             "recalled_snippet": "",
             "kw_score": 0.0,
             "llm_score": 0.0,
-            "latency_ms": 70.7
+            "latency_ms": 72.4
           }
         ],
         "patterns": "No memories stored.",
@@ -107,21 +107,21 @@
             "recalled_snippet": "",
             "kw_score": 0.0,
             "llm_score": 0.0,
-            "latency_ms": 57.7
+            "latency_ms": 54.1
           },
           {
             "query": "How were bonds affected?",
             "recalled_snippet": "",
             "kw_score": 0.0,
             "llm_score": 0.0,
-            "latency_ms": 42.4
+            "latency_ms": 44.9
           },
           {
             "query": "What caused SVB to collapse?",
             "recalled_snippet": "",
             "kw_score": 0.0,
             "llm_score": 0.0,
-            "latency_ms": 49.9
+            "latency_ms": 86.2
           }
         ],
         "patterns": "No memories stored.",
@@ -131,7 +131,7 @@
     "avg_recall_kw": 0.0,
     "avg_recall_llm": 0.0,
     "avg_pattern": 0.0,
-    "avg_latency_ms": 146.6
+    "avg_latency_ms": 155.5
   },
   {
     "solution": "Zep",
@@ -142,28 +142,28 @@
         "recall_results": [
           {
             "query": "Which industries lead AI adoption?",
-            "recalled_snippet": "[Zep recall error: Zep create session failed: 'Zep' object has no attribute 'memory']",
-            "kw_score": 0.0,
-            "llm_score": 0.0,
-            "latency_ms": 0.0
+            "recalled_snippet": "[assistant]: Key barriers include data quality and availability issues, lack of AI talent, regulatory uncertainty especially in healthcare and finance, high implementation costs, and organisational re",
+            "kw_score": 0.8,
+            "llm_score": 0.8,
+            "latency_ms": 252.5
           },
           {
             "query": "What barriers did we discuss?",
-            "recalled_snippet": "[Zep recall error: Zep create session failed: 'Zep' object has no attribute 'memory']",
-            "kw_score": 0.0,
-            "llm_score": 0.0,
-            "latency_ms": 0.0
+            "recalled_snippet": "[assistant]: Key barriers include data quality and availability issues, lack of AI talent, regulatory uncertainty especially in healthcare and finance, high implementation costs, and organisational re",
+            "kw_score": 0.8,
+            "llm_score": 0.9,
+            "latency_ms": 254.8
           },
           {
             "query": "How do SMEs differ from large enterprises in AI adoption?",
-            "recalled_snippet": "[Zep recall error: Zep create session failed: 'Zep' object has no attribute 'memory']",
-            "kw_score": 0.0,
-            "llm_score": 0.0,
-            "latency_ms": 0.0
+            "recalled_snippet": "[assistant]: Key barriers include data quality and availability issues, lack of AI talent, regulatory uncertainty especially in healthcare and finance, high implementation costs, and organisational re",
+            "kw_score": 0.8,
+            "llm_score": 0.8,
+            "latency_ms": 246.6
           }
         ],
-        "patterns": "[Zep pattern error: Zep create session failed: 'Zep' object has no attribute 'memory']",
-        "pattern_score": 0.0
+        "patterns": "Context: <EPISODES>\nEpisodes are source message or document excerpts shown in selection order.\n  - Created At: 2026-06-15 11:30:20\n    Source: message\n    Content: (assistant): Large enterprises have dedicated AI teams and budgets but move slowly due to legacy systems. SMEs can adopt faster due to a",
+        "pattern_score": 0.4
       },
       {
         "scenario": "Finance: Fed Rate Hiking Cycle",
@@ -171,34 +171,34 @@
         "recall_results": [
           {
             "query": "What happened to tech stocks during rate hikes?",
-            "recalled_snippet": "[Zep recall error: Zep create session failed: 'Zep' object has no attribute 'memory']",
-            "kw_score": 0.0,
-            "llm_score": 0.0,
-            "latency_ms": 0.0
+            "recalled_snippet": "[assistant]: Bond markets experienced historic losses. The Bloomberg US Aggregate Bond Index fell about 13% in 2022 \u2014 its worst year since the 1970s. The 10-year Treasury yield rose from under 2% to o",
+            "kw_score": 0.6,
+            "llm_score": 0.9,
+            "latency_ms": 241.9
           },
           {
             "query": "How were bonds affected?",
-            "recalled_snippet": "[Zep recall error: Zep create session failed: 'Zep' object has no attribute 'memory']",
-            "kw_score": 0.0,
-            "llm_score": 0.0,
-            "latency_ms": 0.0
+            "recalled_snippet": "[assistant]: Bond markets experienced historic losses. The Bloomberg US Aggregate Bond Index fell about 13% in 2022 \u2014 its worst year since the 1970s. The 10-year Treasury yield rose from under 2% to o",
+            "kw_score": 0.6,
+            "llm_score": 0.9,
+            "latency_ms": 283.8
           },
           {
             "query": "What caused SVB to collapse?",
-            "recalled_snippet": "[Zep recall error: Zep create session failed: 'Zep' object has no attribute 'memory']",
-            "kw_score": 0.0,
-            "llm_score": 0.0,
-            "latency_ms": 0.0
+            "recalled_snippet": "[assistant]: Bond markets experienced historic losses. The Bloomberg US Aggregate Bond Index fell about 13% in 2022 \u2014 its worst year since the 1970s. The 10-year Treasury yield rose from under 2% to o",
+            "kw_score": 0.6,
+            "llm_score": 0.9,
+            "latency_ms": 259.2
           }
         ],
-        "patterns": "[Zep pattern error: Zep create session failed: 'Zep' object has no attribute 'memory']",
-        "pattern_score": 0.0
+        "patterns": "Context: <EPISODES>\nEpisodes are source message or document excerpts shown in selection order.\n  - Created At: 2026-06-15 11:30:30\n    Source: message\n    Content: (assistant): Bond markets experienced historic losses. The Bloomberg US Aggregate Bond Index fell about 13% in 2022 \u2014 its worst year sin",
+        "pattern_score": 0.2
       }
     ],
-    "avg_recall_kw": 0.0,
-    "avg_recall_llm": 0.0,
-    "avg_pattern": 0.0,
-    "avg_latency_ms": 0.1
+    "avg_recall_kw": 0.7,
+    "avg_recall_llm": 0.867,
+    "avg_pattern": 0.3,
+    "avg_latency_ms": 325.9
   },
   {
     "solution": "LangChain SummaryBuffer",
@@ -211,7 +211,7 @@
             "query": "Which industries lead AI adoption?",
             "recalled_snippet": "[human]: Which industries are leading in AI adoption?\n[ai]: Financial services, healthcare, and retail lead adoption. Finance uses AI for fraud detection and algorithmic trading. Healthcare applies it",
             "kw_score": 0.8,
-            "llm_score": 1.0,
+            "llm_score": 0.8,
             "latency_ms": 0.0
           },
           {
@@ -219,14 +219,14 @@
             "recalled_snippet": "[human]: Which industries are leading in AI adoption?\n[ai]: Financial services, healthcare, and retail lead adoption. Finance uses AI for fraud detection and algorithmic trading. Healthcare applies it",
             "kw_score": 0.8,
             "llm_score": 0.9,
-            "latency_ms": 0.1
+            "latency_ms": 0.0
           },
           {
             "query": "How do SMEs differ from large enterprises in AI adoption?",
             "recalled_snippet": "[human]: Which industries are leading in AI adoption?\n[ai]: Financial services, healthcare, and retail lead adoption. Finance uses AI for fraud detection and algorithmic trading. Healthcare applies it",
             "kw_score": 0.8,
             "llm_score": 0.8,
-            "latency_ms": 0.1
+            "latency_ms": 0.0
           }
         ],
         "patterns": "Top terms: adoption(5), healthcare(3), smes(3), what(2), main(2), drivers(2), include(2), availability(2)",
@@ -240,7 +240,7 @@
             "query": "What happened to tech stocks during rate hikes?",
             "recalled_snippet": "[human]: How did the rate hikes specifically impact tech stocks versus value stocks?\n[ai]: Tech stocks, which are long-duration assets with earnings far in the future, were hit hardest \u2014 the Nasdaq fe",
             "kw_score": 0.8,
-            "llm_score": 0.9,
+            "llm_score": 0.8,
             "latency_ms": 0.0
           },
           {
@@ -248,14 +248,14 @@
             "recalled_snippet": "[human]: How did the rate hikes specifically impact tech stocks versus value stocks?\n[ai]: Tech stocks, which are long-duration assets with earnings far in the future, were hit hardest \u2014 the Nasdaq fe",
             "kw_score": 0.8,
             "llm_score": 0.9,
-            "latency_ms": 0.1
+            "latency_ms": 0.0
           },
           {
             "query": "What caused SVB to collapse?",
             "recalled_snippet": "[human]: How did the rate hikes specifically impact tech stocks versus value stocks?\n[ai]: Tech stocks, which are long-duration assets with earnings far in the future, were hit hardest \u2014 the Nasdaq fe",
             "kw_score": 0.8,
             "llm_score": 0.9,
-            "latency_ms": 0.1
+            "latency_ms": 0.0
           }
         ],
         "patterns": "Top terms: stocks(5), bond(4), markets(3), over(3), value(3), fell(3), 2022(3), long-duration(3)",
@@ -263,7 +263,7 @@
       }
     ],
     "avg_recall_kw": 0.8,
-    "avg_recall_llm": 0.9,
+    "avg_recall_llm": 0.85,
     "avg_pattern": 0.3,
     "avg_latency_ms": 0.1
   }

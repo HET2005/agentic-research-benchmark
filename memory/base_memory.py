@@ -1,25 +1,27 @@
+# memory/base_memory.py
 from abc import ABC, abstractmethod
-from typing import Any, Dict, List
+
 
 class BaseMemory(ABC):
-    """
-    Base abstraction interface structure separating runtime backends from agent pipelines.
-    """
-    def __init__(self, session_id: str, config: Dict[str, Any] = None):
-        self.session_id = session_id
-        self.config = config or {}
+    """Abstract interface for all memory solutions."""
 
     @abstractmethod
-    def add_memories(self, text: str, metadata: Dict[str, Any] = None) -> None:
-        """Saves memory contextual metadata fields safely."""
-        pass
+    def add(self, role: str, content: str, session_id: str = "default") -> None:
+        """Store one conversation turn."""
 
     @abstractmethod
-    def get_memories(self, query: str, limit: int = 5) -> List[Dict[str, Any]]:
-        """Retrieves history using semantic matching parameters."""
-        pass
+    def recall(self, query: str, session_id: str = "default", top_k: int = 3) -> str:
+        """Return most relevant past context for the query as a string."""
 
     @abstractmethod
-    def clear_memories(self) -> None:
-        """Purges indices matching tracking keys."""
-        pass
+    def extract_patterns(self, session_id: str = "default") -> str:
+        """Return recurring entities / themes seen in the session."""
+
+    @abstractmethod
+    def reset(self, session_id: str = "default") -> None:
+        """Clear all memory for a session."""
+
+    @property
+    @abstractmethod
+    def name(self) -> str:
+        """Human-readable solution name."""
